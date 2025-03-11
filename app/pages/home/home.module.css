@@ -12,6 +12,11 @@
 
 h1 {
   display: flex;
-  align-content: center;
   justify-content: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
 }
