@@ -1,0 +1,17 @@
+.homeTheme {
+  background-image: url("./images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
