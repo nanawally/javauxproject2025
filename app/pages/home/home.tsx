@@ -6,7 +6,7 @@ export function Home() {
     <main className={styles.homeTheme}>
       <h1>Hello world!</h1>
       <div className={styles.center}>
-        <Link to="../about">About page</Link>
+        <Link to="../about">About page : Development</Link>
       </div>
     </main>
   );
