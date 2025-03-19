@@ -1,11 +1,13 @@
 import { Link } from "react-router";
 import styles from "./recipe.module.css";
-import productImg from "./images/banansmoothie.jpg"
+import productImg from "./images/banansmoothie.jpg";
 
 export function Recipe() {
   return (
     <main className={styles.recipeTheme}>
-      <h1>Banansmoothie</h1>
+      <div className={styles.center}>
+        <h1 className={styles.title}>Banansmoothie</h1>
+      </div>
       <div className={styles.center}>
         <section>
           <div className={styles.posts}>
