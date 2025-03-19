@@ -8,11 +8,12 @@ h6 {
     margin: 0;
 }
 
+
 .box {
     display: inherit;
     background-color: gray;
     flex-direction: row;
-
+    margin: 10px 0 0 0;
 }
 
 .list {
@@ -27,13 +28,17 @@ h6 {
 }
 
 .list>li {
-    display: inherit;
+    display: flex;
     flex-direction: column;
     padding: 5px;
-    align-items: center;
-    justify-content: center;
-
     width: 45%;
+}
+
+.list>li>a {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (min-width: 431px) {

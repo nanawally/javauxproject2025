@@ -12,6 +12,7 @@ export function Home() {
         <div className={styles.center}>
           <Link to="/about">About page</Link> {/* Use absolute path */}
         </div>
+        <CustomContent />
       </main>
     </>
   );
