@@ -8,13 +8,13 @@ export function CustomContent() {
       <ul className={styles.list}>
         <li>
           <Link to="recipe">
-            <img src={productImg} alt="" className={styles.picture} />
+            <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
         <li>
           <Link to="recipe">
-            <img src={productImg} alt="" className={styles.picture} />
+            <img src="app/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
