@@ -1,0 +1,109 @@
+.recipeTheme {
+  background-image: url("./images/about-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: clamp(1rem, 3vw, 2rem);
+  background: #ff7af6da;
+  color: black;
+  border: 5px solid #fefc75;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  font-size: clamp(1.5rem, 5vw, 3rem); /* Responsive font size using clamp */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.individualpost {
+  width: 30%;
+  background: #fff;
+  opacity: 0.75;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.posts img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.posts h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.posts p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  /*
+  h1 {
+    /*font-size: 1.75rem;*/ /*
+    font-size: 6vw;
+  }
+  */
+
+  .title {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .individualpost {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /*h1 {
+    font-size: 1.8rem;
+  }*/
+
+  .title {
+    width: 80%;
+    padding: 10px;
+  }
+
+  .individualpost {
+    width: 80%;
+  }
+}
