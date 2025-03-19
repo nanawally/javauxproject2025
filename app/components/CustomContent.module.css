@@ -1,0 +1,49 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.box {
+    display: inherit;
+    background-color: gray;
+    flex-direction: row;
+
+}
+
+.list {
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.list>li {
+    display: inherit;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+    width: 45%;
+}
+
+@media (min-width: 431px) {
+    .list>li {
+        width: 20%;
+    }
+}
+
+.picture {
+    object-fit: cover;
+    height: 80%;
+    width: 80%;
+}
