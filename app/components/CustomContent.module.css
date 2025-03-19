@@ -1,0 +1,33 @@
+.box {
+    display: inherit;
+    background-color: gray;
+    flex-direction: row;
+    width: 80%;
+  }
+  
+  .list {
+    display: inherit;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list > li {
+    display: inherit;
+    flex-direction: column;
+    padding: 5px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .list > li > p {
+    margin: 0;
+  }
+
+  .picture {
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+  }
