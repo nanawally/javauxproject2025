@@ -1,6 +1,5 @@
 import { Link } from "react-router"
 import styles from "./CustomContent.module.css"
-import productImg from "app/pages/recipe/images/banansmoothie.jpg"
 
 export function CustomContent() {
   return (
