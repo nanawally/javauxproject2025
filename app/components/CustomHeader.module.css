@@ -1,0 +1,30 @@
+
+.centerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50px;
+  margin: 0;
+  }
+  .logo {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  .link {
+    width: 100%;
+    display: inherit;
+    flex-wrap: wrap;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
