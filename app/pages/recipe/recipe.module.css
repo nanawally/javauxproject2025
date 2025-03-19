@@ -69,7 +69,7 @@ h1 {
   font-size: 1.2em;
 }
 
-.posts p {
+.posts li {
   margin: 5px 0;
   text-align: left;
 }

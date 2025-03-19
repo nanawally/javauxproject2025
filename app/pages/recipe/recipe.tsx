@@ -14,14 +14,14 @@ export function Recipe() {
             <article className={styles.individualpost}>
               <img src={productImg} alt="bananaSmoothie" />
               <h3>Ingredienser</h3>
-              <p>
+
                 <ul>
                   <li>1 banan</li>
                   <li>3 dl havrebaserad dryck</li>
                   <li>2 tsk brun farin</li>
                   <li>1 krm mald kanel (kan uteslutas)</li>
                 </ul>
-              </p>
+
             </article>
             <article className={styles.individualpost}>
               <h3>Gör så här</h3>

@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import styles from "./CustomContent.module.css"
 
 export function CustomContent() {
@@ -5,20 +6,28 @@ export function CustomContent() {
     <section className={styles.box}>
       <ul className={styles.list}>
         <li>
-          <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
-          <p>Template</p>
+          <Link to="recipe">
+            <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
+            <p>Template</p>
+          </Link>
         </li>
         <li>
-          <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
-          <p>Template</p>
+          <Link to="recipe">
+            <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
+            <p>Template</p>
+          </Link>
         </li>
         <li>
-          <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
-          <p>Template</p>
+          <Link to="">
+            <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
+            <p>Template</p>
+          </Link>
         </li>
         <li>
-          <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
-          <p>Template</p>
+          <Link to="">
+            <img src="app/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
+            <p>Template</p>
+          </Link>
         </li>
       </ul>
     </section>
