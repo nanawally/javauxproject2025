@@ -7,7 +7,6 @@ export function meta({ }: Route.MetaArgs) {
     { name: "description", content: "Welcome to Gr8 Smoothies!" },
   ];
 }
-
 export default function HomeRoute() {
   return <Home />
 }
