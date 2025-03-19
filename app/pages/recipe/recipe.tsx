@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import styles from "./recipe.module.css";
-import productImg from "./images/banansmoothie.jpg";
 import { CustomHeader } from "~/components/CustomHeader";
 
 export function Recipe() {
@@ -15,7 +14,7 @@ export function Recipe() {
           <section>
             <div className={styles.posts}>
               <article className={styles.individualpost}>
-                <img src={productImg} alt="bananaSmoothie" />
+                <img src="/pictures/banansmoothie.jpg" alt="bananaSmoothie" />
                 <h3>Ingredienser</h3>
 
                 <ul>

@@ -8,7 +8,7 @@ export function CustomContent() {
       <ul className={styles.list}>
         <li>
           <Link to="recipe">
-            <img src="/pictures/strawberry-smoothie.jpg" alt="" className={styles.picture} />
+            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
@@ -19,14 +19,14 @@ export function CustomContent() {
           </Link>
         </li>
         <li>
-          <Link to="">
-            <img src={productImg} alt="" className={styles.picture} />
+          <Link to="recipe">
+            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
         <li>
-          <Link to="">
-            <img src={productImg} alt="" className={styles.picture} />
+          <Link to="recipe">
+            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
