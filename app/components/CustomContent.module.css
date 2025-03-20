@@ -1,5 +1,5 @@
 .box>ul>li:nth-of-type(odd) {
-    background-color: #f3cdfe98;
+    background-color: #f3cdfec4;
 }
 
 .box>ul>li:nth-of-type(even) {
