@@ -7,26 +7,26 @@ export function CustomContent() {
       <ul className={styles.list}>
         <li>
           <Link to="recipe">
-            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
+            <img src="/assets/smoothies/Banansmoothie.jpg" alt="" className={styles.picture} />
             <p>Banansmoothie</p>
           </Link>
         </li>
         <li>
           <Link to="recipe">
-            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
-            <p>Banansmoothie</p>
+            <img src="/assets/smoothies/Blåbärsmoothie.jpg" alt="" className={styles.picture} />
+            <p>Blåbärsmoothie</p>
           </Link>
         </li>
         <li>
           <Link to="recipe">
-            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
-            <p>Banansmoothie</p>
+            <img src="/assets/smoothies/Jordgubbsmoothie.jpg" alt="" className={styles.picture} />
+            <p>Jordgubbsmoothie</p>
           </Link>
         </li>
         <li>
           <Link to="recipe">
-            <img src="/pictures/banansmoothie.jpg" alt="" className={styles.picture} />
-            <p>Banansmoothie</p>
+            <img src="/assets/smoothies/Hallon-blåbärsmoothie.jpg" alt="" className={styles.picture} />
+            <p>Hallon- och Blåbärsmoothie</p>
           </Link>
         </li>
       </ul>
