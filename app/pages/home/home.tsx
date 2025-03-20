@@ -1,12 +1,13 @@
 import { Link } from "react-router";
-import styles from "./home.module.css";
+import styles from "./home1.module.css";
 
 export function Home() {
   return (
-    <main className={styles.homeTheme}>
-      <h1>Hello world!</h1>
-      <div className={styles.center}>
-        <Link to="../about">About page</Link>
+    <main className={styles.heroImage}>
+      <h1>Välkommen till smoothie-himlen!</h1>
+      <p>Utforska vår hemsida för att hitta goda smoothie-recept!</p>
+      <div className={styles.content}>
+        <Link to="../about" className={styles.button}> Hitta smoothies</Link>
       </div>
     </main>
   );

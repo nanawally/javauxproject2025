@@ -1,0 +1,56 @@
+.heroImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: url('./images/jugoslocos-QD4yCjlD44A-unsplash.jpg') center/cover no-repeat; 
+    color: rgb(241, 236, 236);
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 90%;
+    width: 400px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: white;
+    background: #ff5733;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #e64a2e;
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+    }
+  
+    .button {
+      font-size: 1.2rem;
+      padding: 14px 24px;
+    }
+  }
+  
