@@ -1,5 +1,5 @@
 .box>ul>li:nth-of-type(odd) {
-    background-color: #f3cdfe80;
+    background-color: #f3cdfe98;
 }
 
 .box>ul>li:nth-of-type(even) {
@@ -20,6 +20,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a>p {
+    margin-left: 10px;
+}
+
+@media (max-width: 431px) {
+    .list>li>a>p {
+        margin: 0;
+    }
+    .list>li>a {
+        flex-direction: column !important;
+    }
+    .picture {
+        padding-bottom: 0 !important;
+    }
+    .list>li>a {
+        padding-bottom: 1em;
+    }
 }
 
 .picture {

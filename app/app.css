@@ -3,6 +3,11 @@
   src: url('/public/font/Beckan.otf');
 }
 
+@font-face {
+  font-family: Inter;
+  src: url('/public/font/Inter.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -1,9 +1,8 @@
 .homeTheme {
-  position: absolute;
+  position: relative;
   top: 4rem;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin: 0;
   width: 100%;
 }
