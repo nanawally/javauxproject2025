@@ -1,0 +1,18 @@
+.centerFooter {
+    background-color: #F3CDFE;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 4rem;
+    margin: 0;
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 8px 8px 0;
+    width: 4rem;
+  }

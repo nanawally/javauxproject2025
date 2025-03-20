@@ -1,7 +1,6 @@
 .homeTheme {
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  position: absolute;
+  top: 4rem;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

@@ -5,7 +5,7 @@ export function CustomHeader() {
     return (
         <header className={styles.centerHeader}>
             <Link to="../" className={styles.link}>
-                <img src="/pictures/logo.jpg" alt="Smoothies" className={styles.logo} />
+                <img src="/assets/logo.jpg" alt="Logo" className={styles.logo} />
             </Link>
         </header>
     )
