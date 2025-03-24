@@ -1,3 +1,4 @@
+import React from "react";
 import {
   isRouteErrorResponse,
   Links,
@@ -8,6 +9,7 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
+import { RecipeProvider } from "./components/RecipeContext";
 import "./app.css";
 import { CustomFooter } from "./components/CustomFooter";
 import { CustomHeader } from "./components/CustomHeader";
@@ -46,7 +48,11 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <RecipeProvider>
+      <Outlet />
+    </RecipeProvider>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

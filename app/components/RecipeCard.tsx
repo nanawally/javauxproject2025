@@ -1,4 +1,6 @@
 import type { Recipe, RecipeName } from "~/types/recipe";
+import { useRecipeContext } from "./RecipeContext";
+import { Link } from "react-router";
 
 export function RecipeCard(props: Recipe) {
   return (
@@ -16,11 +18,15 @@ export function RecipeCard(props: Recipe) {
   );
 }
 
-export function RecipeCardName(props: RecipeName) {
+export function RecipeCardName({ id, name, image }: RecipeName) {
+  const { setRecipeIndex } = useRecipeContext();
+
   return (
     <div>
-      <img src={props.image} alt="image" />
-      <h1>{props.name}</h1>
+      <Link to="recipe" onClick={() => setRecipeIndex(id)} style={{ cursor: "pointer" }}>
+        {name}
+      <img src={image} alt={name} onClick={() => setRecipeIndex(id)} />
+      </Link>
     </div>
   );
 }
