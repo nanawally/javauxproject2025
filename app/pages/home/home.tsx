@@ -4,6 +4,7 @@ import { CustomContent } from "app/components/CustomContent"
 import { CustomHeader } from "~/components/CustomHeader";
 import { HeroImage } from "~/components/HeroImage";
 import { CustomFooter } from "~/components/CustomFooter";
+import { SearchBar } from "~/components/SearchBar";
 
 export function Home() {
   return (
@@ -11,6 +12,7 @@ export function Home() {
       <CustomHeader />
       <main className={styles.homeTheme}>
         <HeroImage />
+        <SearchBar />
         <CustomContent />
         <CustomFooter />
       </main>
