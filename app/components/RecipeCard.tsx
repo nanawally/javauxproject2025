@@ -25,8 +25,8 @@ export function RecipeCardName({ id, name, image }: RecipeName) {
   return (
     <div className={styles.recipeWrapper}>
       <Link to="recipe" onClick={() => setRecipeIndex(id)} className={styles.recipeLink}>
-        {name}
       <img src={image} alt={name} onClick={() => setRecipeIndex(id)} />
+      {name}
       </Link>
     </div>
   );
