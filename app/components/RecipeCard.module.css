@@ -1,0 +1,30 @@
+.recipeWrapper {}
+
+.recipeWrapper:nth-of-type(odd) {
+    background-color: #f3cdfe8d;
+}
+
+.recipeWrapper:nth-of-type(even) {
+    background-color: #fff;
+}
+
+.recipeLink {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+@media (max-width: 431px) {
+    .recipeLink {
+        flex-direction: column !important;
+        margin: 0;
+        padding-bottom: 1em;
+    }
+}
+
+.recipeLink>img {
+    padding: 1em 0 1em 0;
+    object-fit: cover;
+    height: 30%;
+    width: 30%;
+}

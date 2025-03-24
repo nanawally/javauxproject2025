@@ -1,9 +1,9 @@
-import { Link } from "react-router";
 import styles from "./CustomContentHome.module.css";
 import { useEffect, useState } from "react";
 import type { RecipeName } from "~/types/recipe";
 import { RecipeCardName } from "./RecipeCard";
 import { HeroImage } from "./HeroImage";
+import { SearchBar } from "./SearchBar";
 
 export function CustomContentHome() {
   const [recipeList, setRecipeList] = useState<
@@ -12,7 +12,7 @@ export function CustomContentHome() {
     {
       id: 0,
       name: "",
-      image: "",
+      image: "/",
     },
   ]);
 
@@ -27,15 +27,14 @@ export function CustomContentHome() {
   }, []);
 
   return (
-    <section className={styles.box}>    
-      <div className={styles.homeTheme}>
+    <> 
         <HeroImage />
-      </div>
+        <SearchBar />
       <div className={styles.list}>
         {recipeList.map(({ id, name, image }) => (
           <RecipeCardName key={id} id={id} name={name} image={image} />
         ))}    
       </div>
-    </section>
+      </>
   );
 }

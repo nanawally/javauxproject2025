@@ -1,4 +1,6 @@
+import { Link } from "react-router";
 import type { Recipe, RecipeName } from "~/types/recipe";
+import styles from "./RecipeCard.module.css"
 
 export function RecipeCard(props: Recipe) {
   return (
@@ -18,9 +20,11 @@ export function RecipeCard(props: Recipe) {
 
 export function RecipeCardName(props: RecipeName) {
   return (
-    <div>
+    <div className={styles.recipeWrapper}>
+      <Link to="recipe" className={styles.recipeLink}>
       <img src={props.image} alt="image" />
       <h1>{props.name}</h1>
+      </Link>
     </div>
   );
 }
