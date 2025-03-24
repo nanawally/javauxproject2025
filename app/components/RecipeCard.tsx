@@ -1,7 +1,6 @@
 import { Link } from "react-router";
 import type { Recipe, RecipeName } from "~/types/recipe";
 import { useRecipeContext } from "./RecipeContext";
-import { Link } from "react-router";
 import styles from "./RecipeCard.module.css"
 
 export function RecipeCard(props: Recipe) {
