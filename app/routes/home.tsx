@@ -4,7 +4,7 @@ import { Home } from "~/pages/home/home";
 export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Smoothify" },
-    { name: "description", content: "Welcome to Gr8 Smoothies!" },
+    { name: "description", content: "Welcome to Smoothify!" },
   ];
 }
 export default function HomeRoute() {

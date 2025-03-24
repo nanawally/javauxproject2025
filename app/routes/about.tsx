@@ -3,8 +3,8 @@ import { About } from "../pages/about/about";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "About page" },
-    { name: "description", content: "About Gr8 Smoothies" },
+    { title: "About Smoothify" },
+    { name: "description", content: "About Smoothify" },
   ];
 }
 
