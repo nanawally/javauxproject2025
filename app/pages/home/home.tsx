@@ -6,8 +6,10 @@ export function Home() {
   return (
     <>
       <main className={styles.homeTheme}>
-        <CustomContentHome />
-        <CustomFooter />  
+        <div className={styles.contentWrapper}>
+          <CustomContentHome />
+        </div>
+        <CustomFooter />
       </main>
     </>
   );

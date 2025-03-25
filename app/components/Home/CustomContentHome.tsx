@@ -31,7 +31,7 @@ export function CustomContentHome() {
     const filtered = recipeList.filter((recipe) =>
       recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
       recipe.ingredients.some((ingredient) => ingredient.toLowerCase().includes(searchTerm.toLowerCase()))
-    ); // Filter by name and ingredients
+    ); // Filter by name OR ingredients
     setFilteredRecipes(filtered);
   }, [searchTerm, recipeList])
 

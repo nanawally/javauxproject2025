@@ -16,6 +16,12 @@
     padding: 5px;
 }
 
+.list>p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
 .list>li>a {
     display: flex;
     justify-content: center;

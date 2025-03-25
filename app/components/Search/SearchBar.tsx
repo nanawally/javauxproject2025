@@ -10,8 +10,6 @@ export function SearchBar({ onSearchChange }: SearchBarProps) {
         onSearchChange(e.target.value);
     }
 
-    const [isFocused, setIsFocused] = useState(false);
-
     return (
         <>
             <section className={styles.searchWrapper}>
