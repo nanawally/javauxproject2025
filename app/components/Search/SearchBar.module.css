@@ -1,15 +1,21 @@
-.searchBar {
-    text-align: center;
-    font-size: 2rem;
-    height: 4rem;
-    width: 80%;
-    border-radius: 2rem;
-}
-
 .searchWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0 10px 0;
     background-color: #f7f7f7;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 80%;
+    border-radius: 2rem;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
 }

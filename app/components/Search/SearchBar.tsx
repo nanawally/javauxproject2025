@@ -1,10 +1,26 @@
+import { useState, type ChangeEvent } from "react";
 import styles from "./SearchBar.module.css"
 
-export function SearchBar() {
+interface SearchBarProps {
+    onSearchChange: (term: string) => void;
+}
+
+export function SearchBar({ onSearchChange }: SearchBarProps) {
+    const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
+        onSearchChange(e.target.value);
+    }
+
+    const [isFocused, setIsFocused] = useState(false);
+
     return (
         <>
             <section className={styles.searchWrapper}>
-                <input type="text" placeholder="Sök . . ." className={styles.searchBar} />
+                <input
+                    type="text"
+                    onChange={handleInputChange}
+                    placeholder="Sök . . ."
+                    name="search"
+                    autoComplete="off" />
             </section>
         </>
     )
