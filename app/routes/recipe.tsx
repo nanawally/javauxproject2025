@@ -1,10 +1,11 @@
 import type { Route } from "./+types/home";
 import { Recipe } from "../pages/recipe/recipe";
+//import { useRecipeContext } from "./RecipeContext";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Recipe page" },
-    { name: "description", content: "Gr8 Smoothies" },
+    { title: "name of smoothie" },
+    { name: "description", content: "name of smoothie" },
   ];
 }
 

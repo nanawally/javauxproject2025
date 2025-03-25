@@ -1,17 +1,14 @@
-import { Link } from "react-router";
+import { CustomFooter } from "~/components/UI/CustomFooter";
 import styles from "./home.module.css";
-import { CustomContent } from "app/components/CustomContent"
-import { CustomHeader } from "~/components/CustomHeader";
-import { HeroImage } from "~/components/HeroImage";
-import { CustomFooter } from "~/components/CustomFooter";
+import { CustomContentHome } from "~/components/Home/CustomContentHome";
 
 export function Home() {
   return (
     <>
-      <CustomHeader />
       <main className={styles.homeTheme}>
-        <HeroImage />
-        <CustomContent />
+        <div className={styles.contentWrapper}>
+          <CustomContentHome />
+        </div>
         <CustomFooter />
       </main>
     </>

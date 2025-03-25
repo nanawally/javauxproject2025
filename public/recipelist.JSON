@@ -1,0 +1,155 @@
+[
+  {
+    "id": 0,
+    "name": "Melon & Banan",
+    "description": "Bananen mår bäst av att lämnas i en egen fruktskål. Många andra frukter utsöndrar etylengas som gör att bananen mognar snabbare och blir brun och dålig.",
+    "amount": "2 glas",
+    "ingredients": [
+      "1 honungsmelon",
+      "2 bananer",
+      "1 dl färskpressad äppeljuice",
+      "1 lime"
+    ],
+    "instructions": "Skala bananerna och lägg ner dem i mixern. Skär melonen mitt itu, skär bort kärnor och skal och tillsätt fruktköttet i mixern. Skär limen mitt itu och pressa ner fruktjuicen i mixern, men se till att inga kärnor kommer med eftersom det ger smoothien en besk smak. Tillsätt den färskpressade apelsinjuicen. Mixa till en tjockflytande smoothie.\nServera med en skiva melon som tilltugg.",
+    "tips": "TIPS! Du kan byta ut honungsmelonen mot andra melonsorter för variation, t.ex. vattenmelon, galiamelon eller cantaloupemelon.",
+    "category": ["Sött", "Snabbt"],
+    "image": "/assets/smoothies/Banansmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 1,
+    "name": "Papaya & Mandarin",
+    "description": "Papayan är en högvuxen ört som innehåller ämnet papain vilket används som medicin mot matsmältningsproblem.",
+    "amount": "2 glas",
+    "ingredients": [
+      "1 liten papaya (ca 300 g)",
+      "6 mandariner",
+      "½ lime",
+      "4 isbitar"
+    ],
+    "instructions": "Tvätta all frukt noggrant. Pressa limen och mandarinerna, men se till att inga kärnor kommer med eftersom dessa ger smoothien en besk smak. Dela papayan på hälften och avlägsna kärnorna. Gröp ur fruktköttet, grovhacka det och lägg det i mixern tillsammans med färskpressad limesaft, mandarinjuice och isbitar. Kör blandningen tills du får en slät smoothie.\nServera med papayaskivor.",
+    "tips": "TIPS! Papayakärnor är vackra att se på, så strö några över din smoothie för en lite annorlunda look. Det är inte farligt att äta papayakärnor men kanske inte så gott...",
+    "category": ["Friskt", "Citrus"],
+    "image": "/assets/smoothies/Blåbärsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 2,
+    "name": "Svarta vinbär & Jordgubbar",
+    "description": "Vanilj är gott, men kryddans genombrott i Europa hade andra orsaker. Man trodde att den ökade potensen. Detta gjorde naturligtvis att vaniljen fick ett stort genombrott i Europa på 1700-talet. Männen gick så långt som att stoppa sina pipor med vaniljfrön inblandade i tobaken...",
+    "amount": "2 glas",
+    "ingredients": [
+      "3 dl svarta vinbär",
+      "2 dl jordgubbar",
+      "2 dl färsk äppeljuice",
+      "1 tsk vaniljsocker",
+      "isbitar"
+    ],
+    "instructions": "Tvätta alla bär. Mixa alla ingredienser till en slät och tjockflytande smoothie.\nServera med några svarta vinbär.",
+    "tips": "TIPS! Tillsätt 1 msk vetekli om du vill få i dig mer naturliga fibrer. Man känner varken av smaken eller konsistensen av lite vetekli i en smoothie.",
+    "category": ["Sött", "Snabbt"],
+    "image": "/assets/smoothies/Hallon-blåbärsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 3,
+    "name": "Sommarbär",
+    "description": "Om du vill leta efter de goda vildhallonen är det bra att söka på gamla hyggen eller i skogen ett par år efter en skogsbrand. Där får de mycket ljus och kväve. Norr om Luleå lappmark är det svårt att finna hallon, annars går de att hitta i större delen av Sverige (förutom på det kalkrika Gotland).",
+    "amount": "2 glas",
+    "ingredients": [
+      "2 äpplen",
+      "1 dl jordgubbar",
+      "1 banan",
+      "1 dl hallon",
+      "1 dl blåbär"
+    ],
+    "instructions": "Tvätta all frukt. Spola av alla bären. Skär äpplena i bitar och kör genom en juicepress eller råsaftcentrifug. Snoppa jordgubbarna, skala bananerna och mixa alla ingredienser tillsammans med äppeljuice till en slät smoothie.\nServera med hallon och blåbär på en cocktailpinne.",
+    "tips": "TIPS! Byt ut äppeljuicen mot 3 dl naturell yoghurt om du vill ha en matigare smoothie. Smaksätt med lite honung eller vaniljhonung.",
+    "category": ["Sött", "Matig"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 4,
+    "name": "Ananas & Citronmeliss",
+    "description": "Ananasen är en vacker ört som kan bli ungefär en meter hög. Ananasen får rödvioletta blommor som mognar till ett bär, dessa bär växer sedan ihop och bildar ananasfrukten.",
+    "amount": "2 glas",
+    "ingredients": [
+      "1 ananas",
+      "6 blad citronmeliss"
+    ],
+    "instructions": "Tvätta ananasen och citronmelissen noggrant. Skär ananasen mitt itu, skär bort alla blad, skalet, och den hårda mittdelen och skär frukten i mindre bitar. Lägg fruktkött och citronmeliss i mixern och mixa tills smoothien är slät.\nServera med ananasskivor som tilltugg.",
+    "tips": "TIPS! Om du vill ha en mindre grumlig smoothie kan du köra alla ingredienser genom en juicepress istället. Testa med andra kryddor, t.ex. chili, för att hitta nya smaker.",
+    "category": ["Syrligt"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 5,
+    "name": "Sommarbär & Yoghurt",
+    "description": "Lingon, blåbär, hallon, hjortron och åkerbär är några av de cirka 450 arter som tillhör växtsläktet skogsbär.",
+    "amount": "2 glas",
+    "ingredients": [
+      "1 dl jordgubbar",
+      "1 dl hallon",
+      "1 dl blåbär",
+      "3 dl vaniljyoghurt",
+      "honung vid behov"
+    ],
+    "instructions": "Spola av bären och låt dem torka. Mixa alla bär tillsammans med 1,5 dl yoghurt i mixer till en slät smoothie. Häll resten av yoghurten i glasen så att den vita yoghurten fördelas ojämnt på glasets inre kanter, och häll därefter på bär-yoghurt-blandningen. Njutning inte bara för smaklökarna, utan även för ögat! Du kan även skikta smoothien, välj själv i vilken ordning.",
+    "tips": "TIPS! Gör din egen vaniljyoghurt enkelt genom att tillsätta vaniljfrön, vaniljhonung, vaniljsockerlag eller hemgjort vaniljsocker i naturell yoghurt och låt stå en stund i kylskåpet. Om du vill ha en dessertigare smoothie, använd vaniljkesella istället.",
+    "category": ["Sött", "Matig"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 6,
+    "name": "Svarta vinbär & Kesella",
+    "description": "Kesella är en sorts kvarg, eller färskost. Kvarg är gjort på mjölksyrad mjölk och får sin fetthalt genom tillsats av grädde.",
+    "amount": "2 glas",
+    "ingredients": [
+      "2 dl svarta vinbär",
+      "1 dl hallon",
+      "3 dl vaniljkesella"
+    ],
+    "instructions": "Spola av alla bär. Lämna 1 dl svarta vinbär till dekoration. Mixa alla ingredienser till en slät smoothie.",
+    "tips": "TIPS! Byt ut vaniljkesella mot vaniljyoghurt om du vill ha en smalare smoothie.",
+    "category": ["Sött"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 7,
+    "name": "Mandel & Banan",
+    "description": "Mandelsmöret ska inte förväxlas med jordnötssmöret men är minst lika gott och dessutom nyttigare. Det går även att göra liknande smör på andra nötter, exempelvis hasselnötter.",
+    "amount": "2 glas",
+    "ingredients": [
+      "2 bananer",
+      "2 dl naturell yoghurt",
+      "2 msk mandelsmör",
+      "1 tsk vaniljsocker"
+    ],
+    "instructions": "Skala bananerna och tillsätt yoghurt, mandelsmör och vaniljsocker och mixa till en slät smoothie.",
+    "tips": "TIPS! Om du inte kan hitta mandelsmör i din hälsokostbutik kan du mixa skalade naturella mandlar tillsammans med vatten till en jämn massa innan du tillsätter de andra ingredienserna. Du kan också använda färdigköpt mandelmjölk.",
+    "category": ["Sött", "Matig"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  },
+  {
+    "id": 8,
+    "name": "Blåbär & Vanilj",
+    "description": "Via aztekernas drickchoklad kom vaniljkryddan först till Spanien och sedan övriga Europa. År 1602 upptäckte Elisabeth I:s hovapotekare att vaniljen var perfekt som smakgivare i karameller och sötsaker, men det skulle dröja 100 år innan vaniljen fick sitt riktiga genombrott i Europa, och då av helt andra orsaker, nämligen ryktet som förmodad potenshöjare...",
+    "amount": "2 glas",
+    "ingredients": [
+      "2 dl blåbär",
+      "1 dl hallon",
+      "3 dl naturell yoghurt",
+      "vaniljsocker"
+    ],
+    "instructions": "Skölj alla bär och låt dem torka. Mixa alla ingredienser till en slät smoothie och smaksätt med vaniljsocker efter smak. Smakar sagolikt.\nServera med några blad citronmeliss och strö några blåbär i smoothien.",
+    "tips": "",
+    "category": ["Sött"],
+    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
+    "rating": 0
+  }
+]
