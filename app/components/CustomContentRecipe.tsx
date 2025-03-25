@@ -20,7 +20,6 @@ export function CustomContentRecipe() {
 
   return (
     <>
-      <main className={styles.recipeTheme}>
         {selectedRecipe ? (
           <div className={styles.pageWrapper}>
             <div className={styles.center}>
@@ -50,7 +49,6 @@ export function CustomContentRecipe() {
         ) : (
           <p>Recipe not found.</p>
         )}
-      </main>
     </>
   );
 }

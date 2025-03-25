@@ -30,14 +30,18 @@ export function CustomContentHome() {
   }, []);
 
   return (
-    <> 
-        <HeroImage />
-        <SearchBar />
+    <>
+      <HeroImage />
+      <SearchBar />
       <div className={styles.list}>
         {recipeList.map(({ id, name, image }) => (
-          <RecipeCardName id={id} name={name} image={image} />
+          <RecipeCardName
+            key={id}
+            id={id}
+            name={name}
+            image={image} />
         ))}
       </div>
-      </>
+    </>
   );
 }
