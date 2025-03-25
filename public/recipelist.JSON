@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Melon & Banan",
     "description": "Bananen mår bäst av att lämnas i en egen fruktskål. Många andra frukter utsöndrar etylengas som gör att bananen mognar snabbare och blir brun och dålig.",
     "amount": "2 glas",
@@ -17,7 +17,7 @@
     "rating": 0
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "Papaya & Mandarin",
     "description": "Papayan är en högvuxen ört som innehåller ämnet papain vilket används som medicin mot matsmältningsproblem.",
     "amount": "2 glas",
@@ -34,7 +34,7 @@
     "rating": 0
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Svarta vinbär & Jordgubbar",
     "description": "Vanilj är gott, men kryddans genombrott i Europa hade andra orsaker. Man trodde att den ökade potensen. Detta gjorde naturligtvis att vaniljen fick ett stort genombrott i Europa på 1700-talet. Männen gick så långt som att stoppa sina pipor med vaniljfrön inblandade i tobaken...",
     "amount": "2 glas",
@@ -52,7 +52,7 @@
     "rating": 0
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "Sommarbär",
     "description": "Om du vill leta efter de goda vildhallonen är det bra att söka på gamla hyggen eller i skogen ett par år efter en skogsbrand. Där får de mycket ljus och kväve. Norr om Luleå lappmark är det svårt att finna hallon, annars går de att hitta i större delen av Sverige (förutom på det kalkrika Gotland).",
     "amount": "2 glas",
@@ -70,7 +70,7 @@
     "rating": 0
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Ananas & Citronmeliss",
     "description": "Ananasen är en vacker ört som kan bli ungefär en meter hög. Ananasen får rödvioletta blommor som mognar till ett bär, dessa bär växer sedan ihop och bildar ananasfrukten.",
     "amount": "2 glas",
@@ -85,7 +85,7 @@
     "rating": 0
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "Sommarbär & Yoghurt",
     "description": "Lingon, blåbär, hallon, hjortron och åkerbär är några av de cirka 450 arter som tillhör växtsläktet skogsbär.",
     "amount": "2 glas",
@@ -103,7 +103,7 @@
     "rating": 0
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Svarta vinbär & Kesella",
     "description": "Kesella är en sorts kvarg, eller färskost. Kvarg är gjort på mjölksyrad mjölk och får sin fetthalt genom tillsats av grädde.",
     "amount": "2 glas",
@@ -119,7 +119,7 @@
     "rating": 0
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Mandel & Banan",
     "description": "Mandelsmöret ska inte förväxlas med jordnötssmöret men är minst lika gott och dessutom nyttigare. Det går även att göra liknande smör på andra nötter, exempelvis hasselnötter.",
     "amount": "2 glas",
@@ -136,7 +136,7 @@
     "rating": 0
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Blåbär & Vanilj",
     "description": "Via aztekernas drickchoklad kom vaniljkryddan först till Spanien och sedan övriga Europa. År 1602 upptäckte Elisabeth I:s hovapotekare att vaniljen var perfekt som smakgivare i karameller och sötsaker, men det skulle dröja 100 år innan vaniljen fick sitt riktiga genombrott i Europa, och då av helt andra orsaker, nämligen ryktet som förmodad potenshöjare...",
     "amount": "2 glas",

@@ -1,8 +1,4 @@
 .aboutTheme {
-  background-image: url("./images/about-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   min-height: 100vh;

@@ -1,4 +1,4 @@
-import { CustomContentRecipe } from "~/components/CustomContentRecipe";
+import { CustomContentRecipe } from "~/components/Recipes/CustomContentRecipe";
 import styles from "./recipe.module.css";
 
 export function Recipe() {

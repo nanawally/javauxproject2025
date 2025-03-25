@@ -1,6 +1,6 @@
-import { CustomFooter } from "~/components/CustomFooter";
+import { CustomFooter } from "~/components/UI/CustomFooter";
 import styles from "./home.module.css";
-import { CustomContentHome } from "~/components/CustomContentHome";
+import { CustomContentHome } from "~/components/Home/CustomContentHome";
 
 export function Home() {
   return (

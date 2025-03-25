@@ -9,10 +9,10 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
-import { RecipeProvider } from "./components/RecipeContext";
+import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
-import { CustomFooter } from "./components/CustomFooter";
-import { CustomHeader } from "./components/CustomHeader";
+import { CustomFooter } from "./components/UI/CustomFooter";
+import { CustomHeader } from "./components/UI/CustomHeader";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
