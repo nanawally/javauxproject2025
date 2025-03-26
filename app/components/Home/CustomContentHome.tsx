@@ -4,9 +4,12 @@ import { HeroImage } from "./HeroImage";
 import { SearchBar } from "../Search/SearchBar";
 import { useRecipeContext } from "../Recipes/RecipeContext";
 import { Link } from "react-router";
+import { useFavorites } from "../Favorites/FavoritesContext";
+import { FavoriteButton } from "../Favorites/FavoriteButton";
 
 export function CustomContentHome() {
   const { setRecipeIndex } = useRecipeContext();
+  const { favorites, toggleFavorite } = useFavorites();
   const [recipeList, setRecipeList] = useState<{ id: number; name: string; image: string; description: string; amount: string; ingredients: string[]; category: string[] }[]>([]);
 
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -51,6 +54,7 @@ export function CustomContentHome() {
                 <img src={image} alt={name} />
                 <h3>{name}</h3>
               </Link>
+              <FavoriteButton recipeId={id} />
             </div>
           ))
         ) : (

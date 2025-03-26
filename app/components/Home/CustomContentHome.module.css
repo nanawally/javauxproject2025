@@ -54,6 +54,10 @@ a>p {
     width: 30%;
 }
 
+.recipeWrapper {
+    position: relative;
+}
+
 .recipeWrapper:nth-of-type(odd) {
     background-color: #f3cdfe8d;
 }
