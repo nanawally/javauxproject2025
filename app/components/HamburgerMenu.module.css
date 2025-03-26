@@ -1,0 +1,40 @@
+.hamburger-container {
+    position: relative;
+  }
+  
+  .hamburger-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .hamburger-nav {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    background: #333;
+    width: 200px;
+    display: none;
+    padding: 1rem;
+  }
+  
+  .hamburger-nav.open {
+    display: block;
+  }
+  
+  .hamburger-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hamburger-list li {
+    margin: 0.5rem 0;
+  }
+  
+  .hamburger-list a {
+    color: white;
+    text-decoration: none;
+  }
+  
