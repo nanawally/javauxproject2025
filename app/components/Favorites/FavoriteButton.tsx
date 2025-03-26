@@ -1,12 +1,12 @@
-import { useFavorites } from "./FavoritesContext";
 import styles from "./FavoriteButton.module.css";
+import { useRecipeContext } from "../Recipes/RecipeContext";
 
 interface FavoriteButtonProps {
     recipeId: number;
 }
 
 export function FavoriteButton({ recipeId }: FavoriteButtonProps) {
-    const { favorites, toggleFavorite } = useFavorites();
+    const { favorites, toggleFavorite } = useRecipeContext();
     const isFav = favorites.includes(recipeId);
 
     return (

@@ -1,11 +1,9 @@
-import { useFavorites } from "~/components/Favorites/FavoritesContext"
 import styles from "./favorites.module.css"
 import { useRecipeContext } from "~/components/Recipes/RecipeContext";
 import { Link } from "react-router";
 
 export function Favorites() {
-    const { favorites } = useFavorites();
-    const { setRecipeIndex } = useRecipeContext();
+    const { favorites, setRecipeIndex } = useRecipeContext();
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
