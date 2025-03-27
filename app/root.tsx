@@ -11,7 +11,6 @@ import {
 import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
-import { CustomFooter } from "./components/UI/CustomFooter";
 import { CustomHeader } from "./components/UI/CustomHeader";
 
 export const links: Route.LinksFunction = () => [

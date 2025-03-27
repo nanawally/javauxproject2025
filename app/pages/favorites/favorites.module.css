@@ -1,0 +1,13 @@
+.favoriteTheme {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+  }
+
+  .contentWrapper {
+    flex-grow: 1;
+  }
