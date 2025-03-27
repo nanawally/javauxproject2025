@@ -22,6 +22,12 @@
   width: 80%;
 }
 
+@media (min-width: 431px) {
+  .placeholderWrapper {
+    width: 20%;
+  }
+}
+
 .placeholderText {
   font-family: Inter;
   display: inherit;
