@@ -21,7 +21,7 @@
 
   @media (min-width: 431px) {
     .favoriteButton > img {
-        height: 10rem;
-        width: 10rem;
+        height: 6rem;
+        width: 6rem;
     }
   }
