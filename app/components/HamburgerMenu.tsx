@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import styles from "./CustomHeader.module.css";
+import styles from "./HamburgerMenu.module.css";
 
 export function HamburgerMenu() {
     const [isOpen, setIsOpen] = useState(false);
