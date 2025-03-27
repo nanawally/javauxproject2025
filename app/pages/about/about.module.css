@@ -8,14 +8,26 @@
   width: 100%;
 }
 
-h1 {
-  font-family: "Courier New", Courier, monospace;
-  display: flex;
-  justify-content: center;
-}
-
 .center {
   display: flex;
   justify-content: center;
   font-size: x-large;
+}
+
+.placeholderWrapper {
+  flex-grow: 1;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 80%;
+}
+
+.placeholderText {
+  font-family: Inter;
+  display: inherit;
+  background-color: #f3cdfe8d;
+
+  padding: 10px;
+  border: 2px;
+  border-radius: 15px; 
 }

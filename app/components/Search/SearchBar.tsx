@@ -16,7 +16,7 @@ export function SearchBar({ onSearchChange }: SearchBarProps) {
                 <input
                     type="text"
                     onChange={handleInputChange}
-                    placeholder="Sök . . ."
+                    placeholder="Sök efter ingredienser . . ."
                     name="search"
                     autoComplete="off" />
             </section>

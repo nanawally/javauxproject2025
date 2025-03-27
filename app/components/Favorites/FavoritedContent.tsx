@@ -12,16 +12,18 @@ export function FavoritedContent() {
     }
 
     return (
-        <main className={styles.favoriteTheme}>
-            <div className={styles.pageWrapper}>
+        <>
+            <section className={styles.pageTitle}>
                 <h1>Dina favoriter</h1>
-                {favoritedRecipes.length === 0 ? (
-                    <div className={styles.empty}>
-                        <p>Du har inga sparade recept.</p>
-                    </div>
-                ) : (
-                    <div className={styles.grid}>
-                        {favoritedRecipes.map((recipe) => (
+            </section>
+            {favoritedRecipes.length === 0 ? (
+                <div className={styles.empty}>
+                    <p>Du har inga sparade recept.</p>
+                </div>
+            ) : (
+                <div className={styles.list}>
+                    {favoritedRecipes.map((recipe) => (
+                        <div className={styles.recipeWrapper}>
                             <Link to="../recipe"
                                 key={recipe.id}
                                 className={styles.recipeLink}
@@ -30,10 +32,10 @@ export function FavoritedContent() {
                                 <img src={recipe.image} alt={recipe.name} />
                                 <h3>{recipe.name}</h3>
                             </Link>
-                        ))}
-                    </div>
-                )}
-            </div>
-        </main>
+                        </div>
+                    ))}
+                </div>
+            )}
+        </>
     )
 };
