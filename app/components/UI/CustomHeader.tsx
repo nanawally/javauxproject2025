@@ -1,9 +1,11 @@
 import { Link } from "react-router";
 import styles from "./CustomHeader.module.css"
+import { HamburgerMenu } from "./HamburgerMenu";
 
 export function CustomHeader() {
     return (
         <header className={styles.centerHeader}>
+            <HamburgerMenu/>
             <Link to="../" className={styles.link}>
                 <h4 className={styles.favoritesLink}>Placehold</h4>
             </Link>
