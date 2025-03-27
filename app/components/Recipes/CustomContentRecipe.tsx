@@ -1,20 +1,9 @@
-import { useEffect, useState } from "react";
 import styles from "./CustomContentRecipe.module.css";
-import type { Recipe } from "~/types/recipe";
 import { useRecipeContext } from "./RecipeContext";
 
 export function CustomContentRecipe() {
-    const [recipeList, setRecipeList] = useState<Recipe[]>([]);
-    const { recipeIndex } = useRecipeContext();
-
-    useEffect(() => {
-        fetch("/recipelist.JSON")
-            .then((res) => res.json())
-            .then((recipes: Recipe[]) => setRecipeList(recipes))
-            .catch(console.error);
-    }, []);
-
-    const selectedRecipe = recipeList.length > 0 ? recipeList[recipeIndex] : null;
+    const { recipes, recipeIndex } = useRecipeContext();
+    const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
     return (
         <>
