@@ -1,6 +1,5 @@
 import type { Route } from "./+types/home";
 import { Recipe } from "../pages/recipe/recipe";
-//import { useRecipeContext } from "./RecipeContext";
 
 export function meta({}: Route.MetaArgs) {
   return [

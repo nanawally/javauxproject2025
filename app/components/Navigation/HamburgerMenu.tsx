@@ -32,6 +32,7 @@ export function HamburgerMenu() {
                 <ul className={styles.menuList}>
                     <li><Link to="/" onClick={() => setIsOpen(false)}>Hem</Link></li>
                     <li><Link to="/about" onClick={() => setIsOpen(false)}>Om oss</Link></li>
+                    <li><Link to="/explore" onClick={() => setIsOpen(false)}>Utforska alla recept</Link></li>
                 </ul>
             )}
         </div>
