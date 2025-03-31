@@ -9,17 +9,6 @@ import { FavoriteButton } from "../Favorites/FavoriteButton";
 export function CustomContentHome() {
     const { recipes, setRecipeIndex, favorites, toggleFavorite } = useRecipeContext();
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
-    const [searchTerm, setSearchTerm] = useState<string>("");
-
-    useEffect(() => {
-        const filtered = recipes.filter((recipe) =>
-            recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            recipe.ingredients.some((ingredient) =>
-                ingredient.toLowerCase().includes(searchTerm.toLowerCase())
-            )
-        );
-        setFilteredRecipes(filtered);
-    }, [searchTerm, recipes]);
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
@@ -28,7 +17,7 @@ export function CustomContentHome() {
     return (
         <>
             <HeroImage />
-            <SearchBar onSearchChange={(term: string) => setSearchTerm(term)} />
+            <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
             <div className={styles.list}>
                 {filteredRecipes.length > 0 ? (
                     filteredRecipes.map(({ id, name, image }) => (
