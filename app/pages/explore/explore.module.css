@@ -1,5 +1,5 @@
-.homeTheme {
-  position: relative;
+.exploreTheme {
+    position: relative;
   top: 4rem;
   display: flex;
   flex-direction: column;
@@ -11,9 +11,3 @@
 .contentWrapper {
   flex-grow: 1;
 }
-
-h1 {
-  display: flex;
-  justify-content: center;
-}
-

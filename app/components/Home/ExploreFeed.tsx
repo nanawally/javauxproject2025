@@ -1,25 +1,13 @@
-import styles from "./CustomContentHome.module.css";
-import { useEffect, useState } from "react";
-import { HeroImage } from "./HeroImage";
+import styles from "./ExploreFeed.module.css";
+import { useState } from "react";
 import { SearchBar } from "../Search/SearchBar";
 import { useRecipeContext } from "../Recipes/RecipeContext";
 import { Link } from "react-router";
 import { FavoriteButton } from "../Favorites/FavoriteButton";
 
-export function CustomContentHome() {
+export function ExploreFeed() {
     const { recipes, setRecipeIndex, favorites, toggleFavorite } = useRecipeContext();
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
-    const [searchTerm, setSearchTerm] = useState<string>("");
-
-    useEffect(() => {
-        const filtered = recipes.filter((recipe) =>
-            recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            recipe.ingredients.some((ingredient) =>
-                ingredient.toLowerCase().includes(searchTerm.toLowerCase())
-            )
-        );
-        setFilteredRecipes(filtered);
-    }, [searchTerm, recipes]);
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
@@ -27,13 +15,12 @@ export function CustomContentHome() {
 
     return (
         <>
-            <HeroImage />
-            <SearchBar onSearchChange={(term: string) => setSearchTerm(term)} />
+            <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
             <div className={styles.list}>
                 {filteredRecipes.length > 0 ? (
                     filteredRecipes.map(({ id, name, image }) => (
                         <div className={styles.recipeWrapper} key={id}>
-                            <Link to="recipe" className={styles.recipeLink} onClick={() => handleRecipeClick(id)}>
+                            <Link to="../recipe" className={styles.recipeLink} onClick={() => handleRecipeClick(id)}>
                                 <img src={image} alt={name} />
                                 <h3>{name}</h3>
                             </Link>

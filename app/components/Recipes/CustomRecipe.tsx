@@ -1,7 +1,7 @@
-import styles from "./CustomContentRecipe.module.css";
+import styles from "./CustomRecipe.module.css";
 import { useRecipeContext } from "./RecipeContext";
 
-export function CustomContentRecipe() {
+export function CustomRecipe() {
     const { recipes, recipeIndex } = useRecipeContext();
     const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
