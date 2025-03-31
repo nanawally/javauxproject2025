@@ -14,20 +14,37 @@
   font-size: x-large;
 }
 
-.placeholderWrapper {
-  flex-grow: 1;
+.placeholderBackground {
   display: flex;
   align-self: center;
   align-items: center;
   width: 80%;
 }
 
+.placeholderWrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 80%;
+}
+
+@media (min-width: 431px) {
+  .placeholderWrapper {
+    width: 40%;
+  }
+  .placeholderBackground {
+    width: 40%;
+  }
+}
+
 .placeholderText {
   font-family: Inter;
   display: inherit;
-  background-color: #f3cdfe8d;
+  background-color: #db98bab9;
 
   padding: 10px;
   border: 2px;
-  border-radius: 15px; 
+  border-radius: 15px;
 }
