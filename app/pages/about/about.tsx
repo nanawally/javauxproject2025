@@ -1,6 +1,4 @@
-import { Link } from "react-router";
 import styles from "./about.module.css";
-import { CustomHeader } from "~/components/UI/CustomHeader";
 import { CustomFooter } from "~/components/UI/CustomFooter";
 
 export function About() {
