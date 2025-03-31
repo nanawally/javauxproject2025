@@ -1,4 +1,4 @@
-import { CustomContentRecipe } from "~/components/Recipes/CustomContentRecipe";
+import { CustomRecipe } from "~/components/Recipes/CustomRecipe";
 import styles from "./recipe.module.css";
 import { CustomFooter } from "~/components/UI/CustomFooter";
 
@@ -6,7 +6,7 @@ export function Recipe() {
   return (
     <>
       <main className={styles.recipeTheme}>
-        <CustomContentRecipe />
+        <CustomRecipe />
         <CustomFooter />
       </main>
     </>
