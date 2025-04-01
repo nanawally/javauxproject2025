@@ -21,7 +21,7 @@ export function LandingFeed() {
                     <Link to="../recipe" onClick={() => handleRecipeClick(smoothieOfTheDay.id)}
                         className={styles.smoothieLink}>
                         <section className={styles.smoothieText}>
-                            <h2>Dagens Smoothie</h2>
+                            <h2>Dagens Smoothie!</h2>
                             <h3>{smoothieOfTheDay.name}</h3>
                             <p>{smoothieOfTheDay.description}</p>
                         </section>
@@ -35,6 +35,7 @@ export function LandingFeed() {
                     <p>Laddar dagens smoothie...</p>
                 )}
             </section>
+            
         </>
     );
 }
