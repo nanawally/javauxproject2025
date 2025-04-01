@@ -15,10 +15,11 @@
     padding-left: 20px;
     color: #E60035;
     font-family: Inter;
+    font-size: 5vmin;
 }
 
 .shortDescription > h2 > span {
-    font-size: 150%;
+    font-size: 150%; /* Make 'Smoothify' bigger */
 }
 
 /* Smoothie of the day */
@@ -26,12 +27,35 @@
     display: flex;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
-    justify-content: center;
-    align-items: center;
-
-    flex-direction: column;
 }
 
 .smoothieLink {
-    
+    display: flex;
+    width: 100%;
+}
+
+.smoothieText {
+    font-family: Inter;
+    font-size: 4vmin;
+}
+
+.smoothieText h2, h3{
+    color: #EE0000;
+    text-align: center;
+}
+
+.smoothieText p {
+    color: #E60035;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.smoothieImage {
+
+}
+
+.smoothieImage img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
