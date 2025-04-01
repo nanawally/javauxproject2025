@@ -63,6 +63,19 @@
     text-align: left;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.custom-tab-container-class, .tabs-body {
+    height: 250px;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
     .title {

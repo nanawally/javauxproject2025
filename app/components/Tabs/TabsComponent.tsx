@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import type { ReactNode } from 'react';
 import { useTabs } from './TabsContext'; 
-import './tabs.css';
 
 interface TabsProps {
     children?: ReactNode;

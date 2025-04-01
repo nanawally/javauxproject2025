@@ -7,11 +7,11 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
 import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
 import { CustomHeader } from "./components/UI/CustomHeader";
+import { TabsProvider } from "./components/Tabs/TabsContext";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -48,7 +48,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
   return (
     <RecipeProvider>
-      <Outlet />
+      <TabsProvider>
+        <Outlet />
+      </TabsProvider>
     </RecipeProvider>
   );
 }
