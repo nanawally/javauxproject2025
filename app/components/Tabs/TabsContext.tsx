@@ -1,5 +1,6 @@
 import { Component } from "lucide-react";
-import { useContext, useState, createContext, ReactNode } from "react";
+import { useContext, useState, createContext } from "react";
+import type { ReactNode } from "react";  
 
 interface TabsContextType {
   currentTab?: string;
