@@ -1,14 +1,14 @@
 export interface Recipe {
   id: number;
+  category: string;
   name: string;
-  description: string;
-  amount: string;
+  profile: [string];
+  allergens: [string];
+  portionsize: number;
   ingredients: [string];
   instructions: string;
-  tips: string;
-  category: [string];
+  nutrition: [string];
   image: string;
-  rating: number;
 }
 
 export interface RecipeName {
