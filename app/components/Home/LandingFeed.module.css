@@ -1,0 +1,17 @@
+.shortDescription {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0 20px 0;
+    background-color: #F3CDFE;
+}
+
+.shortDescription > h2 {
+    padding-left: 20px;
+    color: #E60035;
+    font-family: Inter;
+}
+
