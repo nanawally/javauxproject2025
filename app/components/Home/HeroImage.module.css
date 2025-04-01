@@ -1,22 +1,19 @@
-.center {
+.bannerSection {
     background-color: #f7f7f7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16rem;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 13;
 }
 
-@media (min-width: 431px) {
-    .center {
-        height: 32rem !important;
-    }
-    .heroimage {
-        height: 20rem !important;
-    }
-}
-
-.heroimage {
-    height: 10rem;
+.heroImage {
     width: 100%;
+    max-height: calc(100vh - 4rem);
     object-fit: cover;
 }
+
+@media (max-width: 431px) {
+    .bannerSection {
+        grid-column-end: 7;
+    }
+}
+ 

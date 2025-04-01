@@ -10,10 +10,13 @@
 
 .contentWrapper {
   flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
+@media (max-width: 431px) {
+  .contentWrapper {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
-
