@@ -7,6 +7,7 @@ interface RecipeContextProps {
     recipes: Recipe[];
     favorites: number[];
     toggleFavorite: (id: number) => void;
+    smoothieOfTheDay: Recipe | null;
 }
 
 const RecipeContext = createContext<RecipeContextProps | undefined>(undefined);
@@ -15,6 +16,7 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [favorites, setFavorites] = useState<number[]>([]);
     const [recipeIndex, setRecipeIndex] = useState<number>(1);
+    const [smoothieOfTheDay, setSmoothieOfTheDay] = useState<Recipe | null>(null);
 
     // Fetch data onces components mounts
     useEffect(() => {
@@ -30,6 +32,15 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
         }
         fetchRecipes();
     }, []);
+
+    //Fetch date and select a smoothie of the day from seed
+    useEffect(() => {
+        if(recipes.length > 0) {
+            const dateSeed = parseInt(new Date().toISOString().split("T")[0].replace(/-/g, ""), 10);
+            const index = dateSeed % recipes.length;
+            setSmoothieOfTheDay(recipes[index]);
+        }
+    }, [recipes]);
 
     // Store favorites
     useEffect(() => {
@@ -54,7 +65,7 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     };
 
     return (
-        <RecipeContext.Provider value={{ recipeIndex, setRecipeIndex, recipes, favorites, toggleFavorite }}>
+        <RecipeContext.Provider value={{ recipeIndex, setRecipeIndex, recipes, favorites, toggleFavorite, smoothieOfTheDay }}>
             {children}
         </RecipeContext.Provider>
     );

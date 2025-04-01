@@ -1,3 +1,4 @@
+/**/
 .shortDescription {
     display: flex;
     grid-column-start: 1;
@@ -5,6 +6,7 @@
     justify-content: center;
     align-items: center;
 
+    min-height: 8rem;
     margin: 20px 0 20px 0;
     background-color: #F3CDFE;
 }
@@ -15,3 +17,21 @@
     font-family: Inter;
 }
 
+.shortDescription > h2 > span {
+    font-size: 150%;
+}
+
+/* Smoothie of the day */
+.smoothieOfTheDay {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.smoothieLink {
+    
+}
