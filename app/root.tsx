@@ -12,6 +12,7 @@ import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
 import { CustomHeader } from "./components/UI/CustomHeader";
+import RecipeRoute from "./routes/recipe";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -49,6 +50,7 @@ export default function App() {
   return (
     <RecipeProvider>
       <Outlet />
+      <RecipeRoute />
     </RecipeProvider>
   );
 }
