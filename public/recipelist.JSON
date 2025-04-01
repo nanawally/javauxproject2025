@@ -21,7 +21,7 @@
       "Socker: 8g",
       "Kalorier: 60kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Frisk-grön-boost.png"
+    "image": "/assets/smoothies/Low-Calorie/Frisk-gron-boost.png"
   },
   {
     "id": 1,
@@ -43,7 +43,7 @@
       "Socker: 9 g",
       "Kalorier: 75 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Bärigdröm.psd"
   },
   {
     "id": 2,
@@ -66,7 +66,7 @@
       "Socker: 14 g",
       "Kalorier: 80 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Citrusfrisk-kick.psd"
   },
   {
     "id": 3,
@@ -89,7 +89,7 @@
       "Fett: 0 g",
       "Kolhydrater: 12 g"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Hallon-mynta.png"
   },
   {
     "id": 4,
@@ -112,7 +112,7 @@
       "Fett: 0 g",
       "Kolhydrater: 13 g"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/jordgubb-basilika.png"
   },
   {
     "id": 5,
@@ -135,7 +135,7 @@
       "Fett: 0 g",
       "Kolhydrater: 16 g"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Rodbetsboost.png"
   },
   {
     "id": 6,
@@ -157,7 +157,7 @@
       "Socker: 7 g",
       "Kalorier: 50 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Vattenmelon-basilika.png"
   },
   {
     "id": 7,
@@ -180,7 +180,7 @@
       "Socker: 7 g",
       "Kalorier: 65 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Low-Calorie/Kiwi-selleri.png"
   },
   {
     "id": 8,
@@ -202,7 +202,7 @@
       "Socker: 9 g",
       "Kalorier: 65 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Tropisk-gron-fraschor.png"
   },
   {
     "id": 9,
@@ -224,7 +224,7 @@
       "Fett: 2 g",
       "Kolhydrater: 18 g"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Kokosdrom.png"
   },
   {
     "id": 10,
@@ -245,7 +245,7 @@
       "fett: 2 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Vanilj-banan.png"
   },
   {
     "id": 11,
@@ -266,7 +266,7 @@
       "socker: 8 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Jordgubb-gradde.png"
   },
   {
     "id": 12,
@@ -288,7 +288,7 @@
       "socker: 7 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Kokos-vitchoklad.png"
   },
   {
     "id": 13,
@@ -310,7 +310,7 @@
       "socker: 12 g",
       "kalorier: 170 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Blabar-Honung.png"
   },
   {
     "id": 14,
@@ -333,7 +333,7 @@
       "socker: 15 g",
       "kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Peach-vanilj.png"
   },
   {
     "id": 15,
@@ -355,7 +355,7 @@
       "socker: 13 g",
       "kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "/assets/smoothies/Milky/Mango-ingefara.png"
   },
   {
     "id": 16,
