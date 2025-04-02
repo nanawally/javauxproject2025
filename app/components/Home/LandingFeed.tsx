@@ -15,6 +15,7 @@ export function LandingFeed() {
             <HeroImage />
             <section className={styles.shortDescription}>
                 <h2>Vi är <span>Smoothify</span> - här gör vi smoothies enkla, goda och inspirerande!</h2>
+                <img src="/assets/smiley-wink-vit.jpg" alt="vit ikon    " />
             </section>
             <section className={styles.smoothieOfTheDay}>
                 {smoothieOfTheDay ? (
@@ -33,14 +34,11 @@ export function LandingFeed() {
                         <section className={styles.smoothieImage}>
                             <img src={smoothieOfTheDay.image} alt={smoothieOfTheDay.name} />
                         </section>
-
-
                     </Link>
                 ) : (
                     <p>Laddar dagens smoothie...</p>
                 )}
             </section>
-            
         </>
     );
 }

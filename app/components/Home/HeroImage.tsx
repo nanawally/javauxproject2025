@@ -6,7 +6,7 @@ export function HeroImage() {
             <section className={styles.bannerSection}>
                 <picture className={styles.heroContainer}>
                     <source media="(max-width: 431px)" srcSet="/assets/Herosmall.jpg"/>
-                    <img src="/assets/Herolarge.jpg" alt="" loading="lazy" className={styles.heroImage}/>
+                    <img src="/assets/Herolarge-b.jpg" alt="" loading="lazy" className={styles.heroImage}/>
                 </picture>
             </section>
         </>
