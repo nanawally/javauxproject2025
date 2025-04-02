@@ -35,7 +35,7 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
 
     //Fetch date and select a smoothie of the day from seed
     useEffect(() => {
-        if(recipes.length > 0) {
+        if (recipes.length > 0) {
             const dateSeed = parseInt(new Date().toISOString().split("T")[0].replace(/-/g, ""), 10);
             const index = dateSeed % recipes.length;
             setSmoothieOfTheDay(recipes[index]);

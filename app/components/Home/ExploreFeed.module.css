@@ -28,12 +28,15 @@ a>p {
     .list>li>a>p {
         margin: 0;
     }
+
     .list>li>a {
         flex-direction: column !important;
     }
+
     .picture {
         padding-bottom: 0 !important;
     }
+
     .list>li>a {
         padding-bottom: 1em;
     }
