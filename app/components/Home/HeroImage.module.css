@@ -1,22 +1,18 @@
-.center {
+.bannerSection {
     background-color: #f7f7f7;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16rem;
-}
-
-@media (min-width: 431px) {
-    .center {
-        height: 32rem !important;
-    }
-    .heroimage {
-        height: 20rem !important;
-    }
-}
-
-.heroimage {
-    height: 10rem;
     width: 100%;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+}
+
+.heroImage {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+}
+
+.heroContainer {
+    width: 100%;
 }

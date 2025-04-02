@@ -1,6 +1,5 @@
 .homeTheme {
   position: relative;
-  top: 4rem;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -8,12 +7,14 @@
   width: 100%;
 }
 
-.contentWrapper {
-  flex-grow: 1;
+@media (max-width: 1300px) {
+  .homeTheme {
+    top: 4rem;
+  }
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
+@media (min-width: 2000px) {
+  .homeTheme {
+    top: 4rem;
+  }
 }
-
