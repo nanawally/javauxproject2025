@@ -40,3 +40,16 @@ a:visited {
   text-decoration: none;
   color: #000;
 }
+
+.contentWrapper {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+}
+
+@media (max-width: 431px) {
+  .contentWrapper {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

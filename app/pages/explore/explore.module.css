@@ -7,7 +7,3 @@
   min-height: calc(100vh - 4rem);
   width: 100%;
 }
-
-.contentWrapper {
-  flex-grow: 1;
-}

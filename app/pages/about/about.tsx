@@ -5,7 +5,7 @@ export function About() {
   return (
     <>
       <main className={styles.aboutTheme}>
-        <section className={styles.placeholderWrapper}>
+        <section className="contentWrapper">
           <h3 className={styles.placeholderText}>
             Vi älskar smoothies! Men vi vet hur det är - lätt att fastna i samma gamla recept eller tro att det krävs mer tid och ingredienser än det faktiskt gör. <br /><br />
             Därför har vi samlat de bästa och smidigaste recepten - för att göra det enklare och roligare att mixa sig fram till nya favoriter! <br /><br />

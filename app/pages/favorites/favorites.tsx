@@ -6,7 +6,7 @@ export function Favorites() {
   return (
     <>
       <main className={styles.favoriteTheme}>
-        <div className={styles.contentWrapper}>
+        <div className="contentWrapper">
           <FavoritedContent />
         </div>
         <CustomFooter />
