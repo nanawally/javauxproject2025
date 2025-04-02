@@ -13,3 +13,8 @@
   }
 }
 
+@media (min-width: 2000px) {
+  .homeTheme {
+    top: 4rem;
+  }
+}
