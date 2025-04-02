@@ -24,6 +24,11 @@ export function LandingFeed() {
                             <h2>Dagens Smoothie!</h2>
                             <h3>{smoothieOfTheDay.name}</h3>
                             <p>{smoothieOfTheDay.description}</p>
+                            <section className={styles.categoryNames}>
+                            <span className={styles.categoryName}>{smoothieOfTheDay.category[0]}</span>
+                            <span className={styles.categoryName}>{smoothieOfTheDay.category[1]}</span>  
+                            <span className={styles.allergens}>L</span>
+                            </section>
                         </section>
                         <section className={styles.smoothieImage}>
                             <img src={smoothieOfTheDay.image} alt={smoothieOfTheDay.name} />

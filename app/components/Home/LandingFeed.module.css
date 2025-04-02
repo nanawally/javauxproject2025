@@ -27,6 +27,38 @@
     display: flex;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
+    background-color: #F1E8E1;
+}
+
+.categoryNames {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.categoryName {
+    background-color: #E60035;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1.2rem;
+    border-radius: 25px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.allergens {
+    border-radius: 50%;
+    background-color: transparent;
+    color: #E60035;
+    border: 2px solid #E60035;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin-right: 0.5rem;
+    text-align: center;
+    font-style: italic;
+    
 }
 
 .smoothieLink {
@@ -52,7 +84,7 @@
 
 .smoothieText h2,
 .smoothieText h3 {
-    color: #EE0000;
+    color: #E60035;
 
 }
 
