@@ -50,7 +50,6 @@ export default function App() {
   return (
     <RecipeProvider>
       <Outlet />
-      <RecipeRoute />
     </RecipeProvider>
   );
 }

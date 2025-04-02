@@ -6,9 +6,11 @@ export function Recipe() {
   return (
     <>
       <main className={styles.recipeTheme}>
-        <CustomRecipe />
+        <div className="contentWrapper">
+          <CustomRecipe />
+        </div>
         <CustomFooter />
       </main>
     </>
-  ); 
+  );
 }

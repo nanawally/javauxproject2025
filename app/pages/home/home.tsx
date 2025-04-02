@@ -6,7 +6,7 @@ export function Home() {
   return (
     <>
       <main className={styles.homeTheme}>
-        <div className={styles.contentWrapper}>
+        <div className="contentWrapper">
           <LandingFeed />
         </div>
         <CustomFooter />

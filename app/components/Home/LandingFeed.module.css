@@ -1,0 +1,117 @@
+/**/
+.shortDescription {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    align-items: center;
+
+    min-height: 12rem;
+    padding-right: 10vw;
+    margin: 20px 0 20px 0;
+    background-color: #F3CDFE;
+}
+
+.shortDescription>img {
+    transform: rotate(-10deg);
+}
+
+.shortDescription>h2 {
+    padding-left: 10vw;
+    color: #E60035;
+    font-family: Inter;
+    font-size: 5vmin;
+}
+
+.shortDescription>h2>span {
+    font-size: 150%;
+    /* Make 'Smoothify' bigger */
+}
+
+/* Smoothie of the day */
+.smoothieOfTheDay {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    background-color: #F1E8E1;
+    padding: 2rem 0 2rem 0;
+}
+
+.categoryNames {
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.categoryName {
+    background-color: #E60035;
+    color: white;
+    margin-right: 0.5rem;
+    padding: 0.3rem 1.2rem;
+    border-radius: 25px;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.allergens {
+    border-radius: 50%;
+    background-color: transparent;
+    color: #E60035;
+    border: 2px solid #E60035;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    margin-right: 0.5rem;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.smoothieLink {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    grid-gap: 0px;
+    position: relative;
+}
+
+.smoothieText {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+    padding-left: 10vw;
+    height: 100%;
+
+    font-family: Inter;
+    font-size: 4vmin;
+}
+
+.smoothieText h2,
+.smoothieText h3 {
+    color: #E60035;
+
+}
+
+.smoothieText p {
+    color: #E60035;
+    margin-top: 5px;
+    width: 80%;
+}
+
+.smoothieImage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-25%);
+}
+
+.smoothieImage img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: contain;
+    padding-bottom: 1rem;
+}

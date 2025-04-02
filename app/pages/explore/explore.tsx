@@ -6,7 +6,7 @@ export function Explore() {
     return (
         <>
             <main className={styles.exploreTheme}>
-                <div className={styles.contentWrapper}>
+                <div className="contentWrapper">
                     <ExploreFeed />
                 </div>
                 <CustomFooter />

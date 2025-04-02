@@ -6,7 +6,7 @@ export function About() {
   return (
     <>
       <main className={styles.aboutTheme}>
-        <div className={styles.placeholderWrapper}>
+        <div className="contentWrapper">
           <AboutPage />
         </div>
         <CustomFooter />

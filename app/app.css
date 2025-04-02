@@ -1,3 +1,13 @@
+:root {
+  --grid-column-end: 13;
+}
+
+@media (max-width: 431px) {
+  :root {
+    --grid-column-end: 7;
+  }
+}
+
 @font-face {
   font-family: Beckan;
   src: url('/font/Beckan.otf');
@@ -28,4 +38,17 @@ a,
 a:visited {
   text-decoration: none;
   color: #000;
+}
+
+.contentWrapper {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+}
+
+@media (max-width: 431px) {
+  .contentWrapper {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
