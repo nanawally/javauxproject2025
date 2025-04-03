@@ -1282,7 +1282,7 @@
   {
     "id": 56,
     "category": "Tropiska",
-    "name": "Mango & Kokos",
+    "name": "Tropisk Mango & Kokos",
     "profile": ["Söt", "Exotisk", "Krämig kokos"],
     "allergens": ["laktos"],
     "portionsize": 2,
@@ -1299,7 +1299,7 @@
       "socker: 14 g",
       "kalorier: 150 kcal"
     ],
-    "image": "assets/smoothies/Tropiska/"
+    "image": "assets/smoothies/Tropiska/MangoKokos.png"
   },
   {
     "id": 57,
