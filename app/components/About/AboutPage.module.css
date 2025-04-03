@@ -1,0 +1,51 @@
+.bigTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+  color: #e60035;
+}
+
+.textContainers {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bigTextContainer > h1 {
+  font-weight: 600;
+}
+
+.wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 80%;
+}
+
+@media (max-width: 431px) {
+  main {
+    background-image: url("./background-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bigTextContainer {
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+}
+
+@media (min-width: 431px) {
+  main {
+    background-image: url("./background-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bigTextContainer {
+    grid-column-start: 5;
+    grid-column-end: 10;
+  }
+}

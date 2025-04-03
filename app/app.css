@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: Beckan;
-  src: url('/font/Beckan.otf');
+  src: url("/font/Beckan.otf");
 }
 
 @font-face {
   font-family: Inter;
-  src: url('/font/Inter.ttf');
+  src: url("/font/Inter.ttf");
 }
 
 body {
