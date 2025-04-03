@@ -28,7 +28,6 @@ export function CategoryScroll({ category }: { category: string }) {
     return (
         <>
             <h2>{category}</h2>
-
             <div className={styles.buttonOverlay}>
                 <div className={styles.scrollWrapper} ref={scrollWrapperRef}>
                     {categoryRecipes.map(({ id, name, image }) => (
@@ -49,7 +48,6 @@ export function CategoryScroll({ category }: { category: string }) {
                 <button className={styles.rightScrollButton}
                     onClick={handleScrollRight}> <img src="assets/arrow-right.svg" alt="" /> </button>
             </div>
-
         </>
     );
 }
