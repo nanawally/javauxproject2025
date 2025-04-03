@@ -14,7 +14,7 @@ export function CategoryScroll({ category }: { category: string }) {
     };
 
     return (
-        <section className={styles.scrollContainer}>
+        <>
             <h2>{category}</h2>
             <div className={styles.scrollWrapper}>
                 {categoryRecipes.map(({ id, name, image }) => (
@@ -24,6 +24,6 @@ export function CategoryScroll({ category }: { category: string }) {
                     </Link>
                 ))}
             </div>
-        </section>
+        </>
     );
 }

@@ -26,7 +26,7 @@
   {
     "id": 1,
     "category": "Kalorisnåla",
-    "name": "Bärig Dröm 🍓🫐",
+    "name": "Bärig Dröm",
     "profile": ["sött", "friskt"],
     "allergens": [""],
     "portionsize": 2,
@@ -43,12 +43,12 @@
       "Socker: 9 g",
       "Kalorier: 75 kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Bärigdröm.psd"
+    "image": "/assets/smoothies/Low-Calorie/BarigDrom.png"
   },
   {
     "id": 2,
     "category": "Kalorisnåla",
-    "name": "Citrusfrisk Kick 🍊🍋",
+    "name": "Citrusfrisk Kick",
     "profile": ["syrlig", "uppfriskande"],
     "allergens": [""],
     "portionsize": 2,
@@ -66,12 +66,12 @@
       "Socker: 14 g",
       "Kalorier: 80 kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Citrusfrisk-kick.psd"
+    "image": "/assets/smoothies/Low-Calorie/Hallon-mynta.png"
   },
   {
     "id": 3,
     "category": "Kalorisnåla",
-    "name": "Frisk Hallon & Mynta 🍓🌱",
+    "name": "Frisk Hallon & Mynta",
     "profile": ["frisk", "syrlig"],
     "allergens": [""],
     "portionsize": 2,
@@ -94,7 +94,7 @@
   {
     "id": 4,
     "category": "Kalorisnåla",
-    "name": "Jordgubb & Basilika 🍓🌿",
+    "name": "Jordgubb & Basilika",
     "profile": ["söt", "fräsch", "örtig"],
     "allergens": [""],
     "portionsize": 2,
@@ -117,7 +117,7 @@
   {
     "id": 5,
     "category": "Kalorisnåla",
-    "name": "Rödbetsboost ❤🥕",
+    "name": "Rödbetsboost",
     "profile": ["jordig", "fräsch"],
     "allergens": [""],
     "portionsize": 2,
@@ -140,7 +140,7 @@
   {
     "id": 6,
     "category": "Kalorisnåla",
-    "name": "Vattenmelon & Basilika 🍉🌿",
+    "name": "Vattenmelon & Basilika",
     "profile": ["svalkande", "söt"],
     "allergens": [""],
     "portionsize": 2,
@@ -162,7 +162,7 @@
   {
     "id": 7,
     "category": "Kalorisnåla",
-    "name": "Kiwi & Selleri 🥝🌿",
+    "name": "Kiwi & Selleri",
     "profile": ["syrlig", "frisk"],
     "allergens": [""],
     "portionsize": 2,
@@ -185,7 +185,7 @@
   {
     "id": 8,
     "category": "Krämiga",
-    "name": "Grön Tropisk Fräschör 🥭🥒",
+    "name": "Grön Tropisk Fräschör",
     "profile": ["frisk", "mild"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -229,7 +229,7 @@
   {
     "id": 10,
     "category": "Krämiga",
-    "name": "Krämig Vanilj & Banan 🍌🌿",
+    "name": "Krämig Vanilj & Banan",
     "profile": ["söt", "mild"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -250,7 +250,7 @@
   {
     "id": 11,
     "category": "Krämiga",
-    "name": "Jordgubb & Grädde 🍓🍦",
+    "name": "Jordgubb & Grädde",
     "profile": ["söt", "bärig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -271,7 +271,7 @@
   {
     "id": 12,
     "category": "Krämiga",
-    "name": "Kokos & Vit Choklad 🥥🤍",
+    "name": "Kokos & Vit Choklad",
     "profile": ["exotisk", "krämig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -293,7 +293,7 @@
   {
     "id": 13,
     "category": "Krämiga",
-    "name": "Blåbär & Honung 🫐🍯",
+    "name": "Blåbär & Honung",
     "profile": ["söt", "mild"],
     "allergens": ["Laktos", "nötter"],
     "portionsize": 2,
@@ -315,7 +315,7 @@
   {
     "id": 14,
     "category": "Krämiga",
-    "name": "Peach & Vanilj 🍑🍦",
+    "name": "Peach & Vanilj",
     "profile": ["söt", "krämig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -338,7 +338,7 @@
   {
     "id": 15,
     "category": "Krämiga",
-    "name": "Mango & Ingefära 🥭🧡",
+    "name": "Mango & Ingefära",
     "profile": ["tropisk", "kryddig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
@@ -360,7 +360,7 @@
   {
     "id": 16,
     "category": "Proteinrika",
-    "name": "Blåbärsboost 🫐💪",
+    "name": "Blåbärsboost",
     "profile": ["söt", "mild"],
     "allergens": ["Nötter", "Laktos"],
     "portionsize": 2,
@@ -1397,7 +1397,7 @@
   {
     "id": 61,
     "category": "Tropiska",
-    "name": "Tropisk Drakfrukt & Mango 🥭🐉",
+    "name": "Tropisk Drakfrukt & Mango",
     "profile": ["söt", "exotisk", "friskt fruktig"],
     "allergens": ["laktos"],
     "portionsize": 2,
