@@ -11,7 +11,11 @@
   margin-top: 50px;
 }
 
-.bigTextContainer > h1 {
+.bigTextContainer>h1 {
+  font-weight: 600;
+}
+
+.bigTextContainer>p {
   font-weight: 600;
 }
 
@@ -36,12 +40,6 @@
 }
 
 @media (min-width: 431px) {
-  main {
-    background-image: url("./background-desktop.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   .bigTextContainer {
     grid-column-start: 5;
     grid-column-end: 10;

@@ -7,3 +7,11 @@
   min-height: calc(100vh - 4rem);
   width: 100%;
 }
+
+@media (min-width: 431px) {
+  .aboutTheme {
+    background-image: url("assets/background-desktop.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
