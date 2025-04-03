@@ -1,4 +1,4 @@
-import { useRecipeContext } from "../Recipes/RecipeContext";
+import { useRecipeContext } from "./RecipeContext";
 import styles from "./TabsComponent.module.css"
 import { useEffect, useState } from 'react';
 
@@ -8,6 +8,8 @@ interface TabProps {
     content: React.ReactNode;
 }
 
+
+
 export const TabsComponent = () => {
     const [activeTab, setActiveTab] = useState("ingredients");
     const { recipes, recipeIndex } = useRecipeContext();
@@ -15,16 +17,24 @@ export const TabsComponent = () => {
     const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
     const tabs: TabProps[] = [
-        { id: "ingredients", label: "Ingredienser", content: <div>{selectedRecipe?.ingredients[0]}</div> },
-        { id: "instructions", label: "Gör så här", content: <div>{selectedRecipe?.instructions}</div> },
-        { id: "nutrition", label: "Näringsvärde", content: <div>{selectedRecipe?.nutrition[0]}</div> }
+        {
+            id: "ingredients", label: "Ingredienser", content: <ul className={styles.tabsIngredients}>{selectedRecipe?.ingredients.map((ingredient, index) => (
+                <li key={index}>{ingredient}</li>
+            ))} </ul>
+        },
+        { id: "instructions", label: "Gör så här", content: <div className={styles.tabsInstructions}>{selectedRecipe?.instructions}</div> },
+        {
+            id: "nutrition", label: "Näringsvärde", content: <ul className={styles.tabsNutrients}>{selectedRecipe?.nutrition.map((nutrition, index) => (
+                <li key={index}>{nutrition}</li>
+            ))}</ul>
+        }
     ];
 
     return (
         <>
-            <div className={styles.tabsContainer}>
+            <div className={styles.tabs}>
                 {tabs.map((tabs) => (
-                    <button className={styles.tabButton}
+                    <button className={`${styles.tabButton} ${activeTab === tabs.id ? styles.active : ""}`}
                         key={tabs.id}
                         onClick={() => setActiveTab(tabs.id)}>
                         {tabs.label}

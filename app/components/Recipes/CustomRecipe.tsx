@@ -1,7 +1,7 @@
+import { FavoriteButton } from "../Favorites/FavoriteButton";
 import styles from "./CustomRecipe.module.css";
 import { useRecipeContext } from "./RecipeContext";
-import { useTabs } from "../Tabs/TabsContext";
-import { TabsComponent } from "../Tabs/TabsComponent";
+import { TabsComponent } from "./TabsComponent";
 
 const tabs = {
     firstTab: 'ingredienser',
@@ -17,12 +17,15 @@ export function CustomRecipe() {
         <>
             {selectedRecipe ? (
                 <div className={styles.pageWrapper}>
-                    <div className={styles.center}>
-                        <h2 className={styles.title}>{selectedRecipe.name}</h2>
-                        {selectedRecipe.image}
-                    </div>
-                    <div className={styles.center}>
-                        <TabsComponent />
+                    <div className={styles.recipeContainer}>
+                        <div className={styles.center}>
+                            <img className={styles.recipeImage} src={selectedRecipe.image} alt="" />
+                            <h2 className={styles.title}>{selectedRecipe.name}</h2>
+                            <FavoriteButton recipeId={selectedRecipe.id} />
+                        </div>
+                        <div className={styles.tabsContainer}>
+                            <TabsComponent />
+                        </div>
                     </div>
                 </div>
             ) : (
