@@ -4,6 +4,7 @@
     align-items: center;
     grid-gap: 0px;
     position: relative;
+    width: 100%;
 }
 
 .smoothieText {
@@ -37,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(-20%);
 }
 
 .smoothieImage img {
@@ -46,7 +46,21 @@
     height: auto;
     object-fit: contain;
     padding-bottom: 1rem;
+    transform: translateX(-10%);
 }
+
+ @media (min-width: 1500px) {
+    .smoothieImage img {
+        transform: translateX(-33%);
+    }
+ }
+
+ @media (max-width: 1300px) {
+    .smoothieImage img {
+        transform: translateX(-33%);
+    }
+ }
+
 
 .categoryNames {
     display: flex;

@@ -23,9 +23,8 @@ export function FavoritedContent() {
             ) : (
                 <div className={styles.list}>
                     {favoritedRecipes.map((recipe) => (
-                        <div className={styles.recipeWrapper}>
+                        <div className={styles.recipeWrapper} key={recipe.id}>
                             <Link to="../recipe"
-                                key={recipe.id}
                                 className={styles.recipeLink}
                                 onClick={() => handleRecipeClick(recipe.id)}
                             >

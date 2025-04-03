@@ -63,6 +63,11 @@
     font-weight: 900;
     font-size: 3vmin;
     text-align: center;
+
+    white-space: normal; /* Allows text to wrap */
+    word-wrap: break-word; /* Breaks long words if necessary */
+    overflow-wrap: break-word; /* Ensures words break properly */
+    max-width: 100%; /* Prevents text from overflowing */
 }
 
 @media (min-width: 600px) {

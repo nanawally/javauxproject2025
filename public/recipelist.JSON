@@ -3,7 +3,7 @@
     "id": 0,
     "category": "Kalorisnåla",
     "name": "Frisk grön boost",
-    "profile": ["frisk", "syrlig"],
+    "profile": ["Frisk", "Syrlig"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -21,13 +21,13 @@
       "Socker: 8g",
       "Kalorier: 60kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Frisk-gron-boost.png"
+    "image": "/assets/smoothies/Low-Calorie/FriskGronBoost.png"
   },
   {
     "id": 1,
     "category": "Kalorisnåla",
     "name": "Bärig Dröm",
-    "profile": ["sött", "friskt"],
+    "profile": ["Sött", "Friskt"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -49,7 +49,7 @@
     "id": 2,
     "category": "Kalorisnåla",
     "name": "Citrusfrisk Kick",
-    "profile": ["syrlig", "uppfriskande"],
+    "profile": ["Syrlig", "Uppfriskande"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -66,13 +66,13 @@
       "Socker: 14 g",
       "Kalorier: 80 kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Hallon-mynta.png"
+    "image": "/assets/smoothies/Low-Calorie/CitrusfriskKick.png"
   },
   {
     "id": 3,
     "category": "Kalorisnåla",
     "name": "Frisk Hallon & Mynta",
-    "profile": ["frisk", "syrlig"],
+    "profile": ["Frisk", "Syrlig"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -89,13 +89,13 @@
       "Fett: 0 g",
       "Kolhydrater: 12 g"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Hallon-mynta.png"
+    "image": "/assets/smoothies/Low-Calorie/HallonOchMynta.png"
   },
   {
     "id": 4,
     "category": "Kalorisnåla",
     "name": "Jordgubb & Basilika",
-    "profile": ["söt", "fräsch", "örtig"],
+    "profile": ["Söt", "Fräsch", "Örtig"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -112,13 +112,13 @@
       "Fett: 0 g",
       "Kolhydrater: 13 g"
     ],
-    "image": "/assets/smoothies/Low-Calorie/jordgubb-basilika.png"
+    "image": "/assets/smoothies/Low-Calorie/JordgubbOchBasilika.png"
   },
   {
     "id": 5,
     "category": "Kalorisnåla",
     "name": "Rödbetsboost",
-    "profile": ["jordig", "fräsch"],
+    "profile": ["Jordig", "Fräsch"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -135,13 +135,13 @@
       "Fett: 0 g",
       "Kolhydrater: 16 g"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Rodbetsboost.png"
+    "image": "/assets/smoothies/Low-Calorie/RodbetaOchMorot.png"
   },
   {
     "id": 6,
     "category": "Kalorisnåla",
     "name": "Vattenmelon & Basilika",
-    "profile": ["svalkande", "söt"],
+    "profile": ["Svalkande", "Söt"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -157,13 +157,13 @@
       "Socker: 7 g",
       "Kalorier: 50 kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Vattenmelon-basilika.png"
+    "image": "/assets/smoothies/Low-Calorie/VattenmelonOchBasilika.png"
   },
   {
     "id": 7,
     "category": "Kalorisnåla",
     "name": "Kiwi & Selleri",
-    "profile": ["syrlig", "frisk"],
+    "profile": ["Syrlig", "Frisk"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -180,13 +180,13 @@
       "Socker: 7 g",
       "Kalorier: 65 kcal"
     ],
-    "image": "/assets/smoothies/Low-Calorie/Kiwi-selleri.png"
+    "image": "/assets/smoothies/Low-Calorie/KiwiOchSelleri.png"
   },
   {
     "id": 8,
     "category": "Krämiga",
     "name": "Grön Tropisk Fräschör",
-    "profile": ["frisk", "mild"],
+    "profile": ["Frisk", "Mild"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -202,13 +202,13 @@
       "Socker: 9 g",
       "Kalorier: 65 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Tropisk-gron-fraschor.png"
+    "image": "/assets/smoothies/Milky/GronTropiskFraschor.png"
   },
   {
     "id": 9,
     "category": "Krämiga",
-    "name": "Kokosdröm 🥥",
-    "profile": ["söt", "exotisk"],
+    "name": "Kokosdröm",
+    "profile": ["Söt", "Exotisk"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -230,7 +230,7 @@
     "id": 10,
     "category": "Krämiga",
     "name": "Krämig Vanilj & Banan",
-    "profile": ["söt", "mild"],
+    "profile": ["Söt", "Mild"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -245,13 +245,13 @@
       "fett: 2 g",
       "kalorier: 150 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Vanilj-banan.png"
+    "image": "/assets/smoothies/Milky/KramigVaniljOchBanan.png"
   },
   {
     "id": 11,
     "category": "Krämiga",
     "name": "Jordgubb & Grädde",
-    "profile": ["söt", "bärig"],
+    "profile": ["Söt", "Bärig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -266,13 +266,13 @@
       "socker: 8 g",
       "kalorier: 140 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Jordgubb-gradde.png"
+    "image": "/assets/smoothies/Milky/StrawberryAndCream.png"
   },
   {
     "id": 12,
     "category": "Krämiga",
     "name": "Kokos & Vit Choklad",
-    "profile": ["exotisk", "krämig"],
+    "profile": ["Exotisk", "Krämig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -288,13 +288,13 @@
       "socker: 7 g",
       "kalorier: 140 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Kokos-vitchoklad.png"
+    "image": "/assets/smoothies/Milky/CocosVitchoklad.png"
   },
   {
     "id": 13,
     "category": "Krämiga",
     "name": "Blåbär & Honung",
-    "profile": ["söt", "mild"],
+    "profile": ["Söt", "Mild"],
     "allergens": ["Laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -310,13 +310,13 @@
       "socker: 12 g",
       "kalorier: 170 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Blabar-Honung.png"
+    "image": "/assets/smoothies/Milky/BlabarOchHonung.png"
   },
   {
     "id": 14,
     "category": "Krämiga",
     "name": "Peach & Vanilj",
-    "profile": ["söt", "krämig"],
+    "profile": ["Söt", "Krämig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -333,13 +333,13 @@
       "socker: 15 g",
       "kalorier: 180 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Peach-vanilj.png"
+    "image": "/assets/smoothies/Milky/PeachOchVanilj.png"
   },
   {
     "id": 15,
     "category": "Krämiga",
     "name": "Mango & Ingefära",
-    "profile": ["tropisk", "kryddig"],
+    "profile": ["Tropisk", "Kryddig"],
     "allergens": ["Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -355,13 +355,13 @@
       "socker: 13 g",
       "kalorier: 180 kcal"
     ],
-    "image": "/assets/smoothies/Milky/Mango-ingefara.png"
+    "image": "/assets/smoothies/Milky/MangoOchIngefara.png"
   },
   {
     "id": 16,
     "category": "Proteinrika",
     "name": "Blåbärsboost",
-    "profile": ["söt", "mild"],
+    "profile": ["Söt", "Mild"],
     "allergens": ["Nötter", "Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -378,13 +378,13 @@
       "socker: 8 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/Blabarsboost.png"
   },
   {
     "id": 17,
     "category": "Proteinrika",
-    "name": "Choklad & Banan 🍫🍌",
-    "profile": ["söt", "chokladig"],
+    "name": "Choklad & Banan",
+    "profile": ["Söt", "Chokladig"],
     "allergens": ["Nötter", "Laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -401,13 +401,13 @@
       "socker: 12 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/ChockladOchBanan.png"
   },
   {
     "id": 18,
     "category": "Proteinrika",
     "name": "Vanilj & Mandel",
-    "profile": ["krämig", "mild"],
+    "profile": ["Krämig", "Mild"],
     "allergens": ["nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -423,13 +423,13 @@
       "Socker: 4 g",
       "Kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/VaniljMandel.png"
   },
   {
     "id": 19,
     "category": "Proteinrika",
     "name": "Grön Proteinkick",
-    "profile": ["frisk", "fräsch"],
+    "profile": ["Frisk", "Fräsch"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -446,13 +446,13 @@
       "Socker: 9 g",
       "Kalorier: 130 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/GronProteinkick.png"
   },
   {
     "id": 20,
     "category": "Proteinrika",
     "name": "Jordnöt & Banan",
-    "profile": ["söt", "nötig"],
+    "profile": ["Söt", "Nötig"],
     "allergens": ["nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -469,13 +469,13 @@
       "Socker: 12 g",
       "Kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/JordnotOchBanan.png"
   },
   {
     "id": 21,
     "category": "Proteinrika",
     "name": "Mango & Kokos",
-    "profile": ["söt", "exotisk"],
+    "profile": ["Söt", "Exotisk"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -491,13 +491,13 @@
       "Socker: 10 g",
       "Kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/MangoKokos.png"
   },
   {
     "id": 22,
     "category": "Proteinrika",
     "name": "Hallon & Chia",
-    "profile": ["söt", "syrlig"],
+    "profile": ["Söt", "Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -514,13 +514,13 @@
       "Socker: 8 g",
       "Kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/proteinrika/HallonOchChia.png"
   },
   {
     "id": 23,
     "category": "Mättande",
     "name": "Havre & Blåbär",
-    "profile": ["mild", "krämig"],
+    "profile": ["Mild", "Krämig"],
     "allergens": ["gluten", "nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -537,13 +537,13 @@
       "Socker: 10 g",
       "Kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/HavreBlabar.png"
   },
   {
     "id": 24,
     "category": "Mättande",
     "name": "Choklad & Jordnöt",
-    "profile": ["nötig", "chokladig"],
+    "profile": ["Nötig", "Chokladig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -560,13 +560,13 @@
       "Socker: 11 g",
       "Kalorier: 190 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/ChokladOchJordnot.png"
   },
   {
     "id": 25,
     "category": "Mättande",
     "name": "Grön Avokadokraft",
-    "profile": ["krämig", "frisk"],
+    "profile": ["Krämig", "Frisk"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -583,13 +583,13 @@
       "Socker: 5 g",
       "Kalorier: 190 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/GronAvocadokraft.png"
   },
   {
     "id": 26,
     "category": "Mättande",
     "name": "Mango & Havre",
-    "profile": ["söt", "fruktig"],
+    "profile": ["Söt", "Fruktig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -605,13 +605,13 @@
       "Socker: 10 g",
       "Kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/MangoOchHavre.png"
   },
   {
     "id": 27,
     "category": "Mättande",
     "name": "Kanel & Äpple",
-    "profile": ["kryddig", "söt"],
+    "profile": ["Kryddig", "Söt"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -628,13 +628,13 @@
       "Socker: 9 g",
       "Kalorier: 170 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/KanelOchApple.png"
   },
   {
     "id": 28,
     "category": "Mättande",
     "name": "Jordgubb & Chia",
-    "profile": ["söt", "syrlig"],
+    "profile": ["Söt", "Syrlig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -651,13 +651,13 @@
       "Socker: 9 g",
       "Kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/JordgubbOchChia.png"
   },
   {
     "id": 29,
     "category": "Mättande",
     "name": "Nöt & Dadlar",
-    "profile": ["söt", "nötig"],
+    "profile": ["Söt", "Nötig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -673,13 +673,13 @@
       "socker: 12 g",
       "kalorier: 190 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/NotOchDadlar.png"
   },
   {
     "id": 30,
     "category": "Mättande",
     "name": "Kaffesmoothie",
-    "profile": ["krämig", "fyllig"],
+    "profile": ["Krämig", "Fyllig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -695,13 +695,13 @@
       "socker: 5 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/Kaffesmoothie.png"
   },
   {
     "id": 31,
     "category": "Mättande",
     "name": "Passion & Mango",
-    "profile": ["frisk", "exotisk"],
+    "profile": ["Frisk", "Exotisk"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -718,13 +718,13 @@
       "socker: 10 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/PassionOchMango.png"
   },
   {
     "id": 32,
     "category": "Mättande",
     "name": "Päron & Kardemumma",
-    "profile": ["mild", "kryddig"],
+    "profile": ["Mild", "Kryddig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -741,13 +741,13 @@
       "socker: 9 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Mättande/ParonKardemumma.png"
   },
   {
     "id": 33,
     "category": "Påskinspirerade",
     "name": "Påskens Morot & Ingefära",
-    "profile": ["frisk", "kryddig"],
+    "profile": ["Frisk", "Kryddig"],
     "allergens": ["gluten", "kvarg"],
     "portionsize": 2,
     "ingredients": [
@@ -765,13 +765,13 @@
       "socker: 10 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensMorotOchIngefara.png"
   },
   {
     "id": 34,
     "category": "Påskinspirerade",
     "name": "Påskens Jordgubb & Mango",
-    "profile": ["söt", "exotisk"],
+    "profile": ["Söt", "Exotisk"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -788,13 +788,13 @@
       "socker: 12 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensJordgubbMango.png"
   },
   {
     "id": 35,
     "category": "Påskinspirerade",
     "name": "Påskens Grönska",
-    "profile": ["frisk", "grön"],
+    "profile": ["Frisk", "Grön"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -811,13 +811,13 @@
       "socker: 9 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensGronska.png"
   },
   {
     "id": 36,
     "category": "Påskinspirerade",
     "name": "Påskens Äppelpaj",
-    "profile": ["kryddig", "söt"],
+    "profile": ["Kryddig", "Söt"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -834,13 +834,13 @@
       "socker: 10 g",
       "kalorier: 145 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensAppelpaj.png"
   },
   {
     "id": 37,
     "category": "Påskinspirerade",
     "name": "Påskens Citron & Chia",
-    "profile": ["frisk", "syrlig"],
+    "profile": ["Frisk", "Syrlig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -857,13 +857,13 @@
       "socker: 8 g",
       "kalorier: 130 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensCitronOchChia.png"
   },
   {
     "id": 38,
     "category": "Påskinspirerade",
     "name": "Påskens Morotskaka",
-    "profile": ["kryddig", "söt", "morotskaka"],
+    "profile": ["Kryddig", "Söt", "M orotskaka"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -881,13 +881,13 @@
       "socker: 12 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensMorotskaka.png"
   },
   {
     "id": 39,
     "category": "Påskinspirerade",
     "name": "Påskens Citron & Maräng",
-    "profile": ["frisk", "syrlig", "maräng"],
+    "profile": ["Frisk", "Syrlig", "Maräng"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -906,13 +906,13 @@
       "socker: 10 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/påsk/PaskensCitronMarang.png"
   },
   {
     "id": 40,
     "category": "Dessertinspirerade",
-    "name": "Chokladboll 🍫🥥",
-    "profile": ["chokladig", "nötig"],
+    "name": "Chokladboll",
+    "profile": ["Chokladig", "Nötig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -930,13 +930,13 @@
       "socker: 12 g",
       "kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Chokladboll.png"
   },
   {
     "id": 41,
     "category": "Dessertinspirerade",
-    "name": "Kladdkaka 🍫🍦",
-    "profile": ["chokladig", "krämig"],
+    "name": "Kladdkaka",
+    "profile": ["Chokladig", "Krämig"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -954,13 +954,13 @@
       "socker: 13 g",
       "kalorier: 190 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Kladdkaka.png"
   },
   {
     "id": 42,
     "category": "Dessertinspirerade",
-    "name": "Blåbärscheesecake 🫐🍰",
-    "profile": ["söt", "syrlig"],
+    "name": "Blåbärscheesecake",
+    "profile": ["Söt", "Syrlig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -977,13 +977,13 @@
       "socker: 12 g",
       "kalorier: 170 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Blabarscheesecake.png"
   },
   {
     "id": 43,
     "category": "Dessertinspirerade",
-    "name": "Banoffee 🍌🍯",
-    "profile": ["söt", "karamellig"],
+    "name": "Banoffee",
+    "profile": ["Söt", "Karamellig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1000,13 +1000,13 @@
       "socker: 14 g",
       "kalorier: 180 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Banoffee.png"
   },
   {
     "id": 44,
     "category": "Dessertinspirerade",
-    "name": "Choklad & Apelsin 🍫🍊",
-    "profile": ["chokladig", "citrus-toner"],
+    "name": "Choklad & Apelsin",
+    "profile": ["Chokladig", "Citrus-toner"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -1023,13 +1023,13 @@
       "socker: 9 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/ChokladOchApelsin.png"
   },
   {
     "id": 45,
     "category": "Dessertinspirerade",
-    "name": "Kanelbulle 🥐🍯",
-    "profile": ["kanel", "söt"],
+    "name": "Kanelbulle",
+    "profile": ["Kanel", "Söt"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -1046,13 +1046,13 @@
       "socker: 14 g",
       "kalorier: 170 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Kanelbulle.png"
   },
   {
     "id": 46,
     "category": "Dessertinspirerade",
-    "name": "Hallonpannacotta 🍓🍮",
-    "profile": ["krämig", "fruktig", "vanilj"],
+    "name": "Hallonpannacotta",
+    "profile": ["Krämig", "Fruktig", "Vanilj"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -1070,13 +1070,13 @@
       "socker: 12 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Dessert/Hallonpannacotta.png"
   },
   {
     "id": 47,
     "category": "Somriga",
-    "name": "Fläderdröm 🍓🌸",
-    "profile": ["söt", "blommig"],
+    "name": "Fläderdröm",
+    "profile": ["Söt", "Blommig"],
     "allergens": ["laktos", "gluten"],
     "portionsize": 2,
     "ingredients": [
@@ -1093,13 +1093,13 @@
       "socker: 8 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/FladerDrom.png"
   },
   {
     "id": 48,
     "category": "Somriga",
-    "name": "Rabarber & Vanilj 🌱🍦",
-    "profile": ["frisk", "syrlig"],
+    "name": "Rabarber & Vanilj",
+    "profile": ["Frisk", "Syrlig"],
     "allergens": ["laktos", "gluten"],
     "portionsize": 2,
     "ingredients": [
@@ -1116,13 +1116,13 @@
       "socker: 9 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/RabarberVanilj.png"
   },
   {
     "id": 49,
     "category": "Somriga",
-    "name": "Hjortron & Grädde 🍊🍦",
-    "profile": ["lyxig", "krämig"],
+    "name": "Hjortron & Grädde",
+    "profile": ["Lyxig", "Krämig"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
     "ingredients": [
@@ -1139,13 +1139,13 @@
       "socker: 9 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/HjortronGradde.png"
   },
   {
     "id": 50,
     "category": "Somriga",
-    "name": "Rabarber & Jordgubb 🌸🍓",
-    "profile": ["söt", "syrlig"],
+    "name": "Rabarber & Jordgubb",
+    "profile": ["Söt", "Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1161,13 +1161,13 @@
       "socker: 10 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/RabarberJordgubb.png"
   },
   {
     "id": 51,
     "category": "Somriga",
-    "name": "Melon & Mynta 🍉🌱",
-    "profile": ["frisk", "svalkande"],
+    "name": "Melon & Mynta",
+    "profile": ["Frisk", "Svalkande"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1184,13 +1184,13 @@
       "socker: 10 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/MelonMynta.png"
   },
   {
     "id": 52,
     "category": "Somriga",
-    "name": "Passionsfrukt & Ananas 🍍🍊",
-    "profile": ["tropisk", "syrlig"],
+    "name": "Passionsfrukt & Ananas",
+    "profile": ["Tropisk", "Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1207,13 +1207,13 @@
       "socker: 13 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Sommar/PassionsfruktAnanas.png"
   },
   {
     "id": 53,
     "category": "Tropiska",
-    "name": "Tropisk Dröm 🥭🍍",
-    "profile": ["söt", "fruktig", "tropiskt paradis"],
+    "name": "Tropisk Dröm",
+    "profile": ["Söt", "Fruktig", "Tropiskt paradis"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1231,13 +1231,13 @@
       "socker: 18 g",
       "kalorier: 170 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskDrom.png"
   },
   {
     "id": 54,
     "category": "Tropiska",
-    "name": "Passionsfrukt & Banan 🥥🍌",
-    "profile": ["frisk", "syrlig", "tropisk sötma"],
+    "name": "Passionsfrukt & Banan",
+    "profile": ["Frisk", "Syrlig", "Tropisk sötma"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1254,13 +1254,13 @@
       "socker: 12 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/PassionfruktOchBanan.png"
   },
   {
     "id": 55,
     "category": "Tropiska",
-    "name": "Papaya Coconut 🍈🍋",
-    "profile": ["frisk", "syrlig", "exotisk papaya"],
+    "name": "Papaya Coconut",
+    "profile": ["Frisk", "Syrlig", "Exotisk papaya"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1277,13 +1277,13 @@
       "socker: 10 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/PapayaCoconut.png"
   },
   {
     "id": 56,
     "category": "Tropiska",
-    "name": "Mango & Kokos 🥭🥥",
-    "profile": ["söt", "exotisk", "krämig kokos"],
+    "name": "Mango & Kokos",
+    "profile": ["Söt", "Exotisk", "Krämig kokos"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1299,13 +1299,13 @@
       "socker: 14 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/"
   },
   {
     "id": 57,
     "category": "Tropiska",
-    "name": "Tropisk Grön Smoothie 🥥🥒",
-    "profile": ["frisk", "grön", "tropisk sötma"],
+    "name": "Tropisk Grön Smoothie",
+    "profile": ["Frisk", "Grön", "Tropisk sötma"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1323,13 +1323,13 @@
       "socker: 12 g",
       "kalorier: 140 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskGronSmoothie.png"
   },
   {
     "id": 58,
     "category": "Tropiska",
-    "name": "Tropisk Mango & Kiwi Smoothie 🍍🥝",
-    "profile": ["söt", "fruktig", "uppfriskande syra"],
+    "name": "Tropisk Mango & Kiwi Smoothie",
+    "profile": ["Söt", "Fruktig", "Uppfriskande syra"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1346,13 +1346,13 @@
       "socker: 16 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskMangoKiwi.png"
   },
   {
     "id": 59,
     "category": "Tropiska",
-    "name": "Tropisk Pina Colada Smoothie 🍍🥥",
-    "profile": ["krämig", "söt", "klassisk pina colada"],
+    "name": "Tropisk Pina Colada Smoothie",
+    "profile": ["Krämig", "Söt", "Klassisk pina colada"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1369,13 +1369,13 @@
       "socker: 14 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskPinaColada.png"
   },
   {
     "id": 60,
     "category": "Tropiska",
     "name": "Tropisk Coconut & Passionfruit Smoothie",
-    "profile": ["krämig", "exotisk", "syrlig kick"],
+    "profile": ["Krämig", "Exotisk", "Syrlig kick"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1392,13 +1392,13 @@
       "socker: 15 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskCoconutPassion.png"
   },
   {
     "id": 61,
     "category": "Tropiska",
     "name": "Tropisk Drakfrukt & Mango",
-    "profile": ["söt", "exotisk", "friskt fruktig"],
+    "profile": ["Söt", "Exotisk", "Friskt fruktig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1415,13 +1415,13 @@
       "socker: 16 g",
       "kalorier: 150 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/TropiskDrakfruktMango.png"
   },
   {
     "id": 62,
     "category": "Tropiska",
-    "name": "Tropisk Papaya & Banan Smoothie 🍌🥥",
-    "profile": ["krämig", "söt", "tropisk värme"],
+    "name": "Tropisk Papaya & Banan Smoothie",
+    "profile": ["Krämig", "Söt", "Tropisk värme"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "ingredients": [
@@ -1438,6 +1438,6 @@
       "socker: 18 g",
       "kalorier: 160 kcal"
     ],
-    "image": ""
+    "image": "assets/smoothies/Tropiska/PapayaBanan.png"
   }
 ]
