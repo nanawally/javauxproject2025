@@ -3,7 +3,6 @@ import styles from "./AboutPage.module.css";
 export function AboutPage() {
   return (
     <>
-      <main className={styles.aboutTheme}>
         <div className={styles.bigTextContainer}>
           <h1 className={styles.textContainers}>Hej smoothieälskare!</h1>
           <p className={styles.textContainers}>
@@ -23,7 +22,6 @@ export function AboutPage() {
           </p>
           <h3 className={styles.textContainers}>-Smoothify Teamet</h3>
         </div>
-      </main>
     </>
   );
 }
