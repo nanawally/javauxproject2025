@@ -7,12 +7,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
 import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
 import { CustomHeader } from "./components/UI/CustomHeader";
-import RecipeRoute from "./routes/recipe";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
