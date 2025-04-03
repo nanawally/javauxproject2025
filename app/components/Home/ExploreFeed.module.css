@@ -1,6 +1,9 @@
 .list {
     margin: 0;
     padding: 0;
+
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
 }
 
 .list>li {
@@ -64,7 +67,7 @@ a>p {
 .recipeLink {
     display: flex;
     align-items: center;
-    padding-left: 20%;
+    justify-content: center;
 }
 
 @media (max-width: 431px) {
