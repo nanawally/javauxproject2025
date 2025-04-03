@@ -9,7 +9,7 @@
 .recipeContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
 }
 
 .center {
@@ -42,6 +42,7 @@
 @media (max-width: 768px) {
   .center {
     flex-direction: column;
+    margin-bottom: 1vh;
   }
 
   .center h2 {
