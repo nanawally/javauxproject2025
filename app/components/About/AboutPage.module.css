@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/font/Inter-Regular") format("regular");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("assets/font/Inter") format("bold");
+  font-weight: 600;
+  font-style: bold;
+}
+
+.aboutTheme {
+  position: relative;
+  top: 4rem;
+  /*display: flex;
+  flex-direction: column;*/
+  display: grid;
+  margin: 0;
+  min-height: calc(100vh - 4rem);
+  width: 100%;
+}
+
+.textContainer {
+  display: grid;
+  grid-column: 5 / span 5;
+  justify-content: center;
+  font-style: Inter;
+  color: #e60035;
+}
+
+.textContainer > h1 {
+  font-weight: 600;
+}
+
+/*
+.center {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+
+.placeholderBackground {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  width: 80%;
+}
+
+.placeholderWrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  width: 80%;
+}
+
+.placeholderText {
+  font-family: Inter;
+  display: inherit;
+  background-color: #db98bab9;
+
+  padding: 10px;
+  border: 2px;
+  border-radius: 15px;
+}
+*/
+
+@media (min-width: 1024px) {
+  main {
+    background-image: url("./background-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 431px) {
+  .placeholderWrapper {
+    width: 40%;
+  }
+  .placeholderBackground {
+    /*width: 40%;*/
+    background-image: url("./background-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
