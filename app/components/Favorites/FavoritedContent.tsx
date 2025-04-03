@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useRecipeContext } from "../Recipes/RecipeContext";
 import styles from "./FavoritedContent.module.css"
+import { FavoriteButton } from "./FavoriteButton";
 
 export function FavoritedContent() {
     const { recipes, favorites, setRecipeIndex } = useRecipeContext();
@@ -23,15 +24,15 @@ export function FavoritedContent() {
             ) : (
                 <div className={styles.list}>
                     {favoritedRecipes.map((recipe) => (
-                        <div className={styles.recipeWrapper}>
+                        <div className={styles.recipeWrapper} key={recipe.id}>
                             <Link to="../recipe"
-                                key={recipe.id}
                                 className={styles.recipeLink}
                                 onClick={() => handleRecipeClick(recipe.id)}
                             >
                                 <img src={recipe.image} alt={recipe.name} />
                                 <h3>{recipe.name}</h3>
                             </Link>
+                            <FavoriteButton recipeId={recipe.id}/>
                         </div>
                     ))}
                 </div>

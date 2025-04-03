@@ -1,74 +1,1443 @@
 [
   {
     "id": 0,
-    "name": "Melon & Banan",
-    "description": "Bananen mår bäst av att lämnas i en egen fruktskål. Många andra frukter utsöndrar etylengas som gör att bananen mognar snabbare och blir brun och dålig.",
-    "amount": "2 glas",
+    "category": "Kalorisnåla",
+    "name": "Frisk grön boost",
+    "profile": ["Frisk", "Syrlig"],
+    "allergens": [""],
+    "portionsize": 2,
     "ingredients": [
-      "1 honungsmelon",
-      "2 bananer",
-      "1 dl färskpressad äppeljuice",
-      "1 lime"
+      "1 grönt äpple",
+      "1 näve spenat",
+      "1/2 gurka",
+      "2 dl vatten",
+      "1/2 citronjuice",
+      "5 isbitar"
     ],
-    "instructions": "Skala bananerna och lägg ner dem i mixern. Skär melonen mitt itu, skär bort kärnor och skal och tillsätt fruktköttet i mixern. Skär limen mitt itu och pressa ner fruktjuicen i mixern, men se till att inga kärnor kommer med eftersom det ger smoothien en besk smak. Tillsätt den färskpressade apelsinjuicen. Mixa till en tjockflytande smoothie.\nServera med en skiva melon som tilltugg.",
-    "tips": "TIPS! Du kan byta ut honungsmelonen mot andra melonsorter för variation, t.ex. vattenmelon, galiamelon eller cantaloupemelon.",
-    "category": ["Sött", "Snabbt"],
-    "image": "/assets/smoothies/Banansmoothie.jpg",
-    "rating": 0
+    "instructions": "Kärna ur och hacka äpplen. Ha i alla ingredienser i en mixer och kör tills smoothien är slät. Häll upp och njut!",
+    "nutrition": [
+      "protein: 1,5g",
+      "kolhydrater: 12g",
+      "Socker: 8g",
+      "Kalorier: 60kcal"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/FriskGronBoost.png"
   },
   {
     "id": 1,
-    "name": "Blåbär & Banan",
-    "description": "Blåbär är fulla av antioxidanter och ger en frisk och fyllig smak. Perfekt för en energifylld start på dagen!",
-    "amount": "2 glas",
+    "category": "Kalorisnåla",
+    "name": "Bärig Dröm",
+    "profile": ["Sött", "Friskt"],
+    "allergens": [""],
+    "portionsize": 2,
     "ingredients": [
-        "2 dl färska eller frysta blåbär",
-        "1 banan",
-        "2 dl naturell yoghurt eller växtbaserad alternativ",
-        "1 dl apelsinjuice",
-        "4 isbitar",
-        "1 tsk honung (valfritt)"
+      "1 dl frysta blåbär",
+      "1 dl frysta hallon",
+      "2 dl vatten",
+      "1 tsk chiafrön"
     ],
-    "instructions": "Lägg blåbär, banan, yoghurt, apelsinjuice och isbitar i en mixer. Mixa tills smoothien är slät. Smaka av och tillsätt honung om du vill ha den sötare.\nServera direkt med några färska blåbär på toppen.",
-    "tips": "TIPS! För en extra krämig smoothie, använd frysta blåbär och en fryst banan.",
-    "category": ["Antioxidant", "Fruktig"],
-    "image": "/assets/smoothies/Blåbärsmoothie.jpg",
-    "rating": 0
-},
+    "instructions": "Lägg chiafröna i 1 dl vattnet en stund så de absorberar vätska för en mer mättande känsla. Mixa bären med 1 dl vatten. Häll upp i ett glas och vänd ner andra delen av vatten/chiafrö mixen. Njut av en härligt bärig och mättande smoothie!",
+    "nutrition": [
+      "Protein: 2 g",
+      "Kolhydrater: 14 g",
+      "Socker: 9 g",
+      "Kalorier: 75 kcal"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/BarigDrom.png"
+  },
   {
     "id": 2,
-    "name": "Hallon och Blåbär",
-    "description": "Hallon och blåbär är en klassisk kombination fylld med antioxidanter och frisk bärsmak. Perfekt för en snabb och nyttig start på dagen!",
-    "amount": "2 glas",
+    "category": "Kalorisnåla",
+    "name": "Citrusfrisk Kick",
+    "profile": ["Syrlig", "Uppfriskande"],
+    "allergens": [""],
+    "portionsize": 2,
     "ingredients": [
-        "3 dl hallon",
-        "2 dl blåbär",
-        "2 dl färsk äppeljuice",
-        "1 tsk honung (valfritt)",
-        "isbitar"
+      "1 apelsin",
+      "Saften från 1/2 citron",
+      "1 dl frysta mango­ bitar",
+      "2 dl vatten",
+      "5 isbitar"
     ],
-    "instructions": "Tvätta alla bär noggrant. Mixa alla ingredienser till en slät och tjockflytande smoothie.\nServera med några färska hallon och blåbär på toppen.",
-    "tips": "TIPS! För en extra krämig smoothie, byt ut hälften av äppeljuicen mot naturell yoghurt.",
-    "category": ["Friskt", "Snabbt"],
-    "image": "/assets/smoothies/Hallon-blåbärsmoothie.jpg",
-    "rating": 0
-},
+    "instructions": "Skala och dela apelsinen. Lägg alla ingredienser i mixern och kör tills slätt. Ha i mer is för en mer slushy textur. Servera och njut av en fräsch citrusboost!",
+    "nutrition": [
+      "Protein: 1 g",
+      "Kolhydrater: 18 g",
+      "Socker: 14 g",
+      "Kalorier: 80 kcal"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/CitrusfriskKick.png"
+  },
   {
     "id": 3,
-    "name": "Sommarbär",
-    "description": "Om du vill leta efter de goda vildhallonen är det bra att söka på gamla hyggen eller i skogen ett par år efter en skogsbrand. Där får de mycket ljus och kväve. Norr om Luleå lappmark är det svårt att finna hallon, annars går de att hitta i större delen av Sverige (förutom på det kalkrika Gotland).",
-    "amount": "2 glas",
+    "category": "Kalorisnåla",
+    "name": "Frisk Hallon & Mynta",
+    "profile": ["Frisk", "Syrlig"],
+    "allergens": [""],
+    "portionsize": 2,
     "ingredients": [
-      "2 äpplen",
-      "1 dl jordgubbar",
-      "1 banan",
-      "1 dl hallon",
-      "1 dl blåbär"
+      "1 dl frysta hallon",
+      "1 dl vatten",
+      "5 myntablad",
+      "Saften från 1/2 lime",
+      "5 isbitar"
     ],
-    "instructions": "Tvätta all frukt. Spola av alla bären. Skär äpplena i bitar och kör genom en juicepress eller råsaftcentrifug. Snoppa jordgubbarna, skala bananerna och mixa alla ingredienser tillsammans med äppeljuice till en slät smoothie.\nServera med hallon och blåbär på en cocktailpinne.",
-    "tips": "TIPS! Byt ut äppeljuicen mot 3 dl naturell yoghurt om du vill ha en matigare smoothie. Smaksätt med lite honung eller vaniljhonung.",
-    "category": ["Sött", "Matig"],
-    "image": "/assets/smoothies/Jordgubbsmoothie.jpg",
-    "rating": 0
+    "instructions": "Lägg myntabladen och limesaften i mixern och låt dra i 2 minuter för att framhäva smakerna. Tillsätt de frysta hallonen, vatten och isbitar. Pulsmixa i 10 sekunders intervaller för att få en luftig och fräsch smoothie. Häll upp och njut av en svalkande hallonboost!",
+    "nutrition": [
+      "Kalorier: 50 kcal",
+      "Protein: 1 g",
+      "Fett: 0 g",
+      "Kolhydrater: 12 g"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/HallonOchMynta.png"
+  },
+  {
+    "id": 4,
+    "category": "Kalorisnåla",
+    "name": "Jordgubb & Basilika",
+    "profile": ["Söt", "Fräsch", "Örtig"],
+    "allergens": [""],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta jordgubbar",
+      "1 dl vatten",
+      "4 basilikablad",
+      "1/2 tsk honung (valfritt)",
+      "5 isbitar"
+    ],
+    "instructions": "Låt jordgubbarna tina i 5 minuter för en sötare och mer intensiv smak. Riv basilikabladen för hand innan de tillsätts för att frigöra aromerna. Mixa på medelhög hastighet i 30 sekunder, skrapa ner kanterna och mixa i ytterligare 10 sekunder. Häll upp och njut av sommarkänsla året runt!",
+    "nutrition": [
+      "Kalorier: 55 kcal",
+      "Protein: 1 g",
+      "Fett: 0 g",
+      "Kolhydrater: 13 g"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/JordgubbOchBasilika.png"
+  },
+  {
+    "id": 5,
+    "category": "Kalorisnåla",
+    "name": "Rödbetsboost",
+    "profile": ["Jordig", "Fräsch"],
+    "allergens": [""],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 liten rödbeta",
+      "1 morot",
+      "1/2 äpple",
+      "2 dl vatten",
+      "5 isbitar"
+    ],
+    "instructions": "Skala och riv moroten och rödbetan för att förenkla mixningen. Skär äpplet i mindre bitar och ta bort kärnhuset. Fyll mixern med vatten och låt ingredienserna dra i 5 minuter för att mjuka upp fibrerna. Mixa långsamt i 30 sekunder innan du ökar till hög hastighet för att få en slät och lätt smoothie. Häll upp och njut av en färgexplosion!",
+    "nutrition": [
+      "Kalorier: 70 kcal",
+      "Protein: 1 g",
+      "Fett: 0 g",
+      "Kolhydrater: 16 g"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/RodbetaOchMorot.png"
+  },
+  {
+    "id": 6,
+    "category": "Kalorisnåla",
+    "name": "Vattenmelon & Basilika",
+    "profile": ["Svalkande", "Söt"],
+    "allergens": [""],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl vattenmelon",
+      "2 dl vatten",
+      "4-5 basilikablad",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är slät. Häll upp och njut! Tips: Perfekt en varm sommardag!",
+    "nutrition": [
+      "Protein: 1 g",
+      "Kolhydrater: 9 g",
+      "Socker: 7 g",
+      "Kalorier: 50 kcal"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/VattenmelonOchBasilika.png"
+  },
+  {
+    "id": 7,
+    "category": "Kalorisnåla",
+    "name": "Kiwi & Selleri",
+    "profile": ["Syrlig", "Frisk"],
+    "allergens": [""],
+    "portionsize": 2,
+    "ingredients": [
+      "1 kiwi",
+      "1 selleristjälk",
+      "2 dl vatten",
+      "Saften från 1/2 citron",
+      "5 isbitar"
+    ],
+    "instructions": "Skär kiwin och sellerin i bitar. Lägg alla ingredienser i mixern och mixa tills smoothien är slät. Häll upp och njut av en fräsch vitaminboost! Tips: Perfekt som detoxsmoothie!",
+    "nutrition": [
+      "Protein: 2 g",
+      "Kolhydrater: 10 g",
+      "Socker: 7 g",
+      "Kalorier: 65 kcal"
+    ],
+    "image": "/assets/smoothies/Low-Calorie/KiwiOchSelleri.png"
+  },
+  {
+    "id": 8,
+    "category": "Krämiga",
+    "name": "Grön Tropisk Fräschör",
+    "profile": ["Frisk", "Mild"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mango­ bitar",
+      "1/2 gurka",
+      "1 dl grekisk yoghurt",
+      "5 myntablad"
+    ],
+    "instructions": "Skiva gurkan tunt och lägg i mixern tillsammans med mangobitarna. Mortla myntabladen för att frigöra smakerna innan du lägger dem i mixern. Ha i yoghurten och mixa på hög hastighet i 45 sekunder tills smoothien är helt slät. Häll upp i ett glas med isbitar och njut av en svalkande grön smoothie!",
+    "nutrition": [
+      "Protein: 1,2 g",
+      "Kolhydrater: 12 g",
+      "Socker: 9 g",
+      "Kalorier: 65 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/GronTropiskFraschor.png"
+  },
+  {
+    "id": 9,
+    "category": "Krämiga",
+    "name": "Kokosdröm",
+    "profile": ["Söt", "Exotisk"],
+    "allergens": [""],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl fryst ananas",
+      "1 dl fryst mango",
+      "2 dl kokosyoghurt",
+      "1 tsk kokosflingor"
+    ],
+    "instructions": "Låt de frysta frukterna tina några minuter för en mer intensiv sötma. Mixa ingredienserna på hög hastighet i 45 sekunder tills smoothien blir len och fluffig. Häll upp i ett kylt glas och toppa med extra kokosflingor för den ultimata tropiska upplevelsen.",
+    "nutrition": [
+      "Kalorier: 95 kcal",
+      "Protein: 1 g",
+      "Fett: 2 g",
+      "Kolhydrater: 18 g"
+    ],
+    "image": "/assets/smoothies/Milky/Kokosdrom.png"
+  },
+  {
+    "id": 10,
+    "category": "Krämiga",
+    "name": "Krämig Vanilj & Banan",
+    "profile": ["Söt", "Mild"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "2 dl vaniljyoghurt",
+      "1 tesked vaniljpulver"
+    ],
+    "instructions": "Skiva bananen och lägg i frysen i 15 minuter för en extra krämig smoothie. (Går bra utan). Häll ner alla ingredienser i mixern och mixa på medelhög hastighet i 1 minut. Skrapa ner eventuella bitar från kanterna och mixa i ytterligare 15 sekunder för maximal krämighet. Häll upp och njut av en len vaniljdröm!",
+    "nutrition": [
+      "protein: 4 g",
+      "kolhydrater: 30 g",
+      "fett: 2 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/KramigVaniljOchBanan.png"
+  },
+  {
+    "id": 11,
+    "category": "Krämiga",
+    "name": "Jordgubb & Grädde",
+    "profile": ["Söt", "Bärig"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "2 dl frysta jordgubbar",
+      "1 dl vaniljkvarg",
+      "1 dl turkisk yoghurt"
+    ],
+    "instructions": "Mixa all yoghurt och kvarg med 1 dl jordgubbar i ca 20 sekunder. Ha i 1 dl jordgubbar till och mixa för extra krämig textur. Servera i högt glas och njut!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 13 g",
+      "socker: 8 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/StrawberryAndCream.png"
+  },
+  {
+    "id": 12,
+    "category": "Krämiga",
+    "name": "Kokos & Vit Choklad",
+    "profile": ["Exotisk", "Krämig"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl naturell kvarg",
+      "2 dl osötad kokosmjölk",
+      "1 tesked riven vit choklad",
+      "2 msk riven kokos"
+    ],
+    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är len och fluffig. Häll upp och njut!",
+    "nutrition": [
+      "protein: 11 g",
+      "kolhydrater: 10 g",
+      "socker: 7 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/CocosVitchoklad.png"
+  },
+  {
+    "id": 13,
+    "category": "Krämiga",
+    "name": "Blåbär & Honung",
+    "profile": ["Söt", "Mild"],
+    "allergens": ["Laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta blåbär",
+      "1 dl naturell yoghurt",
+      "2 dl osötad mandelmjölk",
+      "1 tesked honung"
+    ],
+    "instructions": "Lägg de frysta blåbären, yoghurt och mandelmjölk i mixern. Tillsätt honung för sötma. Mixa på hög hastighet tills smoothien är slät och krämig. Smaka av och justera sötman om så önskas. Häll upp i glas och servera direkt.",
+    "nutrition": [
+      "protein: 15 g",
+      "kolhydrater: 20 g",
+      "socker: 12 g",
+      "kalorier: 170 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/BlabarOchHonung.png"
+  },
+  {
+    "id": 14,
+    "category": "Krämiga",
+    "name": "Peach & Vanilj",
+    "profile": ["Söt", "Krämig"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta persikobitar",
+      "1 dl vaniljyoghurt",
+      "2 dl osötad mandelmjölk",
+      "1 tesked honung",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg de frysta persikobitarna, vaniljyoghurt och mandelmjölk i mixern. Tillsätt honung för extra sötma. Mixa på hög hastighet tills smoothien blir slät och krämig. Lägg i isbitar och mixa igen tills smoothien är kall och fluffig. Smaka av och justera sötman om du vill ha mer sötma. Häll upp i glas och servera direkt.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 22 g",
+      "socker: 15 g",
+      "kalorier: 180 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/PeachOchVanilj.png"
+  },
+  {
+    "id": 15,
+    "category": "Krämiga",
+    "name": "Mango & Ingefära",
+    "profile": ["Tropisk", "Kryddig"],
+    "allergens": ["Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl fryst mango",
+      "1 dl naturell yoghurt",
+      "2 dl osötad kokosmjölk",
+      "1/2 tesked riven ingefära"
+    ],
+    "instructions": "Lägg mangon, yoghurt och kokosmjölk i mixern. Tillsätt riven ingefära för en kryddig twist. Mixa på hög hastighet tills smoothien är slät och krämig. Smaka av och justera sötman med honung om du vill. Häll upp i glas och servera direkt.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 19 g",
+      "socker: 13 g",
+      "kalorier: 180 kcal"
+    ],
+    "image": "/assets/smoothies/Milky/MangoOchIngefara.png"
+  },
+  {
+    "id": 16,
+    "category": "Proteinrika",
+    "name": "Blåbärsboost",
+    "profile": ["Söt", "Mild"],
+    "allergens": ["Nötter", "Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta blåbär",
+      "1 dl lättkvarg",
+      "1 dl osötad mandelmjölk",
+      "1 tesked chiafrön",
+      "5 isbitar"
+    ],
+    "instructions": "Börja med att lägga de frysta blåbären i mixern med kvargen följt av mandelmjölken och chiafröna. Tillsätt isbitarna för en kall och uppfriskande smoothie. Mixa på hög hastighet i cirka 30 sekunder tills allt är jämnt blandat och slätt. Häll upp smoothien i ett glas och servera direkt.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 14 g",
+      "socker: 8 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/Blabarsboost.png"
+  },
+  {
+    "id": 17,
+    "category": "Proteinrika",
+    "name": "Choklad & Banan",
+    "profile": ["Söt", "Chokladig"],
+    "allergens": ["Nötter", "Laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "1 dl vanilj kvarg",
+      "1 tesked kakao",
+      "2 dl osötad mandelmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Skala bananen och lägg den i mixern tillsammans med kvarg, kakao och mandelmjölk. Lägg till isbitar för att få en kall och krämig smoothie. Mixa på hög hastighet tills alla ingredienser är blandade och smoothien är krämig. Smaka av och justera sötman med honung eller agavesirap om så önskas. Häll upp i ett glas och njut!",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 18 g",
+      "socker: 12 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/ChockladOchBanan.png"
+  },
+  {
+    "id": 18,
+    "category": "Proteinrika",
+    "name": "Vanilj & Mandel",
+    "profile": ["Krämig", "Mild"],
+    "allergens": ["nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl vanilj kvarg",
+      "2 dl osötad mandelmjölk",
+      "1 tesked mandelsmör",
+      "1/2 tesked vaniljpulver"
+    ],
+    "instructions": "Häll kvarg, mjölk och mandelsmör i mixern. Tillsätt vaniljpulver för extra söt smak. Mixa på hög hastighet tills alla ingredienser har blandats ordentligt och smoothien är slät. Smaka av och justera sötman efter behov, till exempel med lite honung eller stevia. Häll upp i ett glas och njut!",
+    "nutrition": [
+      "protein: 15 g",
+      "kolhydrater: 8 g",
+      "Socker: 4 g",
+      "Kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/VaniljMandel.png"
+  },
+  {
+    "id": 19,
+    "category": "Proteinrika",
+    "name": "Grön Proteinkick",
+    "profile": ["Frisk", "Fräsch"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta gröna ärtor",
+      "1/2 grönt äpple",
+      "1 dl naturell kvarg",
+      "1 dl vatten",
+      "Saften från 1/2 citron"
+    ],
+    "instructions": "Lägg de frysta ärtorna och det gröna äpplet (skuret i bitar) i mixern. Tillsätt kvarg, vatten och citronsaft. Mixa på hög hastighet tills smoothien är jämn och krämig. Om smoothien är för tjock, tillsätt lite mer vatten för att justera konsistensen. Häll upp och servera i ett glas. För extra fräschör, tillsätt några isbitar.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 14 g",
+      "Socker: 9 g",
+      "Kalorier: 130 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/GronProteinkick.png"
+  },
+  {
+    "id": 20,
+    "category": "Proteinrika",
+    "name": "Jordnöt & Banan",
+    "profile": ["Söt", "Nötig"],
+    "allergens": ["nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "1 tesked jordnötssmör",
+      "1 dl naturell kvarg",
+      "2 dl osötad mandelmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Skala bananen och lägg den i mixern. Tillsätt jordnötssmör, kvarg och mjölk. Lägg till isbitar för att få en kylig och krämig smoothie. Mixa på hög hastighet tills smoothien är helt slät. Om du vill ha en sötare smak, tillsätt lite honung eller lönnsirap. Häll upp i ett glas och njut av en proteinrik dryck.",
+    "nutrition": [
+      "protein: 16 g",
+      "kolhydrater: 18 g",
+      "Socker: 12 g",
+      "Kalorier: 180 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/JordnotOchBanan.png"
+  },
+  {
+    "id": 21,
+    "category": "Proteinrika",
+    "name": "Mango & Kokos",
+    "profile": ["Söt", "Exotisk"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mangobitar",
+      "1 dl naturell kvarg",
+      "2 dl osötad kokosmjölk",
+      "1 tesked riven kokos"
+    ],
+    "instructions": "Lägg de frysta mangobitarna i mixern och tillsätt kvarg och kokosmjölk. Mixa tills smoothien är slät och krämig. Tillsätt riven kokos och mixa kort för att blanda. Smaka av och om du vill ha en mer tropisk smak, tillsätt en skvätt limejuice. Häll upp i ett glas och njut av en tropisk smakupplevelse!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 14 g",
+      "Socker: 10 g",
+      "Kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/MangoKokos.png"
+  },
+  {
+    "id": 22,
+    "category": "Proteinrika",
+    "name": "Hallon & Chia",
+    "profile": ["Söt", "Syrlig"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta hallon",
+      "1 dl naturell kvarg",
+      "1 tesked chiafrön",
+      "2 dl osötad havremjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Blanda chiafrön och kvarg i ditt glas med en sked. Låt stå i 5-10 minuter så dom sväller. Ha hallonen, mjölken och isbitar i mixern. Mixa på hög hastighet tills allt är blandat och smoothien är jämn. Smaka av och justera konsistensen med mer havremjölk om den är för tjock. Häll upp över din chiapudding.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 18 g",
+      "Socker: 8 g",
+      "Kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/proteinrika/HallonOchChia.png"
+  },
+  {
+    "id": 23,
+    "category": "Mättande",
+    "name": "Havre & Blåbär",
+    "profile": ["Mild", "Krämig"],
+    "allergens": ["gluten", "nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta blåbär",
+      "1 dl naturell kvarg",
+      "2 msk havregryn",
+      "1/2 banan",
+      "2 dl osötad mandelmjölk"
+    ],
+    "instructions": "Lägg de frysta blåbären, havregrynen, bananen och kvargen i mixern. Tillsätt mandelmjölken för en krämig konsistens. Mixa på hög hastighet tills allt är väl blandat och smoothien är slät. Häll upp i ett glas och njut av en fruktig och mättande blåbärsbomb!",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 22 g",
+      "Socker: 10 g",
+      "Kalorier: 180 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/HavreBlabar.png"
+  },
+  {
+    "id": 24,
+    "category": "Mättande",
+    "name": "Choklad & Jordnöt",
+    "profile": ["Nötig", "Chokladig"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "1 tesked jordnötssmör",
+      "1 dl naturell kvarg",
+      "1 tesked kakao",
+      "2 dl osötad havremjölk"
+    ],
+    "instructions": "Lägg bananen, jordnötssmöret, kvargen, kakao och mjölken i mixern. Mixa på hög hastighet tills smoothien är jämn och len. Häll upp i ett glas och njut av en chokladig proteinboost!",
+    "nutrition": [
+      "protein: 15 g",
+      "kolhydrater: 19 g",
+      "Socker: 11 g",
+      "Kalorier: 190 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/ChokladOchJordnot.png"
+  },
+  {
+    "id": 25,
+    "category": "Mättande",
+    "name": "Grön Avokadokraft",
+    "profile": ["Krämig", "Frisk"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 avokado",
+      "1 dl naturell kvarg",
+      "Saften från 1/2 lime",
+      "2 dl osötad mandelmjölk",
+      "1 tesked chiafrön"
+    ],
+    "instructions": "Lägg avokadon, kvargen, limejuicen, mandelmjölken och chiafröna i mixern. Mixa tills smoothien är len. Häll upp i ett glas och njut av en grön och mättande smoothie!",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 12 g",
+      "Socker: 5 g",
+      "Kalorier: 190 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/GronAvocadokraft.png"
+  },
+  {
+    "id": 26,
+    "category": "Mättande",
+    "name": "Mango & Havre",
+    "profile": ["Söt", "Fruktig"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mangobitar",
+      "1 dl mango kvarg",
+      "2 msk havregryn",
+      "2 dl osötad kokosmjölk"
+    ],
+    "instructions": "Lägg mangobitar, kvarg, havregryn och kokosmjölk i mixern. Mixa litegrann för lite textur. Mixa länge för en lenare konsistens. Häll upp i ett glas och njut av en tropisk och mättande smoothie!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 20 g",
+      "Socker: 10 g",
+      "Kalorier: 180 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/MangoOchHavre.png"
+  },
+  {
+    "id": 27,
+    "category": "Mättande",
+    "name": "Kanel & Äpple",
+    "profile": ["Kryddig", "Söt"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 äpple",
+      "1 dl naturell kvarg",
+      "1 tesked havregryn",
+      "1/2 tesked kanel",
+      "2 dl osötad havremjölk"
+    ],
+    "instructions": "Skär äpplet i bitar och lägg det i mixern tillsammans med kvarg, havregryn, kanel och havremjölk. Mixa på hög hastighet tills smoothien är helt slät. Häll upp i ett glas och njut av en smak av äppelpaj i flytande form!",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 18 g",
+      "Socker: 9 g",
+      "Kalorier: 170 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/KanelOchApple.png"
+  },
+  {
+    "id": 28,
+    "category": "Mättande",
+    "name": "Jordgubb & Chia",
+    "profile": ["Söt", "Syrlig"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta jordgubbar",
+      "1 dl naturell kvarg",
+      "1 tesked chiafrön",
+      "2 dl osötad mandelmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg jordgubbar, kvarg, chiafrön och mandelmjölk i mixern. Tillsätt isbitarna och mixa tills smoothien är jämn och slät. Häll upp i ett glas och njut av en proteinrik och mättande jordgubbssmoothie!",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 16 g",
+      "Socker: 9 g",
+      "Kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/JordgubbOchChia.png"
+  },
+  {
+    "id": 29,
+    "category": "Mättande",
+    "name": "Nöt & Dadlar",
+    "profile": ["Söt", "Nötig"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl naturell kvarg",
+      "2 st dadlar",
+      "1 tesked mandelsmör",
+      "2 dl osötad mandelmjölk"
+    ],
+    "instructions": "Lägg kvarg, dadlar, mandelsmör och mandelmjölk i mixern. Häll upp i ett glas och njut av en nötig och söt smoothie! Tips: För en ännu mer mättande smoothie, tillsätt en handfull havregryn.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 20 g",
+      "socker: 12 g",
+      "kalorier: 190 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/NotOchDadlar.png"
+  },
+  {
+    "id": 30,
+    "category": "Mättande",
+    "name": "Kaffesmoothie",
+    "profile": ["Krämig", "Fyllig"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 espresso eller 1/2 dl kallt kaffe",
+      "1 dl naturell kvarg",
+      "2 dl osötad havremjölk",
+      "1 tesked kakao"
+    ],
+    "instructions": "Lägg kaffe, kvarg, havremjölk och kakao i mixern. Mixa länge för en fluffig fyllig konsistens. Häll upp i ett glas och njut av en mättande koffeinkick! Tips: För en extra energi-boost, tillsätt 1/2 tesked maca-pulver.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 8 g",
+      "socker: 5 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/Kaffesmoothie.png"
+  },
+  {
+    "id": 31,
+    "category": "Mättande",
+    "name": "Passion & Mango",
+    "profile": ["Frisk", "Exotisk"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl fryst mango",
+      "1 passionsfrukt",
+      "1 dl naturell kvarg",
+      "2 dl osötad kokosmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Gröp ur passionsfrukten och lägg den i mixern tillsammans med mangon, kvargen och kokosmjölken. Mixa tills smoothien är jämn och slät. Tillsätt isbitar och mixa igen för en kylande effekt. Häll upp i ett glas och njut av tropiska smaker! Tips: För extra fräschör, tillsätt en skvätt apelsinjuice.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 15 g",
+      "socker: 10 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/PassionOchMango.png"
+  },
+  {
+    "id": 32,
+    "category": "Mättande",
+    "name": "Päron & Kardemumma",
+    "profile": ["Mild", "Kryddig"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 päron",
+      "1 dl päron kvarg",
+      "2 dl osötad havremjölk",
+      "1/2 tesked kardemumma",
+      "5 isbitar"
+    ],
+    "instructions": "Skär päronet i bitar och lägg det i mixern. Tillsätt kvarg, havremjölk och kardemumma. Mixa på hög hastighet tills smoothien är jämn och krämig. Häll upp i ett glas och njut! Tips: Byt ut päronet mot äpple för en annan twist.",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 16 g",
+      "socker: 9 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Mättande/ParonKardemumma.png"
+  },
+  {
+    "id": 33,
+    "category": "Påskinspirerade",
+    "name": "Påskens Morot & Ingefära",
+    "profile": ["Frisk", "Kryddig"],
+    "allergens": ["gluten", "kvarg"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 morot",
+      "1/2 apelsin, skalad",
+      "1 tesked riven ingefära",
+      "1 dl naturell kvarg",
+      "2 dl osötad havremjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Mixa ihop alla ingredienser tills smoothien är slät. Häll upp och njut av en fräsch och kryddig påskboost! Tips: Tillsätt en nypa kanel och kardemumma för att ge smoothien en extra kryddig värme!",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 18 g",
+      "socker: 10 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensMorotOchIngefara.png"
+  },
+  {
+    "id": 34,
+    "category": "Påskinspirerade",
+    "name": "Påskens Jordgubb & Mango",
+    "profile": ["Söt", "Exotisk"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta jordgubbar",
+      "1 dl fryst mango",
+      "1 dl naturell kvarg",
+      "2 dl osötad mandelmjölk",
+      "1 tesked honung"
+    ],
+    "instructions": "Ta fram de frysta jordgubbarna och mangobitarna och låt dem stå framme i några minuter för att bli lättare att mixa. Lägg alla ingredienser i en blender. Tillsätt honung om du vill ha en sötare smoothie. Mixa på hög hastighet tills smoothien är slät och krämig. Smaka av och justera sötman vid behov. Häll upp i ett glas och njut av en tropisk, solig påskboost! Tips: För en extra frisk smak, tillsätt några frysta hallon.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 18 g",
+      "socker: 12 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensJordgubbMango.png"
+  },
+  {
+    "id": 35,
+    "category": "Påskinspirerade",
+    "name": "Påskens Grönska",
+    "profile": ["Frisk", "Grön"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 grönt äpple",
+      "1 dl spenat",
+      "1 dl päron kvarg",
+      "1 dl osötad havremjölk",
+      "saften från 1/2 citron"
+    ],
+    "instructions": "Skölj och tärna äpplet. Skala äpplet om du vill ha en slätare smoothie. Skölj spenaten noggrant om den inte är färdigsköljd. Lägg äpplet, spenaten, kvarg, havremjölk och citronsaft i blendern. Mixa på hög hastighet tills smoothien är helt slät och grön. Häll upp i ett glas och njut av en påskig, frisk grön smoothie! Tips: För extra näring, tillsätt en liten bit ingefära.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 16 g",
+      "socker: 9 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensGronska.png"
+  },
+  {
+    "id": 36,
+    "category": "Påskinspirerade",
+    "name": "Påskens Äppelpaj",
+    "profile": ["Kryddig", "Söt"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 äpple",
+      "1/2 tesked kanel",
+      "1 dl vanilj kvarg",
+      "2 dl osötad havremjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Skölj och tärna äpplet. Skala äpplet om du vill ha en slätare smoothie. Lägg äpplet, kanel, kvarg och havremjölk i en mixer. Mixa på hög hastighet tills smoothien är helt slät och krämig. Tillsätt isbitar om du vill ha en kallare smoothie. Häll upp i ett glas och njut av en härlig smak av äppelpaj! Tips: Tillsätt en liten mängd valnötter för extra crunch och nyttiga fetter. Stö på lite mer kanel för en Dessertupplevelse.",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 18 g",
+      "socker: 10 g",
+      "kalorier: 145 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensAppelpaj.png"
+  },
+  {
+    "id": 37,
+    "category": "Påskinspirerade",
+    "name": "Påskens Citron & Chia",
+    "profile": ["Frisk", "Syrlig"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "saften från 1/2 citron",
+      "1 tesked chiafrön",
+      "1 dl naturell kvarg",
+      "2 dl osötad mandelmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Pressa saften från citronen. Lägg citronjuice, chiafrön, kvarg och mandelmjölk i ett glas och låt chiafröna svälla en stund. Mixa på hög hastighet tills smoothien är slät och krämig. Tillsätt isbitar och mixa 10 sekunder till om du vill ha en kall smoothie. Häll upp i ett glas och njut av en uppfriskande citrusboost! Tips: För en extra energi- och näringsboost, tillsätt en liten bit ingefära.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 14 g",
+      "socker: 8 g",
+      "kalorier: 130 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensCitronOchChia.png"
+  },
+  {
+    "id": 38,
+    "category": "Påskinspirerade",
+    "name": "Påskens Morotskaka",
+    "profile": ["Kryddig", "Söt", "M orotskaka"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 liten morot, riven",
+      "1/2 dl ananasbitar",
+      "1 dl naturell yoghurt",
+      "1 dl osötad mandelmjölk",
+      "1/2 tesked kanel",
+      "1/2 tesked ingefära"
+    ],
+    "instructions": "Förbered moroten: Riv moroten och blanda den med ananasen i mixern – det ger en härlig frisk smak och textur. Tillsätt yoghurten och mandelmjölken för en krämig konsistens. Blanda i kanel och ingefära för att återskapa de klassiska smakerna från morotskaka. Servering: Häll upp i glas och toppa med ett litet kanelströssel eller lite rivet morotsskal för extra påskfeeling. Tips: Om du vill ha en sötare smak, häll i lite honung och justera efter smak.",
+    "nutrition": [
+      "protein: 10 g",
+      "kolhydrater: 20 g",
+      "socker: 12 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensMorotskaka.png"
+  },
+  {
+    "id": 39,
+    "category": "Påskinspirerade",
+    "name": "Påskens Citron & Maräng",
+    "profile": ["Frisk", "Syrlig", "Maräng"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1/2 citron (saften)",
+      "1 dl vaniljkvarg",
+      "1/2 dl frysta hallon",
+      "1 dl osötad mandelmjölk",
+      "1/2 tesked vaniljextrakt",
+      "5 isbitar",
+      "1 tesked stevia eller honung"
+    ],
+    "instructions": "Börja med citronsmaken: Pressa saften från citronen och lägg i mixern tillsammans med hallonen och vaniljkvargen. Tillsätt mandelmjölken och vaniljextraktet. Om du vill ha en sötare smak, tillsätt stevia eller honung. Lägg i isbitarna och mixa tills smoothien är kall och krämig. Servering: Häll upp i glas och toppa gärna med små bitar av maräng eller citronzest för en extra påskig touch.",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 18 g",
+      "socker: 10 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/påsk/PaskensCitronMarang.png"
+  },
+  {
+    "id": 40,
+    "category": "Dessertinspirerade",
+    "name": "Chokladboll",
+    "profile": ["Chokladig", "Nötig"],
+    "allergens": ["nötter", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "1 tesked kakao",
+      "1 tesked mandelsmör",
+      "1 dl naturell kvarg",
+      "2 dl osötad havremjölk",
+      "1 tesked riven kokos"
+    ],
+    "instructions": "Skala bananen och lägg den i en blender tillsammans med alla andra ingredienser. Mixa på hög hastighet tills smoothien är krämig och slät. Smaka av och justera sötman med lite honung om så önskas. Häll upp i ett glas och toppa eventuellt med extra kokos för mer crunch och smak.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 18 g",
+      "socker: 12 g",
+      "kalorier: 180 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Chokladboll.png"
+  },
+  {
+    "id": 41,
+    "category": "Dessertinspirerade",
+    "name": "Kladdkaka",
+    "profile": ["Chokladig", "Krämig"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "2 teskedar kakao",
+      "1 tesked honung",
+      "1 dl vaniljkvarg",
+      "2 dl osötad mandelmjölk",
+      "1/2 tesked vaniljpulver"
+    ],
+    "instructions": "Skala bananen och lägg den tillsammans med de andra ingredienserna i en blender. Mixa på hög hastighet tills du får en slät och krämig konsistens. Smaka av och tillsätt honung för extra sötma om du vill. Häll upp smoothien i ett glas och njut av en chokladig och krämig upplevelse!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 20 g",
+      "socker: 13 g",
+      "kalorier: 190 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Kladdkaka.png"
+  },
+  {
+    "id": 42,
+    "category": "Dessertinspirerade",
+    "name": "Blåbärscheesecake",
+    "profile": ["Söt", "Syrlig"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta blåbär",
+      "1 dl vaniljkvarg",
+      "2 dl osötad havremjölk",
+      "1 tesked honung",
+      "1/2 digestivekex"
+    ],
+    "instructions": "Lägg alla ingredienser i en mixer, inklusive de frysta blåbären. Mixa på hög hastighet tills smoothien är slät. Smula lite extra digestivekex ovanpå för en härlig crunch. Häll upp i ett glas och njut av den syrliga och fruktiga smaken av cheesecake!",
+    "nutrition": [
+      "protein: 11 g",
+      "kolhydrater: 22 g",
+      "socker: 12 g",
+      "kalorier: 170 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Blabarscheesecake.png"
+  },
+  {
+    "id": 43,
+    "category": "Dessertinspirerade",
+    "name": "Banoffee",
+    "profile": ["Söt", "Karamellig"],
+    "allergens": ["gluten", "laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 banan",
+      "1 tesked dadelsirap",
+      "1 dl vaniljkvarg",
+      "2 dl osötad havremjölk",
+      "1/2 tesked vaniljpulver"
+    ],
+    "instructions": "Skala bananen och lägg alla ingredienser i en mixer. Mixa på hög hastighet tills smoothien blir slät och krämig. Smaka av och tillsätt mer dadelsirap om du vill ha den sötare. Häll upp i ett glas och njut av den karamelliga smaken!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 22 g",
+      "socker: 14 g",
+      "kalorier: 180 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Banoffee.png"
+  },
+  {
+    "id": 44,
+    "category": "Dessertinspirerade",
+    "name": "Choklad & Apelsin",
+    "profile": ["Chokladig", "Citrus-toner"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl vaniljkvarg",
+      "2 dl osötad mandelmjölk",
+      "1 tesked kakao",
+      "Rivet skal från 1/2 apelsin",
+      "5 isbitar"
+    ],
+    "instructions": "Häll alla ingredienser i mixern och mixa tills smoothien är slät och krämig. Smaka av och justera sötman med lite honung om så önskas. Häll upp i ett glas och njut av en chokladsmak med fräsch citrus!",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 16 g",
+      "socker: 9 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/ChokladOchApelsin.png"
+  },
+  {
+    "id": 45,
+    "category": "Dessertinspirerade",
+    "name": "Kanelbulle",
+    "profile": ["Kanel", "Söt"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl havregryn",
+      "1 dl vaniljyoghurt",
+      "2 dl osötad mandelmjölk",
+      "1 tesked kanel",
+      "1 tesked honung"
+    ],
+    "instructions": "Lägg havregryn, yoghurt, mandelmjölk och kanel i mixern. Tillsätt honung för en sötare smak. Mixa på hög hastighet tills smoothien är slät och krämig. Smaka av och justera sötman om så önskas. Häll upp i glas och servera.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 28 g",
+      "socker: 14 g",
+      "kalorier: 170 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Kanelbulle.png"
+  },
+  {
+    "id": 46,
+    "category": "Dessertinspirerade",
+    "name": "Hallonpannacotta",
+    "profile": ["Krämig", "Fruktig", "Vanilj"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta hallon",
+      "1 dl naturell yoghurt",
+      "1 dl vaniljkvarg",
+      "2 dl osötad mandelmjölk",
+      "1/2 tesked vaniljextrakt",
+      "1 tesked honung eller agavesirap"
+    ],
+    "instructions": "Lägg de frysta hallonen, naturell yoghurt och vaniljkvarg i mixern. Tillsätt mandelmjölk och vaniljextrakt för den krämiga, vaniljiga smaken. Mixa på hög hastighet tills smoothien blir slät och krämig. Smaka av och justera sötman med honung eller agavesirap om du vill ha en sötare smak. Häll upp i glas och servera direkt för en fräsch och krämig upplevelse.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 18 g",
+      "socker: 12 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Dessert/Hallonpannacotta.png"
+  },
+  {
+    "id": 47,
+    "category": "Somriga",
+    "name": "Fläderdröm",
+    "profile": ["Söt", "Blommig"],
+    "allergens": ["laktos", "gluten"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta jordgubbar",
+      "1 dl vaniljkvarg",
+      "1 dl osötad havremjölk",
+      "1 tesked koncentrerad flädersaft",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är slät och fluffig. Häll upp och njut av en smak av svensk midsommar!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 13 g",
+      "socker: 8 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/FladerDrom.png"
+  },
+  {
+    "id": 48,
+    "category": "Somriga",
+    "name": "Rabarber & Vanilj",
+    "profile": ["Frisk", "Syrlig"],
+    "allergens": ["laktos", "gluten"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl kokt rabarber (svalnad)",
+      "1 dl vaniljkvarg",
+      "2 dl osötad havremjölk",
+      "1 tesked honung",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är helt slät. Häll upp och njut!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 13 g",
+      "socker: 9 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/RabarberVanilj.png"
+  },
+  {
+    "id": 49,
+    "category": "Somriga",
+    "name": "Hjortron & Grädde",
+    "profile": ["Lyxig", "Krämig"],
+    "allergens": ["laktos", "nötter"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta hjortron",
+      "1 dl naturell kvarg",
+      "2 dl osötad mandelmjölk",
+      "1 tesked honung",
+      "5 isbitar"
+    ],
+    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är jämn och len. Häll upp och njut!",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 13 g",
+      "socker: 9 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/HjortronGradde.png"
+  },
+  {
+    "id": 50,
+    "category": "Somriga",
+    "name": "Rabarber & Jordgubb",
+    "profile": ["Söt", "Syrlig"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl kokt och avsvalnad rabarber",
+      "1 dl frysta jordgubbar",
+      "1 dl vaniljkvarg",
+      "2 dl osötad mandelmjölk"
+    ],
+    "instructions": "Om du inte redan kokt rabarbern – skär den i bitar och koka i lite vatten tills den mjuknar, ca 5 minuter. Låt den svalna. Lägg de frysta jordgubbarna i mixern och mixa lätt i 10 sekunder för att bryta upp dem. Tillsätt kvarg, mandelmjölk och rabarbern. Mixa på hög hastighet i 30–40 sekunder tills smoothien blir krämig. Smaka av och tillsätt eventuellt lite honung om du vill ha den sötare. Häll upp i glas och servera direkt!",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 15 g",
+      "socker: 10 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/RabarberJordgubb.png"
+  },
+  {
+    "id": 51,
+    "category": "Somriga",
+    "name": "Melon & Mynta",
+    "profile": ["Frisk", "Svalkande"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl melon (t.ex. cantaloupe)",
+      "1 dl naturell kvarg",
+      "2 dl osötad kokosmjölk",
+      "några färska myntablad",
+      "5 isbitar"
+    ],
+    "instructions": "Skär melonen i små bitar och lägg i mixern. Tillsätt kvarg, kokosmjölk och några myntablad för en fräsch smak. Mixa på hög hastighet i cirka 30 sekunder tills smoothien är slät och krämig. Lägg i isbitarna och mixa ytterligare för att få en kall och fluffig smoothie. Smaka av och tillsätt honung eller agavesirap om du vill ha en sötare smak. Häll upp och servera i glas, gärna med några extra myntablad som dekoration.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 18 g",
+      "socker: 10 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/MelonMynta.png"
+  },
+  {
+    "id": 52,
+    "category": "Somriga",
+    "name": "Passionsfrukt & Ananas",
+    "profile": ["Tropisk", "Syrlig"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 passionsfrukt",
+      "1 dl frysta ananasbitar",
+      "1 dl vaniljkvarg",
+      "2 dl osötad kokosmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Dela passionsfrukten och skrapa ut fruktköttet. Lägg det i mixern. Tillsätt de frysta ananasbitarna, vaniljkvarg och mandelmjölk. Mixa på hög hastighet tills smoothien är jämn och krämig. Lägg i isbitarna och mixa i 10–15 sekunder tills den är kall och fluffig. Smaka av och justera sötman med honung eller agavesirap om så önskas. Häll upp i glas och servera direkt för en tropisk smakupplevelse.",
+    "nutrition": [
+      "protein: 14 g",
+      "kolhydrater: 20 g",
+      "socker: 13 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Sommar/PassionsfruktAnanas.png"
+  },
+  {
+    "id": 53,
+    "category": "Tropiska",
+    "name": "Tropisk Dröm",
+    "profile": ["Söt", "Fruktig", "Tropiskt paradis"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mangobitar",
+      "1 dl ananasbitar",
+      "1 dl naturell yoghurt",
+      "2 dl osötad kokosmjölk",
+      "1 tesked honung (valfritt)",
+      "5 isbitar"
+    ],
+    "instructions": "Börja med att lägga mangon och ananasen i mixern. Tillsätt den naturella yoghurten och kokosmjölken. Om du gillar det sötare, häll i honung och justera efter smak. Lägg i isbitar och kör mixern tills allt blandas ordentligt och smoothien blir slät. Servera omedelbart i glas och njut av en tropisk upplevelse.",
+    "nutrition": [
+      "protein: 9 g",
+      "kolhydrater: 22 g",
+      "socker: 18 g",
+      "kalorier: 170 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskDrom.png"
+  },
+  {
+    "id": 54,
+    "category": "Tropiska",
+    "name": "Passionsfrukt & Banan",
+    "profile": ["Frisk", "Syrlig", "Tropisk sötma"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 passionsfrukt",
+      "1 banan",
+      "1 dl naturell kvarg",
+      "1 dl osötad kokosmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Skär passionsfrukten och skopa ut fruktköttet. Lägg det i mixern tillsammans med bananen. Häll i kvarg och mandelmjölk. Mixa på hög hastighet tills du får en jämn och krämig konsistens. Tillsätt isbitar för en kylig och uppfriskande smoothie. Häll upp i glas och njut direkt av den tropiska smaken.",
+    "nutrition": [
+      "protein: 15 g",
+      "kolhydrater: 20 g",
+      "socker: 12 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/PassionfruktOchBanan.png"
+  },
+  {
+    "id": 55,
+    "category": "Tropiska",
+    "name": "Papaya Coconut",
+    "profile": ["Frisk", "Syrlig", "Exotisk papaya"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl papayabit",
+      "Saften från 1/2 lime",
+      "1 dl naturell kvarg",
+      "2 dl osötad kokosmjölk",
+      "5 isbitar"
+    ],
+    "instructions": "Skär papayan i bitar och lägg i mixern. Pressa i saften från en halv lime och tillsätt kvarg och kokosmjölk. Mixa på hög hastighet tills smoothien får en slät och krämig konsistens. Lägg i isbitar och kör mixern igen för att få en kall och fräsch smoothie. Häll upp i glas och servera direkt.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 18 g",
+      "socker: 10 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/PapayaCoconut.png"
+  },
+  {
+    "id": 56,
+    "category": "Tropiska",
+    "name": "Tropisk Mango & Kokos",
+    "profile": ["Söt", "Exotisk", "Krämig kokos"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mangobitar",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "1 tesked riven kokos"
+    ],
+    "instructions": "Lägg mangon, kokosmjölken och kvargen i mixern och mixa på hög hastighet. Tillsätt den rivna kokosen för extra smak och mixa en gång till. Lägg i isbitarna för att få en fräsch och kall smoothie. Häll upp smoothien i glas och servera genast.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 18 g",
+      "socker: 14 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/MangoKokos.png"
+  },
+  {
+    "id": 57,
+    "category": "Tropiska",
+    "name": "Tropisk Grön Smoothie",
+    "profile": ["Frisk", "Grön", "Tropisk sötma"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mango",
+      "1/2 gurka, skuren",
+      "1 dl spenat",
+      "1 dl kokosvatten",
+      "1 dl naturell kvarg",
+      "5 isbitar"
+    ],
+    "instructions": "Börja med att lägga mango, gurka och spenat i mixern. Tillsätt kokosvattnet och kvarg för att ge smoothien både fräschör och krämighet. Lägg i isbitar för en kall och uppfriskande smoothie. Mixa tills smoothien blir helt slät och servera direkt.",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 20 g",
+      "socker: 12 g",
+      "kalorier: 140 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskGronSmoothie.png"
+  },
+  {
+    "id": 58,
+    "category": "Tropiska",
+    "name": "Tropisk Mango & Kiwi Smoothie",
+    "profile": ["Söt", "Fruktig", "Uppfriskande syra"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl frysta mangobitar",
+      "1 kiwi, skuren",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "5 isbitar"
+    ],
+    "instructions": "Skala och skär kiwin i bitar. Lägg kiwin och mangon i mixern tillsammans med kokosmjölken. Tillsätt kvarg för en extra krämig konsistens. Lägg i isbitarna och kör mixern tills allt är slätt och väl blandat. Häll upp i glas och servera direkt för en uppfriskande smakupplevelse.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 24 g",
+      "socker: 16 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskMangoKiwi.png"
+  },
+  {
+    "id": 59,
+    "category": "Tropiska",
+    "name": "Tropisk Pina Colada Smoothie",
+    "profile": ["Krämig", "Söt", "Klassisk pina colada"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl ananasbitar",
+      "1 dl ananasjuice",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "1 tesked honung"
+    ],
+    "instructions": "Lägg ananasbitarna i mixern och tillsätt kokosmjölk, ananasjuicen och kvarg för en tropisk och krämig bas. Tillsätt honung för att ge smoothien en lätt sötma, men justera efter smak. Lägg i isbitar och mixa tills smoothien blir kall och slät. Häll upp i glas och servera direkt för en tropisk smakupplevelse.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 20 g",
+      "socker: 14 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskPinaColada.png"
+  },
+  {
+    "id": 60,
+    "category": "Tropiska",
+    "name": "Tropisk Coconut & Passionfruit Smoothie",
+    "profile": ["Krämig", "Exotisk", "Syrlig kick"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 passionfrukt",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "1/2 dl riven kokos",
+      "5 isbitar"
+    ],
+    "instructions": "Skopa ur fruktköttet från passionfrukten och lägg det i mixern. Tillsätt kokosmjölk och kvarg för en krämig och exotisk bas. Lägg i riven kokos för en extra tropisk smak och isbitar för att göra smoothien kall och uppfriskande. Mixa på hög hastighet tills allt blandas ordentligt och servera direkt.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 19 g",
+      "socker: 15 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskCoconutPassion.png"
+  },
+  {
+    "id": 61,
+    "category": "Tropiska",
+    "name": "Tropisk Drakfrukt & Mango",
+    "profile": ["Söt", "Exotisk", "Friskt fruktig"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl drakfrukt (fryst eller färsk)",
+      "1 dl mangobitar",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "5 isbitar"
+    ],
+    "instructions": "Skär drakfrukten i bitar om du använder färsk, eller häll i den frysta varianten i mixern. Lägg mangon tillsammans med kokosmjölken för att få en tropisk bas. Tillsätt kvarg för krämighet och isbitar för att ge smoothien en kall och fräsch konsistens. Mixa på hög hastighet tills allt är ordentligt blandat och servera direkt.",
+    "nutrition": [
+      "protein: 12 g",
+      "kolhydrater: 21 g",
+      "socker: 16 g",
+      "kalorier: 150 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/TropiskDrakfruktMango.png"
+  },
+  {
+    "id": 62,
+    "category": "Tropiska",
+    "name": "Tropisk Papaya & Banan Smoothie",
+    "profile": ["Krämig", "Söt", "Tropisk värme"],
+    "allergens": ["laktos"],
+    "portionsize": 2,
+    "ingredients": [
+      "1 dl papayabit",
+      "1 banan",
+      "1 dl kokosmjölk",
+      "1 dl naturell kvarg",
+      "5 isbitar"
+    ],
+    "instructions": "Skala bananen och lägg den i mixern tillsammans med papayabitarna. Häll i kokosmjölken och tillsätt kvarg för att skapa en krämig och len konsistens. Lägg i isbitarna och mixa tills smoothien är slät och kall. Smaka av och justera sötman om så önskas, servera direkt.",
+    "nutrition": [
+      "protein: 13 g",
+      "kolhydrater: 23 g",
+      "socker: 18 g",
+      "kalorier: 160 kcal"
+    ],
+    "image": "assets/smoothies/Tropiska/PapayaBanan.png"
   }
 ]

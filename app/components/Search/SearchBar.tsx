@@ -1,14 +1,28 @@
-import { useState, type ChangeEvent } from "react";
+import { useEffect, useState, type ChangeEvent } from "react";
 import styles from "./SearchBar.module.css"
+import type { Recipe } from "~/types/recipe";
 
 interface SearchBarProps {
-    onSearchChange: (term: string) => void;
+    recipes: Recipe[];
+    onFilteredRecipesChange: (filtered: Recipe[]) => void;
 }
 
-export function SearchBar({ onSearchChange }: SearchBarProps) {
+export function SearchBar({ recipes, onFilteredRecipesChange }: SearchBarProps) {
+    const [searchTerm, setSearchTerm] = useState<string>("");
+
+    useEffect(() => {
+        const filtered = recipes.filter((recipe) =>
+            recipe.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            recipe.ingredients.some((ingredient) =>
+                ingredient.toLowerCase().includes(searchTerm.toLowerCase())
+            )
+        );
+        onFilteredRecipesChange(filtered);
+    }, [searchTerm, recipes, onFilteredRecipesChange]);
+
     const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
-        onSearchChange(e.target.value);
-    }
+        setSearchTerm(e.target.value);
+    };
 
     return (
         <>

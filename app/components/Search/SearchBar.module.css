@@ -4,6 +4,9 @@
     align-items: center;
     padding: 10px 0 10px 0;
     background-color: #f7f7f7;
+
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
 }
 
 input[type="text"] {

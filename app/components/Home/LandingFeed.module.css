@@ -1,0 +1,275 @@
+/* Short Description */
+.shortDescription {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    align-items: center;
+    
+    padding: 20px 0 20px 0;
+    margin: 20px 0 20px 0;
+    background-color: #F3CDFE;
+}
+
+.descriptionImage>img {
+    transform: rotate(-10deg);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.descriptionText {
+    width: 66%;
+}
+
+.descriptionImage {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+
+.descriptionText>h2 {
+    padding-left: 10vw;
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 4vmin;
+}
+
+.shortDescription>h2>span {
+    font-size: 150%;
+    /* Make 'Smoothify' bigger */
+}
+
+@media (max-width: 768px) {
+    .descriptionImage>img {
+        width: 50%;
+    }
+}
+
+/* Smoothie of the day */
+.smoothieOfTheDay {
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    background-color: #F1E8E1;
+    padding: 2rem 0 2rem 0;
+}
+
+
+/* Category Scroll */
+.categoryScroll {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+
+    margin: 20px 0 20px 0;
+}
+
+.categoryScroll h2 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 6vmin;
+
+    padding-left: 10vw;
+    margin-bottom: 1vh;
+}
+
+/* Consistency Tip #1 */
+.consistencyTip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+
+    padding: 3vh 0;
+
+    background-color: #F1E8E1;
+}
+
+.consistencyTip h2 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.tipContainer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    width: 80%;
+}
+
+.tipContainer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tipContainer section img {
+    max-width: 80px;
+    height: auto;
+}
+
+.tipContainer section h4 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 2vmin;
+    margin-left: 20px;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .tipContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+    }
+
+    .tipContainer section {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .tipContainer section img {
+        width: 20%;
+    }
+}
+
+/* Allergens Tip #2 */
+.allergyTip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+    padding: 2vh 0;
+
+    background-color: #F1E8E1;
+
+}
+
+.allergyText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 66%;
+    padding-left: 10vw;
+    box-sizing: border-box;
+
+    color: #E60035;
+}
+
+.allergyText h2 {
+    margin-bottom: 1.5vh;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 4vmin;
+}
+
+.allergyText h4 {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 2vmin;
+}
+
+.allergyImage {
+    display: flex;
+    justify-content: center;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.allergyTip img {
+    transform: rotate(10deg);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .allergyTip img {
+        width: 50%;
+    }
+}
+
+/* How to Tip #3 */
+.howToTip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: var(--grid-column-end);
+
+    padding: 3vh 0;
+    margin-bottom: 20px;
+
+    background-color: #F1E8E1;
+}
+
+.howToTip h2 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 4vmin;
+    text-align: center;
+}
+
+.howToContainer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+}
+
+.howToContainer section {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 25%;
+}
+
+.howToContainer section h1 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 8vmin;
+    width: 20%;
+    text-align: center;
+}
+
+.howToContainer section h4 {
+    color: #E60035;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 2vmin;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 80%;
+
+}
+
+@media (max-width: 768px) {
+    .howToContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 95%;
+        gap: 0;
+    }
+
+    .howToContainer section {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,17 +1,26 @@
+:root {
+  --grid-column-end: 13;
+}
+
+@media (max-width: 431px) {
+  :root {
+    --grid-column-end: 7;
+  }
+}
+
 @font-face {
   font-family: Beckan;
-  src: url('/font/Beckan.otf');
+  src: url("/font/Beckan.otf");
 }
 
 @font-face {
   font-family: Inter;
-  src: url('/font/Inter.ttf');
+  src: url("/font/Inter.ttf");
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: Beckan;
 }
 
 p,
@@ -28,4 +37,17 @@ a,
 a:visited {
   text-decoration: none;
   color: #000;
+}
+
+.contentWrapper {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+}
+
+@media (max-width: 431px) {
+  .contentWrapper {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }

@@ -7,7 +7,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
 import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";

@@ -3,12 +3,7 @@
   top: 4rem;
   display: flex;
   flex-direction: column;
+  min-height: calc(100vh - 4rem);
   margin: 0;
   width: 100%;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  font-size: x-large;
 }
