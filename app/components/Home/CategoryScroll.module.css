@@ -1,14 +1,46 @@
 .scrollWrapper {
+    position: relative;
     display: flex;  
     gap: 20px;
     overflow-x: auto;
     white-space: nowrap;
-    cursor: grab;
-    padding-bottom: 10px;
     padding-left: 10vw;
 
     background-color: #F3CDFE;
     scroll-snap-type: x mandatory;
+}
+
+.buttonOverlay {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .leftScrollButton,
+    .rightScrollButton {
+        display: none;
+    }
+}
+
+.leftScrollButton,
+.rightScrollButton {
+    position: absolute;
+    top: 25%;
+    background-color: transparent;
+    border: none;
+    height: 50%;
+    padding: 0;
+    cursor: pointer;
+    z-index: 10; /* Ensure buttons are above the content */
+}
+
+.leftScrollButton {
+    padding-left: 20px;
+    left: 0;
+}
+
+.rightScrollButton {
+    padding-right: 20px;
+    right: 0;
 }
 
 .card {
@@ -44,8 +76,6 @@
         max-width: 250px;
     }
 }
-
-
 
 @media (min-width: 1200px) {
     .card {

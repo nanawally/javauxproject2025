@@ -38,6 +38,7 @@
 
 .categoryScroll {
     display: flex;
+    position: relative;
     flex-direction: column;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
