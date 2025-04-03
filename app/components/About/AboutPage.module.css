@@ -1,8 +1,6 @@
 .bigTextContainer {
   display: flex;
   flex-direction: column;
-  grid-column-start: 5;
-  grid-column-end: 10;
   justify-content: center;
   font-family: Inter;
   color: #e60035;
@@ -26,22 +24,28 @@
   width: 80%;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 431px) {
+  main {
+    background-image: url("./background-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .bigTextContainer {
+    grid-column-start: 2;
+    grid-column-end: 6;
+  }
+}
+
+@media (min-width: 431px) {
   main {
     background-image: url("./background-desktop.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
 
-@media (min-width: 431px) {
-  .placeholderWrapper {
-    width: 40%;
-  }
-  .placeholderBackground {
-    /*width: 40%;*/
-    background-image: url("./background-mobile.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  .bigTextContainer {
+    grid-column-start: 5;
+    grid-column-end: 10;
   }
 }
