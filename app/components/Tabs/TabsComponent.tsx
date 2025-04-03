@@ -1,66 +1,39 @@
-import React, { useEffect } from 'react';
-import type { ReactNode } from 'react';
-import { useTabs } from './TabsContext'; 
-
-interface TabsProps {
-    children?: ReactNode;
-    tabs: Record<string, string> | string[];
-    defaultTab: string;
-    onTabSelect: (tabValue: string) => void;
-    className?: string;
-    [key: string]: any; // For any additional props
-}
+import { useRecipeContext } from "../Recipes/RecipeContext";
+import styles from "./TabsComponent.module.css"
+import { useEffect, useState } from 'react';
 
 interface TabProps {
-    children?: ReactNode;
     id: string;
-    [key: string]: any; // For any additional props
+    label: string;
+    content: React.ReactNode;
 }
 
-export const Tabs: React.FC<TabsProps> = function({ children, tabs, defaultTab, onTabSelect, className, ...props }) {
-    const { currentTab, setCurrentTab } = useTabs();
+export const TabsComponent = () => {
+    const [activeTab, setActiveTab] = useState("ingredients");
+    const { recipes, recipeIndex } = useRecipeContext();
 
-    useEffect(() => {
-        setCurrentTab(defaultTab);
-    }, [setCurrentTab, defaultTab]);
+    const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
-    const handleTabClick = (tabValue: string) => {
-        setCurrentTab(tabValue);
-        onTabSelect(tabValue);
-    };
+    const tabs: TabProps[] = [
+        { id: "ingredients", label: "Ingredienser", content: <div>{selectedRecipe?.ingredients[0]}</div> },
+        { id: "instructions", label: "Gör så här", content: <div>{selectedRecipe?.instructions}</div> },
+        { id: "nutrition", label: "Näringsvärde", content: <div>{selectedRecipe.</div> }
+    ];
 
     return (
-        <div className={`tabs ${className}`} {...props}>
-            <ul className="tabs-header">
-                {Object.values(tabs).map((tabValue) => (
-                    <li 
-                        onClick={() => handleTabClick(tabValue)} 
-                        className={`${currentTab === tabValue ? 'active' : ''}`} 
-                        key={tabValue}
-                    >
-                        {tabValue}
-                    </li>
+        <>
+            <div className={styles.tabsContainer}>
+                {tabs.map((tabs) => (
+                    <button className={styles.tabButton}
+                        key={tabs.id}
+                        onClick={() => setActiveTab(tabs.id)}>
+                        {tabs.label}
+                    </button>
                 ))}
-            </ul>
-            <div className="tabs-body">
-               {React.Children.map(children, (child) => {
-               if (!React.isValidElement<TabProps>(child)) return null;
-    
-                 // Type-safe check using the component itself
-                if ((child.type as React.ComponentType).displayName !== 'Tab') {
-                throw new Error('The child components should be of type Tab');
-                 }
-      
-                     // Now TypeScript knows child has props with id
-                   return child.props.id === currentTab ? child : null;
-                      })}
-                   </div>
-        </div>
+            </div>
+            <div className={styles.tabsContent}>
+                {tabs.find((tabs) => tabs.id === activeTab)?.content}
+            </div>
+        </>
     );
 };
-
-export const Tab: React.FC<TabProps> = function({ children, ...props }) {
-    return <section {...props}>{children}</section>;
-};
-
-Tab.displayName = 'Tab';
