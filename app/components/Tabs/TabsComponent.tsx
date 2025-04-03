@@ -17,7 +17,7 @@ export const TabsComponent = () => {
     const tabs: TabProps[] = [
         { id: "ingredients", label: "Ingredienser", content: <div>{selectedRecipe?.ingredients[0]}</div> },
         { id: "instructions", label: "Gör så här", content: <div>{selectedRecipe?.instructions}</div> },
-        { id: "nutrition", label: "Näringsvärde", content: <div>{selectedRecipe.</div> }
+        { id: "nutrition", label: "Näringsvärde", content: <div>{selectedRecipe?.nutrition[0]}</div> }
     ];
 
     return (

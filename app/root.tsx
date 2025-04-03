@@ -11,8 +11,6 @@ import type { Route } from "./+types/root";
 import { RecipeProvider } from "./components/Recipes/RecipeContext";
 import "./app.css";
 import { CustomHeader } from "./components/UI/CustomHeader";
-import RecipeRoute from "./routes/recipe";
-import { TabsProvider } from "./components/Tabs/TabsContext";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },

@@ -2,12 +2,12 @@ export interface Recipe {
   id: number;
   category: string;
   name: string;
-  profile: [string];
-  allergens: [string];
+  profile: string[];
+  allergens: string[];
   portionsize: number;
-  ingredients: [string];
+  ingredients: string[];
   instructions: string;
-  nutrition: [string];
+  nutrition: string[];
   image: string;
 }
 

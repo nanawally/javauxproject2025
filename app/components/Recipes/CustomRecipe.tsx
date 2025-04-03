@@ -13,8 +13,6 @@ export function CustomRecipe() {
     const { recipes, recipeIndex } = useRecipeContext();
     const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
-    const { setCurrentTab } = useTabs();
-
     return (
         <>
             {selectedRecipe ? (
