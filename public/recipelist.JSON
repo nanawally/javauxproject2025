@@ -14,7 +14,10 @@
       "1/2 citronjuice",
       "5 isbitar"
     ],
-    "instructions": "Kärna ur och hacka äpplen. Ha i alla ingredienser i en mixer och kör tills smoothien är slät. Häll upp och njut!",
+    "instructions": [
+      "Hacka 1 äpple",
+      "Mixra"
+    ],
     "nutrition": [
       "protein: 1,5g",
       "kolhydrater: 12g",
