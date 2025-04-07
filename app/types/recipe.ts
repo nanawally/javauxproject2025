@@ -5,6 +5,8 @@ export interface Recipe {
   profile: string[];
   allergens: string[];
   portionsize: number;
+  description: string;
+  difficulty: string;
   ingredients: string[];
   instructions: string;
   nutrition: string[];
