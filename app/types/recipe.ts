@@ -6,7 +6,7 @@ export interface Recipe {
   allergens: string[];
   portionsize: number;
   ingredients: string[];
-  instructions: string;
+  instructions: string[];
   nutrition: string[];
   image: string;
 }
