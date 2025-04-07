@@ -1,0 +1,19 @@
+.wrapper {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1512px;
+    flex-wrap: wrap;
+}
+
+.favoriteIcon {
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    top: 14px;
+    left: 289px;
+}
