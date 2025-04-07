@@ -72,7 +72,7 @@
     "instructions": [
     "Skala och dela apelsinen.",
      "Lägg alla ingredienser i mixern och kör tills slätt.",
-     "Servera och njut av en fräsch och fräsch citrusboost!",
+     "Servera och njut av en fräsch citrusboost!",
     ],
        
     "nutrition": [
@@ -86,8 +86,8 @@
   {
     "id": 3,
     "category": "Kalorisnåla",
-    "name": "Frisk Hallon & Mynta",
-    "profile": ["Frisk", "Syrlig"],
+    "name": "Hallon & Mynta",
+    "profile": ["Syrlig"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
