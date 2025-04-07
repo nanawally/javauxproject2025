@@ -1,19 +1,12 @@
-.wrapper {
-    align-items: center;
-    display: flex;
+.receptGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolumner för mobil */
     gap: 16px;
-    justify-content: center;
-    padding: 10px 20px;
-    position: relative;
-    width: 100%;
-    max-width: 1512px;
-    flex-wrap: wrap;
-}
-
-.favoriteIcon {
-    height: 48px;
-    width: 48px;
-    position: absolute;
-    top: 14px;
-    left: 289px;
-}
+  }
+  
+  @media (min-width: 768px) {
+    .receptGrid {
+      grid-template-columns: repeat(4, 1fr); /* 4 kolumner för desktop */
+    }
+  }
+  

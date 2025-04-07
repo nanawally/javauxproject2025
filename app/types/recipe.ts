@@ -1,4 +1,5 @@
 export interface Recipe {
+  description: any;
   id: number;
   category: string;
   name: string;

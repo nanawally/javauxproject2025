@@ -1,22 +1,26 @@
-import React, { type JSX } from "react";
-import { ReceptkortDesktop } from "./ReceptkortDesktop";
+import React from "react";
+
+
 import type { Recipe } from "~/types/recipe";
-import "./SektionReceptkort.module.css";
+import styles from "./SektionReceptkort.module.css";
+import { Receptkort } from "./Receptkort";
+import { RecipeCard } from "./Cards/RecipeCard";
 
 interface Props {
   receptData: Recipe[];
 }
 
-export const SektionReceptkort = ({ receptData }: Props): JSX.Element => {
+export const SektionReceptkort = ({ receptData }: Props) => {
   return (
-    <div className="sektion-receptkort">
+    <div className={styles.receptGrid}>
       {receptData.map((recipe) => (
-        <ReceptkortDesktop
-          key={recipe.id}
-          image={recipe.image}
-          name={recipe.name}
-          description={recipe.instructions}
-        />
+        <RecipeCard image={recipe.image} title={recipe.name} description={recipe.description} id={recipe.id}/>
+        // <Receptkort
+        //   key={recipe.id}
+        //   image={recipe.image}
+        //   name={recipe.name}
+        //   description={recipe.description}
+        // />
       ))}
     </div>
   );

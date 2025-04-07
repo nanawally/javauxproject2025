@@ -6,7 +6,7 @@ import { Link } from "react-router";
 import { FavoriteButton } from "../Favorites/FavoriteButton";
 
 export function ExploreFeed() {
-    const { recipes, setRecipeIndex} = useRecipeContext();
+    const { recipes, setRecipeIndex } = useRecipeContext();
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
 
     function handleRecipeClick(id: number) {
