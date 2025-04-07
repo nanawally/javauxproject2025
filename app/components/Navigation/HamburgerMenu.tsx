@@ -26,7 +26,7 @@ export function HamburgerMenu() {
     return (
         <div className={styles.hamburgerMenu} ref={menuRef}>
             <button onClick={() => setIsOpen(!isOpen)} className={styles.menuButton}>
-                {isOpen ? <X size={24} /> : <Menu size={24} />}
+                {isOpen ? <img src="/assets/Cross.jpg" /> : <img src="/assets/Hamburger.jpg" />}
             </button>
             {isOpen && (
                 <ul className={styles.menuList}>

@@ -9,6 +9,21 @@
   height: 4rem;
   width: 100%;
   padding: 0;
+
+}
+
+.navContainer {
+  display: flex;
+  margin-left: 1.5rem;
+}
+
+.iconContainer {
+  display: flex;
+}
+
+.iconContainer img {
+  width: 40px;
+  height: 40px;
 }
 
 .logo {
@@ -18,13 +33,27 @@
   width: 8rem;
 }
 
+.icon {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
 .link {
   display: inherit;
   justify-content: center;
   align-items: center;
+  margin-right: 1rem;
+
+  color: #E60035;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
 }
 
+
 .favoritesLink {
-  width: 4rem;
-  height: 4rem;
+  width: 40px;
+  height: 40px;
+  margin-right: 1.5rem;
 }
