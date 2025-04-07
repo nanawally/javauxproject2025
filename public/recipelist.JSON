@@ -2,8 +2,8 @@
   {
     "id": 0,
     "category": "Kalorisnåla",
-    "name": "Äpple och Spenat",
-    "profile": ["Frisk", "Syrlig"],
+    "name": "Äpple & Spenat",
+    "profile": ["Syrlig"],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -15,8 +15,9 @@
       "5 isbitar"
     ],
     "instructions": [
-      "Hacka 1 äpple",
-      "Mixra"
+      "Kärna ur och hacka äpplet.",
+      "Lägg i alla ingredienser i en mixer och kör tills smoothien är slät.", 
+      "Häll upp i glas och njut av en frisk och syrlig smoothie!",
     ],
     "nutrition": [
       "protein: 1,5g",
@@ -29,8 +30,8 @@
   {
     "id": 1,
     "category": "Kalorisnåla",
-    "name": "Bärig Dröm",
-    "profile": ["Sött", "Friskt"],
+    "name": "Blåbär & Hallon",
+    "profile": ["Söt",],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
@@ -39,7 +40,13 @@
       "2 dl vatten",
       "1 tsk chiafrön"
     ],
-    "instructions": "Lägg chiafröna i 1 dl vattnet en stund så de absorberar vätska för en mer mättande känsla. Mixa bären med 1 dl vatten. Häll upp i ett glas och vänd ner andra delen av vatten/chiafrö mixen. Njut av en härligt bärig och mättande smoothie!",
+    "instructions": [
+    "Lägg chiafröna i 1 dl vatten och låt de svälla där i cirka 10 minuter.", 
+     "Mixa bären med 1 dl vatten.",
+      "Häll upp i ett glas och addera chiafrö-mixen.", 
+      "Njut av en härligt bärig och mättande smoothie!",
+     ],
+   
     "nutrition": [
       "Protein: 2 g",
       "Kolhydrater: 14 g",
@@ -51,18 +58,23 @@
   {
     "id": 2,
     "category": "Kalorisnåla",
-    "name": "Citrusfrisk Kick",
-    "profile": ["Syrlig", "Uppfriskande"],
+    "name": "Mango & Citron",
+    "profile": ["Syrlig",],
     "allergens": [""],
     "portionsize": 2,
     "ingredients": [
       "1 apelsin",
       "Saften från 1/2 citron",
-      "1 dl frysta mango­ bitar",
+      "1 dl frysta mango­bitar",
       "2 dl vatten",
       "5 isbitar"
     ],
-    "instructions": "Skala och dela apelsinen. Lägg alla ingredienser i mixern och kör tills slätt. Ha i mer is för en mer slushy textur. Servera och njut av en fräsch citrusboost!",
+    "instructions": [
+    "Skala och dela apelsinen.",
+     "Lägg alla ingredienser i mixern och kör tills slätt.",
+     "Servera och njut av en fräsch och fräsch citrusboost!",
+    ],
+       
     "nutrition": [
       "Protein: 1 g",
       "Kolhydrater: 18 g",
