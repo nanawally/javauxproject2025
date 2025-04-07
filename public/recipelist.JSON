@@ -6,6 +6,8 @@
     "profile": ["Syrlig"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1 grönt äpple",
       "1 näve spenat",
@@ -17,7 +19,7 @@
     "instructions": [
       "Kärna ur och hacka äpplet.",
       "Lägg i alla ingredienser i en mixer och kör tills smoothien är slät.", 
-      "Häll upp i glas och njut av en frisk och syrlig smoothie!",
+      "Häll upp i glas och njut av en frisk och syrlig smoothie!"
     ],
     "nutrition": [
       "protein: 1,5g",
@@ -31,9 +33,11 @@
     "id": 1,
     "category": "Kalorisnåla",
     "name": "Blåbär & Hallon",
-    "profile": ["Söt",],
+    "profile": ["Söt"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1 dl frysta blåbär",
       "1 dl frysta hallon",
@@ -41,10 +45,10 @@
       "1 tsk chiafrön"
     ],
     "instructions": [
-    "Lägg chiafröna i 1 dl vatten och låt de svälla där i cirka 10 minuter.", 
-     "Mixa bären med 1 dl vatten.",
+      "Lägg chiafröna i 1 dl vatten och låt de svälla där i cirka 10 minuter.", 
+      "Mixa bären med 1 dl vatten.",
       "Häll upp i ett glas och addera chiafrö-mixen.", 
-      "Njut av en härligt bärig och mättande smoothie!",
+      "Njut av en härligt bärig och mättande smoothie!"
      ],
    
     "nutrition": [
@@ -59,9 +63,11 @@
     "id": 2,
     "category": "Kalorisnåla",
     "name": "Mango & Citron",
-    "profile": ["Syrlig",],
+    "profile": ["Syrlig"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1 apelsin",
       "Saften från 1/2 citron",
@@ -72,7 +78,7 @@
     "instructions": [
     "Skala och dela apelsinen.",
      "Lägg alla ingredienser i mixern och kör tills slätt.",
-     "Servera och njut av en fräsch citrusboost!",
+     "Servera och njut av en fräsch och fräsch citrusboost!"
     ],
        
     "nutrition": [
@@ -90,6 +96,8 @@
     "profile": ["Syrlig"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1 dl frysta hallon",
       "1 dl vatten",
@@ -97,7 +105,9 @@
       "Saften från 1/2 lime",
       "5 isbitar"
     ],
-    "instructions": "Lägg myntabladen och limesaften i mixern och låt dra i 2 minuter för att framhäva smakerna. Tillsätt de frysta hallonen, vatten och isbitar. Pulsmixa i 10 sekunders intervaller för att få en luftig och fräsch smoothie. Häll upp och njut av en svalkande hallonboost!",
+    "instructions" : [
+      
+    ],
     "nutrition": [
       "Kalorier: 50 kcal",
       "Protein: 1 g",
@@ -113,6 +123,8 @@
     "profile": ["Söt", "Fräsch", "Örtig"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1 dl frysta jordgubbar",
       "1 dl vatten",
@@ -136,6 +148,8 @@
     "profile": ["Jordig", "Fräsch"],
     "allergens": [""],
     "portionsize": 2,
+    "description": "",
+    "difficulty": "",
     "ingredients": [
       "1/2 liten rödbeta",
       "1 morot",
