@@ -6,6 +6,20 @@
   color: #e60035;
 }
 
+.imageOverlay {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.imageOverlay img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .textContainers {
   text-align: center;
   margin-top: 50px;
@@ -29,10 +43,6 @@
 }
 
 @media (max-width: 431px) {
-  main {
-    background-color: #F1E8E1;
-  }
-
   .bigTextContainer {
     grid-column-start: 2;
     grid-column-end: 6;
