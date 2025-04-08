@@ -1388,22 +1388,26 @@
     "id": 49,
     "category": "Somriga",
     "name": "Hjortron & Grädde",
-    "profile": ["Lyxig", "Krämig"],
+    "profile": ["Krämig"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
+    "description": "Som gräddglass med hjortronsmak!",
+    "difficulty":"Enkel",
     "ingredients": [
       "1 dl frysta hjortron",
       "1 dl naturell kvarg",
       "2 dl osötad mandelmjölk",
-      "1 tesked honung",
+      "1 tsk honung",
       "5 isbitar"
     ],
-    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är jämn och len. Häll upp och njut!",
+    "instructions": ["Lägg alla ingredienser i mixern och mixa tills smoothien är jämn och len.",
+    "Häll upp och njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 13 g",
-      "socker: 9 g",
-      "kalorier: 140 kcal"
+      "Kalorier: 140 kcal",
+      "Socker: 9 g",
+      "Protein: 12 g",
+      "Kolhydrater: 13 g"
     ],
     "image": "assets/smoothies/Sommar/HjortronGradde.png"
   },
@@ -1414,18 +1418,25 @@
     "profile": ["Söt", "Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Som en fruktig sommardrink på midsommarafton!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl kokt och avsvalnad rabarber",
       "1 dl frysta jordgubbar",
       "1 dl vaniljkvarg",
       "2 dl osötad mandelmjölk"
     ],
-    "instructions": "Om du inte redan kokt rabarbern – skär den i bitar och koka i lite vatten tills den mjuknar, ca 5 minuter. Låt den svalna. Lägg de frysta jordgubbarna i mixern och mixa lätt i 10 sekunder för att bryta upp dem. Tillsätt kvarg, mandelmjölk och rabarbern. Mixa på hög hastighet i 30–40 sekunder tills smoothien blir krämig. Smaka av och tillsätt eventuellt lite honung om du vill ha den sötare. Häll upp i glas och servera direkt!",
+    "instructions": ["Skär upp rabarbern och koka i lite vatten i ca 5 minuter. Låt svalna.",
+    "Lägg de frysta jordgubbarna och kvargen i mixern och mixa lätt i 10 sekunder.",
+    "Tillsätt mandelmjölken och rabarbern.",
+    "Mixa på hög hastighet i 30-40 sekunder tills smoothien blir krämig.",
+    "Häll upp i glas och njut!"
+  ],
     "nutrition": [
-      "protein: 13 g",
-      "kolhydrater: 15 g",
-      "socker: 10 g",
-      "kalorier: 140 kcal"
+      "Kalorier: 140 kcal",
+      "Socker: 10 g",
+      "Protein: 13 g",
+      "Kolhydrater: 15 g"
     ],
     "image": "assets/smoothies/Sommar/RabarberJordgubb.png"
   },
@@ -1433,9 +1444,11 @@
     "id": 51,
     "category": "Somriga",
     "name": "Melon & Mynta",
-    "profile": ["Frisk", "Svalkande"],
+    "profile": ["Söt", "Exotisk"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Paraplydrinkaktig smoothie som passar bäst under parasolet!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 dl melon (t.ex. cantaloupe)",
       "1 dl naturell kvarg",
@@ -1443,12 +1456,16 @@
       "några färska myntablad",
       "5 isbitar"
     ],
-    "instructions": "Skär melonen i små bitar och lägg i mixern. Tillsätt kvarg, kokosmjölk och några myntablad för en fräsch smak. Mixa på hög hastighet i cirka 30 sekunder tills smoothien är slät och krämig. Lägg i isbitarna och mixa ytterligare för att få en kall och fluffig smoothie. Smaka av och tillsätt honung eller agavesirap om du vill ha en sötare smak. Häll upp och servera i glas, gärna med några extra myntablad som dekoration.",
+    "instructions": ["Skär melonen i små bitar och lägg i mixern.",
+    "Tillsätt kvarg, kokosmjölk och några myntablad.",
+    "Mixa på hög hastighet i 30 sekunder tills smoothien är slät och krämig.",
+    "Häll upp och servera i glas, njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 18 g",
-      "socker: 10 g",
-      "kalorier: 140 kcal"
+      "Kalorier: 140 kcal",
+      "Socker: 10 g",
+      "Protein: 12 g",
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/Sommar/MelonMynta.png"
   },
@@ -1456,9 +1473,11 @@
     "id": 52,
     "category": "Somriga",
     "name": "Passionsfrukt & Ananas",
-    "profile": ["Tropisk", "Syrlig"],
+    "profile": ["Exotisk", "Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description" : "En riktig törstsläckare när svetten rinner!",
+    "difficulty":"Medel",
     "ingredients": [
       "1 passionsfrukt",
       "1 dl frysta ananasbitar",
@@ -1466,36 +1485,46 @@
       "2 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": "Dela passionsfrukten och skrapa ut fruktköttet. Lägg det i mixern. Tillsätt de frysta ananasbitarna, vaniljkvarg och mandelmjölk. Mixa på hög hastighet tills smoothien är jämn och krämig. Lägg i isbitarna och mixa i 10–15 sekunder tills den är kall och fluffig. Smaka av och justera sötman med honung eller agavesirap om så önskas. Häll upp i glas och servera direkt för en tropisk smakupplevelse.",
+    "instructions": ["Dela passionsfrukten och skrapa ut fruktköttet. Lägg det i mixern.",
+    "Tillsätt ananasbitarna, vaniljkvargen och mandelmjölken.",
+    "Mixa på hög hastighet tills smoothien är jämn och krämig.",
+    "Servera omedelbart i glas och njut av en tropisk upplevelse!"
+  ],
     "nutrition": [
-      "protein: 14 g",
-      "kolhydrater: 20 g",
-      "socker: 13 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 13 g",
+      "Protein: 14 g",
+      "Kolhydrater: 20 g"
     ],
     "image": "assets/smoothies/Sommar/PassionsfruktAnanas.png"
   },
   {
     "id": 53,
     "category": "Tropiska",
-    "name": "Tropisk Dröm",
-    "profile": ["Söt", "Fruktig", "Tropiskt paradis"],
+    "name": "Mango & Ananas",
+    "profile": ["Söt", "Fruktig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description":"Slut ögonen och dra dit palmerna bor!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta mangobitar",
       "1 dl ananasbitar",
       "1 dl naturell yoghurt",
       "2 dl osötad kokosmjölk",
-      "1 tesked honung (valfritt)",
+      "1 tsk honung",
       "5 isbitar"
     ],
-    "instructions": "Börja med att lägga mangon och ananasen i mixern. Tillsätt den naturella yoghurten och kokosmjölken. Om du gillar det sötare, häll i honung och justera efter smak. Lägg i isbitar och kör mixern tills allt blandas ordentligt och smoothien blir slät. Servera omedelbart i glas och njut av en tropisk upplevelse.",
+    "instructions": ["Börja med att lägga mangon och ananasen i mixern. Tillsätt yoghurten och kokosmjölken.",
+    "Häll i honungen.",
+    "Lägg i isbitar och kör mixern tills allt blandats ordentligt och smoothien är slät.",
+    "Servera omedelbart i glas och njut av en tropisk upplevelse!"
+  ],
     "nutrition": [
-      "protein: 9 g",
-      "kolhydrater: 22 g",
-      "socker: 18 g",
-      "kalorier: 170 kcal"
+      "Kalorier: 170 kcal",
+      "Socker: 18 g",
+      "Protein: 9 g",
+      "Kolhydrater: 22 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskDrom.png"
   },
@@ -1503,9 +1532,11 @@
     "id": 54,
     "category": "Tropiska",
     "name": "Passionsfrukt & Banan",
-    "profile": ["Frisk", "Syrlig", "Tropisk sötma"],
+    "profile": ["Syrlig", "Söt"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Som en tropisk bris vid solnedgången!",
+    "difficulty":"Enkel",
     "ingredients": [
       "1 passionsfrukt",
       "1 banan",
@@ -1513,12 +1544,16 @@
       "1 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": "Skär passionsfrukten och skopa ut fruktköttet. Lägg det i mixern tillsammans med bananen. Häll i kvarg och mandelmjölk. Mixa på hög hastighet tills du får en jämn och krämig konsistens. Tillsätt isbitar för en kylig och uppfriskande smoothie. Häll upp i glas och njut direkt av den tropiska smaken.",
+    "instructions": ["Skär passionsfrukten och skopa ut fruktköttet. Lägg det i mixern tillsammans med bananen.",
+    "Häll i kvarg och mandelmjölk. Mixa på hög hastighet tills du får en jämn och krämig konsistens.",
+    "Tillsätt isbitar och mixa i 10 sekunder.",
+    "Häll upp i glas och njut av den tropiska smaken!"
+  ],
     "nutrition": [
-      "protein: 15 g",
-      "kolhydrater: 20 g",
-      "socker: 12 g",
-      "kalorier: 150 kcal"
+      "Kalorier: 150 kcal",
+      "Socker: 12 g",
+      "Protein: 15 g",
+      "Kolhydrater: 20 g"
     ],
     "image": "assets/smoothies/Tropiska/PassionfruktOchBanan.png"
   },
@@ -1526,124 +1561,156 @@
     "id": 55,
     "category": "Tropiska",
     "name": "Papaya Coconut",
-    "profile": ["Frisk", "Syrlig", "Exotisk papaya"],
+    "profile": ["Syrlig", "Krämig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description" : "Som en solig paus under vajande palmer!",
+    "difficulty": "Enkel",
     "ingredients": [
-      "1 dl papayabit",
+      "1 dl papaya",
       "Saften från 1/2 lime",
       "1 dl naturell kvarg",
       "2 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": "Skär papayan i bitar och lägg i mixern. Pressa i saften från en halv lime och tillsätt kvarg och kokosmjölk. Mixa på hög hastighet tills smoothien får en slät och krämig konsistens. Lägg i isbitar och kör mixern igen för att få en kall och fräsch smoothie. Häll upp i glas och servera direkt.",
+    "instructions": ["Skär papayan i bitar och lägg i mixern. Pressa i saften från en halv lime och tllsätt kvargen och kokosmjölken.",
+    "Mixa på hög hastighet tills smoothien får en slät och krämig konsistens.",
+    "Lägg i isbitarna och mixa igen för att få smoothien kall.",
+    "Häll upp i glas och njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 18 g",
-      "socker: 10 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 10 g",
+      "Protein: 12 g",
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/Tropiska/PapayaCoconut.png"
   },
   {
     "id": 56,
     "category": "Tropiska",
-    "name": "Tropisk Mango & Kokos",
-    "profile": ["Söt", "Exotisk", "Krämig kokos"],
+    "name": "Mango & Kokos",
+    "profile": ["Söt", "Exotisk", "Krämig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Som en drickbar Bounty med mangoinslag!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta mangobitar",
       "1 dl kokosmjölk",
       "1 dl naturell kvarg",
-      "1 tesked riven kokos"
+      "1 tsk riven kokos"
     ],
-    "instructions": "Lägg mangon, kokosmjölken och kvargen i mixern och mixa på hög hastighet. Tillsätt den rivna kokosen för extra smak och mixa en gång till. Lägg i isbitarna för att få en fräsch och kall smoothie. Häll upp smoothien i glas och servera genast.",
+    "instructions": ["Lägg mangon, kokosmjölken och kvargen i mixern och mixa på hög hastighet.",
+    "Tillsätt den rivna kokosen.",
+    "Lägg i isbitarna och mixa tills smoothien är fluffig.",
+    "Häll upp i glas och njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 18 g",
-      "socker: 14 g",
-      "kalorier: 150 kcal"
+      "Kalorier: 150 kcal",
+      "Socker: 14 g",
+      "Protein: 12 g",
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/Tropiska/MangoKokos.png"
   },
   {
     "id": 57,
     "category": "Tropiska",
-    "name": "Tropisk Grön Smoothie",
-    "profile": ["Frisk", "Grön", "Tropisk sötma"],
+    "name": "Mango & Spenat",
+    "profile": ["Söt"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Som tagen ur en hälsokostreklam!",
+    "difficulty": "Medel",
     "ingredients": [
-      "1 dl frysta mango",
-      "1/2 gurka, skuren",
+      "1 dl fryst mango",
+      "1/2 gurka",
       "1 dl spenat",
       "1 dl kokosvatten",
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": "Börja med att lägga mango, gurka och spenat i mixern. Tillsätt kokosvattnet och kvarg för att ge smoothien både fräschör och krämighet. Lägg i isbitar för en kall och uppfriskande smoothie. Mixa tills smoothien blir helt slät och servera direkt.",
+    "instructions": ["Börja med att lägga mango, gurka och spenat i mixern.",
+    "Tillsätt kokosvatten och kvarg.",
+    "Lägg i isbitar och kör mixern tills allt är slätt och väl blandat.",
+    "Servera direkt!"
+  ],
     "nutrition": [
-      "protein: 13 g",
-      "kolhydrater: 20 g",
-      "socker: 12 g",
-      "kalorier: 140 kcal"
+      "Kalorier: 140 kcal",
+      "Socker: 12 g",
+      "Protein: 13 g",
+      "Kolhydrater: 20 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskGronSmoothie.png"
   },
   {
     "id": 58,
     "category": "Tropiska",
-    "name": "Tropisk Mango & Kiwi Smoothie",
-    "profile": ["Söt", "Fruktig", "Uppfriskande syra"],
+    "name": "Mango & Kiwi",
+    "profile": ["Söt", "Fruktig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Förbered dig på sötchock!",
+    "difficulty":"Enkel",
     "ingredients": [
       "1 dl frysta mangobitar",
-      "1 kiwi, skuren",
+      "1 kiwi",
       "1 dl kokosmjölk",
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": "Skala och skär kiwin i bitar. Lägg kiwin och mangon i mixern tillsammans med kokosmjölken. Tillsätt kvarg för en extra krämig konsistens. Lägg i isbitarna och kör mixern tills allt är slätt och väl blandat. Häll upp i glas och servera direkt för en uppfriskande smakupplevelse.",
+    "instructions": ["Skala och skär kiwin i bitar. Lägg kiwin och mangon i mixern tillsammans md kokosmjölken.",
+    "Tillsätt kvargen.",
+    "Lägg i isbitarna och kör mixern tills allt är slätt och väl blandat.",
+    "Häll upp och njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 24 g",
-      "socker: 16 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 16 g",
+      "Protein: 12 g",
+      "Kolhydrater: 24 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskMangoKiwi.png"
   },
   {
     "id": 59,
     "category": "Tropiska",
-    "name": "Tropisk Pina Colada Smoothie",
-    "profile": ["Krämig", "Söt", "Klassisk pina colada"],
+    "name": "Pina Colada",
+    "profile": ["Krämig", "Söt"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description" : "Ett säkert kort i smoothiedjungeln!",
+    "difficulty" : "Medel",
     "ingredients": [
       "1 dl ananasbitar",
       "1 dl ananasjuice",
       "1 dl kokosmjölk",
       "1 dl naturell kvarg",
-      "1 tesked honung"
+      "1 tsk honung"
     ],
-    "instructions": "Lägg ananasbitarna i mixern och tillsätt kokosmjölk, ananasjuicen och kvarg för en tropisk och krämig bas. Tillsätt honung för att ge smoothien en lätt sötma, men justera efter smak. Lägg i isbitar och mixa tills smoothien blir kall och slät. Häll upp i glas och servera direkt för en tropisk smakupplevelse.",
+    "instructions": ["Lägg ananasbitarna i mixern och tillsätt kokosmjölk, ananasjuice och kvarg.",
+    "Tillsätt honung.",
+    "Lägg i isbitar och mixa tills smoothien blir kall och slät.",
+    "Häll upp och njut!"
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 20 g",
-      "socker: 14 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 14 g",
+      "Protein: 12 g",
+      "Kolhydrater: 20 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskPinaColada.png"
   },
   {
     "id": 60,
     "category": "Tropiska",
-    "name": "Tropisk Coconut & Passionfruit Smoothie",
-    "profile": ["Krämig", "Exotisk", "Syrlig kick"],
+    "name": "Kokosnöt & Passionsfrukt",
+    "profile": ["Krämig", "Exotisk"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description" : "Bli passionerat förälskad i denna ovanliga smakkombination!",
+    "difficulty" : "Medel",
     "ingredients": [
       "1 passionfrukt",
       "1 dl kokosmjölk",
@@ -1651,58 +1718,74 @@
       "1/2 dl riven kokos",
       "5 isbitar"
     ],
-    "instructions": "Skopa ur fruktköttet från passionfrukten och lägg det i mixern. Tillsätt kokosmjölk och kvarg för en krämig och exotisk bas. Lägg i riven kokos för en extra tropisk smak och isbitar för att göra smoothien kall och uppfriskande. Mixa på hög hastighet tills allt blandas ordentligt och servera direkt.",
+    "instructions": ["Skopa ur fruktköttet från passionsfrukten och lägg det i mixern.",
+    "Tillsätt kokosmjölk och kvarg.",
+    "Lägg i riven kokos och isbitar.",
+    "Mixa på hög hastighet tills allt blandats ordentligt och servera direkt."
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 19 g",
-      "socker: 15 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 15 g",
+      "Protein: 12 g",
+      "Kolhydrater: 19 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskCoconutPassion.png"
   },
   {
     "id": 61,
     "category": "Tropiska",
-    "name": "Tropisk Drakfrukt & Mango",
-    "profile": ["Söt", "Exotisk", "Friskt fruktig"],
+    "name": "Drakfrukt & Mango",
+    "profile": ["Söt", "Exotisk", "Fruktig"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description" : "Drakar lyfter i motvind, men med denna får du medvind!",
+    "difficulty" : "Medel",
     "ingredients": [
-      "1 dl drakfrukt (fryst eller färsk)",
+      "1 dl drakfrukt (färdigtärnad fryst eller färsk)",
       "1 dl mangobitar",
       "1 dl kokosmjölk",
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": "Skär drakfrukten i bitar om du använder färsk, eller häll i den frysta varianten i mixern. Lägg mangon tillsammans med kokosmjölken för att få en tropisk bas. Tillsätt kvarg för krämighet och isbitar för att ge smoothien en kall och fräsch konsistens. Mixa på hög hastighet tills allt är ordentligt blandat och servera direkt.",
+    "instructions": ["Skär drakfrukten i bitar om du använder färsk, eller häll i den färdigtärnade frysta  varianten i mixern.",
+    "Lägg i mangon tillsammans med kokosmjölken.",
+    "Tillsätt kvargen och isbitarna.",
+    "Mixa på hög hastighet tills allt är ordentligt blandat och servera direkt."
+  ],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 21 g",
-      "socker: 16 g",
-      "kalorier: 150 kcal"
+      "Kalorier: 150 kcal",
+      "Socker: 16 g",
+      "Protein: 12 g",
+      "Kolhydrater: 21 g"
     ],
     "image": "assets/smoothies/Tropiska/TropiskDrakfruktMango.png"
   },
   {
     "id": 62,
     "category": "Tropiska",
-    "name": "Tropisk Papaya & Banan Smoothie",
-    "profile": ["Krämig", "Söt", "Tropisk värme"],
+    "name": "Papaya & Banan",
+    "profile": ["Krämig", "Söt"],
     "allergens": ["laktos"],
     "portionsize": 2,
+    "description": "Som en solmogen fruktbuffé vid havet!",
+    "difficulty": "Enkel",
     "ingredients": [
-      "1 dl papayabit",
+      "1 dl papaya",
       "1 banan",
       "1 dl kokosmjölk",
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": "Skala bananen och lägg den i mixern tillsammans med papayabitarna. Häll i kokosmjölken och tillsätt kvarg för att skapa en krämig och len konsistens. Lägg i isbitarna och mixa tills smoothien är slät och kall. Smaka av och justera sötman om så önskas, servera direkt.",
+    "instructions": ["Skala bananen och lägg den i mixern tillsammans med papayabitarna.",
+    "Häll i kokosmjölk och kvarg för att skapa en krämig och len konsistens.",
+    "Lägg i isbitarna och mixa tills smoothien är slät och kall.",
+    "Servera direkt och njut!"  
+  ],
     "nutrition": [
-      "protein: 13 g",
-      "kolhydrater: 23 g",
-      "socker: 18 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 18 g",
+      "Protein: 13 g",
+      "Kolhydrater: 23 g"   
     ],
     "image": "assets/smoothies/Tropiska/PapayaBanan.png"
   }
