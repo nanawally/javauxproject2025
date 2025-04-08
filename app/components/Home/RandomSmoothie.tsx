@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useRecipeContext } from "../Recipes/RecipeContext"
 import styles from "./RandomSmoothie.module.css"
+import { ProfileLabel } from "../Recipes/ProfileLabel";
 
 export function RandomSmoothie() {
     const {smoothieOfTheDay, setRecipeIndex} = useRecipeContext();
@@ -17,6 +18,7 @@ export function RandomSmoothie() {
                     <section className={styles.smoothieText}>
                         <h2>Dagens Smoothie!</h2>
                         <h3>{smoothieOfTheDay.name}</h3>
+                        <ProfileLabel profiles={smoothieOfTheDay.profile} allergens={smoothieOfTheDay.allergens}/>
                         <section className={styles.categoryNames}>
                             <span className={styles.categoryName}>{smoothieOfTheDay.profile[0]}</span>
                             <span className={styles.categoryName}>{smoothieOfTheDay.profile[1]}</span>

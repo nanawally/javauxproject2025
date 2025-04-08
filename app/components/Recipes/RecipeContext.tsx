@@ -15,7 +15,13 @@ const RecipeContext = createContext<RecipeContextProps | undefined>(undefined);
 export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [favorites, setFavorites] = useState<number[]>([]);
-    const [recipeIndex, setRecipeIndex] = useState<number>(1);
+    const [recipeIndex, setRecipeIndex] = useState<number>(() => {
+        if (typeof window !== "undefined") {
+            const storedIndex = localStorage.getItem("RecipeIndex");
+            return storedIndex ? parseInt(storedIndex, 10) : 1;
+        }
+        return 1;
+    });
     const [smoothieOfTheDay, setSmoothieOfTheDay] = useState<Recipe | null>(null);
 
     // Fetch data onces components mounts
@@ -41,6 +47,13 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
             setSmoothieOfTheDay(recipes[index]);
         }
     }, [recipes]);
+
+    // Store recipeIndex
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            localStorage.setItem("RecipeIndex", recipeIndex.toString());
+        }
+    }, [recipeIndex])
 
     // Store favorites
     useEffect(() => {
