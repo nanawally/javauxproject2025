@@ -1,89 +1,106 @@
 .tabs {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .tabButton {
-    border: none;
-    border-radius: 350px;
-    padding: 10px 40px;
+  border: none;
+  border-radius: 350px;
+  padding: 10px 40px;
 
-    font-family: Inter;
-    font-weight: 900;
-    font-size: 2vmin;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 2vmin;
+  color: black;
 
-    cursor: pointer;
-    background-color: #fff;
+  cursor: pointer;
+  background-color: #fff;
 }
 
 .tabButton.active {
-    background-color: #F3CDFE;
+  background-color: #f3cdfe;
 }
 
 .tabsContent {
-    display: inherit;
-    margin-top: 2vh;
-    width: 100%;
+  display: inherit;
+  margin-top: 2vh;
+  width: 100%;
 }
 
 .tabsInstructions {
-    font-family: Inter;
-    font-weight: 700;
-    font-size: 2vmin;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  background-color: #f3cdfe;
 
-    width: 100%;
-    max-width: 100%;
-    /* Prevents stretching */
-    text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2vmin;
+  color: black;
 
-    white-space: normal;
-    /* Ensures text wraps */
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  width: 100%;
+  max-width: 100%;
+  /* Prevents stretching */
+  text-align: center;
 
-    max-height: 40vh;
-    /* Prevents it from making the page huge */
-    overflow-y: auto;
-    /* Enables scrolling */
+  white-space: normal;
+  /* Ensures text wraps */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  max-height: 40vh;
+  /* Prevents it from making the page huge */
+  overflow-y: auto;
+  /* Enables scrolling */
 }
 
 .tabsList {
-    width: 100%;
-    margin: 0;
-    list-style: none;
-    padding: 0;
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  background-color: #f3cdfe;
+  border-radius: 10px;
 }
 
 .tabsList li {
-    display: flex;
-    width: 100%;
-    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    box-sizing: border-box;
-    height: 3vh;
-    padding: 5px 10px;
-    margin-bottom: 8px;
-    align-items: center;
-    padding-left: 2vw;
+  display: flex;
+  width: 100%;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 10px;
 
-    font-family: Inter;
-    font-weight: 700;
-    font-size: 1.5vmin
+  height: 3vh;
+  padding: 5px 10px;
+  margin-bottom: 8px;
+  align-items: center;
+  padding-left: 2vw;
+
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.5vmin;
+  color: black;
 }
 
 @media (max-width: 768px) {
-    .tabsInstructions {
-        font-size: 3vmin;
-    }
+  .tabsInstructions {
+    font-size: 3vmin;
+  }
 
-    .tabButton {
-        padding: 5px 30px;
-        font-size: 2.5vmin;
-    }
+  .tabButton {
+    padding: 5px 30px;
+    font-size: 2.8vmin;
+  }
 
-    .tabsList li {
-        font-size: 3vmin;
-        height: 40px;
-    }
+  .tabsList li {
+    font-size: 3vmin;
+    height: 40px;
+  }
 }

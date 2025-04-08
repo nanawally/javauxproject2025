@@ -8,8 +8,6 @@ interface TabProps {
     content: React.ReactNode;
 }
 
-
-
 export const TabsComponent = () => {
     const [activeTab, setActiveTab] = useState("ingredients");
     const { recipes, recipeIndex } = useRecipeContext();
