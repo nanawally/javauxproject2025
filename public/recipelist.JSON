@@ -1206,46 +1206,59 @@
   {
     "id": 42,
     "category": "Dessertinspirerade",
-    "name": "Blåbärscheesecake",
+    "name": "Blåbär & Vanilj",
     "profile": ["Söt", "Syrlig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
+    "description": "Allt i ett-smoothie som passar de flesta!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta blåbär",
       "1 dl vaniljkvarg",
       "2 dl osötad havremjölk",
-      "1 tesked honung",
+      "1 tsk honung",
       "1/2 digestivekex"
     ],
-    "instructions": "Lägg alla ingredienser i en mixer, inklusive de frysta blåbären. Mixa på hög hastighet tills smoothien är slät. Smula lite extra digestivekex ovanpå för en härlig crunch. Häll upp i ett glas och njut av den syrliga och fruktiga smaken av cheesecake!",
+    "instructions":   
+    ["Lägg all ingredienser i en mixer",
+    "Mixa på hög hastighet tills konsistensen är slät.",
+    "Häll upp i ett glas och toppa med krossat digestivekex för extra crunch!",
+    "Njut av den syrliga och fruktiga smaken av cheesecake!",],
+
     "nutrition": [
-      "protein: 11 g",
-      "kolhydrater: 22 g",
-      "socker: 12 g",
-      "kalorier: 170 kcal"
+      "Kalorier: 170 kcal",
+      "Socker: 12 g",
+      "Protein: 11 g",
+      "Kolhydrater: 22 g"
     ],
     "image": "assets/smoothies/Dessert/Blabarscheesecake.png"
   },
   {
     "id": 43,
     "category": "Dessertinspirerade",
-    "name": "Banoffee",
-    "profile": ["Söt", "Karamellig"],
+    "name": "Banan & Vanilj",
+    "profile": ["Söt", "Krämig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
+    "description": "Smälter i munnen som din favoritkaramell!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 banan",
-      "1 tesked dadelsirap",
+      "1 tsk dadelsirap",
       "1 dl vaniljkvarg",
       "2 dl osötad havremjölk",
-      "1/2 tesked vaniljpulver"
+      "1/2 tsk vaniljpulver"
     ],
-    "instructions": "Skala bananen och lägg alla ingredienser i en mixer. Mixa på hög hastighet tills smoothien blir slät och krämig. Smaka av och tillsätt mer dadelsirap om du vill ha den sötare. Häll upp i ett glas och njut av den karamelliga smaken!",
+    "instructions":  
+    ["Skala bananen och lägg sedan alla ingredienser i en mixer",
+    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+    "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
+    "Häll upp i glas och njut av den karamelliga smaken!"],
     "nutrition": [
-      "protein: 12 g",
-      "kolhydrater: 22 g",
-      "socker: 14 g",
-      "kalorier: 180 kcal"
+      "Kalorier: 180 kcal",
+      "Socker: 14 g",
+      "Protein: 12 g",
+      "Kolhydrater: 22 g"
     ],
     "image": "assets/smoothies/Dessert/Banoffee.png"
   },
@@ -1253,22 +1266,28 @@
     "id": 44,
     "category": "Dessertinspirerade",
     "name": "Choklad & Apelsin",
-    "profile": ["Chokladig", "Citrus-toner"],
+    "profile": ["Chokladig", "Söt"],
     "allergens": ["laktos", "nötter"],
     "portionsize": 2,
+    "description": "Apelsinkrokantälskare se hit!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl vaniljkvarg",
       "2 dl osötad mandelmjölk",
-      "1 tesked kakao",
+      "1 tsk kakao",
       "Rivet skal från 1/2 apelsin",
       "5 isbitar"
     ],
-    "instructions": "Häll alla ingredienser i mixern och mixa tills smoothien är slät och krämig. Smaka av och justera sötman med lite honung om så önskas. Häll upp i ett glas och njut av en chokladsmak med fräsch citrus!",
+    "instructions":   
+    ["Lägg alla ingredienser i mixern.",
+    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+    "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
+    "Häll upp i glas och njut av den karamelliga smaken!"],
     "nutrition": [
-      "protein: 14 g",
-      "kolhydrater: 16 g",
-      "socker: 9 g",
-      "kalorier: 160 kcal"
+      "Kalorier: 160 kcal",
+      "Socker: 9 g",
+      "Protein: 14 g",
+      "Kolhydrater: 16 g"
     ],
     "image": "assets/smoothies/Dessert/ChokladOchApelsin.png"
   },
