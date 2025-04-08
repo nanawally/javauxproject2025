@@ -63,18 +63,18 @@
   width: 100%;
   margin: 0;
   list-style: none;
+  /*
   padding: 20px;
   background-color: #f3cdfe;
   border-radius: 25px;
   box-sizing: border-box;
+  */
 }
 
 .tabsList li {
   display: flex;
   width: 100%;
-  border-color: #fff;
-  border-style: solid;
-  border-width: 2px;
+  background-color: #f3cdfe;
   border-radius: 10px;
   box-sizing: border-box;
 

@@ -22,7 +22,6 @@ export function CustomRecipe() {
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
               <p className={styles.description}>
-                {" "}
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 {/* {selectedRecipe.description} */}
@@ -30,6 +29,21 @@ export function CustomRecipe() {
             </div>
           </section>
           <section className={styles.recipeContainer}>
+            <div className={styles.recipeAspects}>
+              <ul className={styles.recipeList}>
+                {selectedRecipe?.ingredients.map((ingredient, index) => (
+                  <li key={index}>{ingredient}</li>
+                ))}
+              </ul>
+              <div className={styles.recipeInstructions}>
+                {selectedRecipe?.instructions}
+              </div>
+              <ul className={styles.recipeList}>
+                {selectedRecipe?.nutrition.map((nutrition, index) => (
+                  <li key={index}>{nutrition}</li>
+                ))}
+              </ul>
+            </div>
             <div className={styles.tabsContainer}>
               <TabsComponent />
             </div>
