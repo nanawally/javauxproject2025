@@ -1,0 +1,71 @@
+.receptkort-desktop {
+    background-color: var(--vanilj);
+    border-radius: 10px;
+    box-shadow: var(--smootify-drop);
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    width: 344px;
+}
+
+.receptkort-desktop .image {
+    height: 183px;
+    left: 78px;
+    object-fit: cover;
+    position: absolute;
+    top: 38px;
+    width: 183px;
+}
+
+.receptkort-desktop .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    height: 24px;
+    left: 111px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 244px;
+    white-space: nowrap;
+}
+
+.receptkort-desktop .p {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 47px;
+    left: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 285px;
+    width: 241px;
+}
+
+.receptkort-desktop .property-1-default {
+    height: 48px !important;
+    left: 289px !important;
+    position: absolute !important;
+    top: 14px !important;
+    width: 48px !important;
+}
+
+.receptkort-desktop .enkel-instance {
+    left: 26px !important;
+    position: absolute !important;
+    top: 14px !important;
+}
+:root {
+    --gllande-rd: rgba(230, 0, 53, 1);
+    --primary-beige: rgba(241, 232, 225, 1);
+    --primary-black: rgba(0, 0, 0, 1);
+    --primary-rd: rgba(217, 60, 12, 1);
+    --primary-rosa: rgba(243, 205, 254, 1);
+    --primary-white: rgba(255, 255, 255, 1);
+    --smootify-drop: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    --vanilj: rgba(247, 242, 233, 1);
+}

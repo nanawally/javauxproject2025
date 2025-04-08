@@ -6,7 +6,7 @@ import { Link } from "react-router";
 import { FavoriteButton } from "../Favorites/FavoriteButton";
 
 export function ExploreFeed() {
-    const { recipes, setRecipeIndex} = useRecipeContext();
+    const { recipes, setRecipeIndex } = useRecipeContext();
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
 
     function handleRecipeClick(id: number) {
@@ -15,8 +15,9 @@ export function ExploreFeed() {
 
     return (
         <>
+        <img className={styles.imagewrapper}src="assets/heroimage-alla.jpg" alt="" />
             <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
-            <div className={styles.list}>
+            <div className={styles.container}>
                 {filteredRecipes.length > 0 ? (
                     filteredRecipes.map(({ id, name, image }) => (
                         <div className={styles.recipeWrapper} key={id}>
