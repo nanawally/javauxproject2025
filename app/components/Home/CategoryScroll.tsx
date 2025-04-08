@@ -14,15 +14,25 @@ export function CategoryScroll({ category }: { category: string }) {
     };
 
     function handleScrollRight() {
-        if (scrollWrapperRef.current) {
-            scrollWrapperRef.current.scrollBy({ left: 600, behavior: "smooth" });
+        const wrapper = scrollWrapperRef.current;
+        if (wrapper) {
+            const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+
+            if (wrapper.scrollLeft < maxScrollLeft) {
+                wrapper.scrollBy({ left: 600, behavior: "smooth" });
+            }
         }
+
     }
 
     function handleScrollLeft() {
-        if (scrollWrapperRef.current) {
-            scrollWrapperRef.current.scrollBy({ left: -600, behavior: "smooth" });
+        const wrapper = scrollWrapperRef.current;
+        if (wrapper) {
+            if (wrapper.scrollLeft > 0) {
+                wrapper.scrollBy({ left: -600, behavior: "smooth" });
+            }
         }
+
     }
 
     return (
