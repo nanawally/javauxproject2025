@@ -678,7 +678,7 @@
       "Protein: 14 g",
       "Kolhydrater: 22 g"
     ],
-    "image": "assets/smoothies/Mättande/HavreBlabar.png"
+    "image": "assets/smoothies/Mattande/HavreBlabar.png"
   },
   {
     "id": 24,
@@ -706,7 +706,7 @@
       "Protein: 15 g",
       "Kolhydrater: 19 g"
     ],
-    "image": "assets/smoothies/Mättande/ChokladOchJordnot.png"
+    "image": "assets/smoothies/Mattande/ChokladOchJordnot.png"
   },
   {
     "id": 25,
@@ -734,7 +734,7 @@
       "Protein: 13 g",
       "Kolhydrater: 12 g"
     ],
-    "image": "assets/smoothies/Mättande/GronAvocadokraft.png"
+    "image": "assets/smoothies/Mattande/GronAvocadokraft.png"
   },
   {
     "id": 26,
@@ -761,7 +761,7 @@
       "Protein: 12 g",
       "Kolhydrater: 20 g"
     ],
-    "image": "assets/smoothies/Mättande/MangoOchHavre.png"
+    "image": "assets/smoothies/Mattande/MangoOchHavre.png"
   },
   {
     "id": 27,
@@ -791,7 +791,7 @@
       "Protein: 13 g",
       "Kolhydrater: 18 g"
     ],
-    "image": "assets/smoothies/Mättande/KanelOchApple.png"
+    "image": "assets/smoothies/Mattande/KanelOchApple.png"
   },
   {
     "id": 28,
@@ -819,7 +819,7 @@
       "Protein: 14 g",
       "Kolhydrater: 16 g"
     ],
-    "image": "assets/smoothies/Mättande/JordgubbOchChia.png"
+    "image": "assets/smoothies/Mattande/JordgubbOchChia.png"
   },
   {
     "id": 29,
@@ -847,7 +847,7 @@
       "Protein: 12 g",
       "Kolhydrater: 20 g"
     ],
-    "image": "assets/smoothies/Mättande/NotOchDadlar.png"
+    "image": "assets/smoothies/Mattande/NotOchDadlar.png"
   },
   {
     "id": 30,
@@ -874,7 +874,7 @@
       "Protein: 14 g",
       "Kolhydrater: 8 g"
     ],
-    "image": "assets/smoothies/Mättande/Kaffesmoothie.png"
+    "image": "assets/smoothies/Mattande/Kaffesmoothie.png"
   },
   {
     "id": 31,
@@ -903,7 +903,7 @@
       "Protein: 12 g",
       "Kolhydrater: 15 g"
     ],
-    "image": "assets/smoothies/Mättande/PassionOchMango.png"
+    "image": "assets/smoothies/Mattande/PassionOchMango.png"
   },
   {
     "id": 32,
@@ -932,7 +932,7 @@
       "Protein: 13 g",
       "Kolhydrater: 16 g"
     ],
-    "image": "assets/smoothies/Mättande/ParonKardemumma.png"
+    "image": "assets/smoothies/Mattande/ParonKardemumma.png"
   },
   {
     "id": 33,
@@ -960,7 +960,7 @@
       "Protein: 14 g",
       "Kolhydrater: 18 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensMorotOchIngefara.png"
+    "image": "assets/smoothies/pask/PaskensMorotOchIngefara.png"
   },
   {
     "id": 34,
@@ -990,7 +990,7 @@
       "Protein: 12 g",
       "Kolhydrater: 18 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensJordgubbMango.png"
+    "image": "assets/smoothies/pask/PaskensJordgubbMango.png"
   },
   {
     "id": 35,
@@ -1019,7 +1019,7 @@
         "Protein: 12 g",
         "Kolhydrater: 16 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensGronska.png"
+    "image": "assets/smoothies/pask/PaskensGronska.png"
   },
   {
     "id": 36,
@@ -1049,7 +1049,7 @@
       "Protein: 13 g",
       "Kolhydrater: 18 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensAppelpaj.png"
+    "image": "assets/smoothies/pask/PaskensAppelpaj.png"
   },
   {
     "id": 37,
@@ -1080,7 +1080,7 @@
       "Protein: 1 g",
       "Kolhydrater: 14 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensCitronOchChia.png"
+    "image": "assets/smoothies/pask/PaskensCitronOchChia.png"
   },
   {
     "id": 38,
@@ -1109,7 +1109,7 @@
       "Protein: 1 g",
       "Kolhydrater: 20 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensMorotskaka.png"
+    "image": "assets/smoothies/pask/PaskensMorotskaka.png"
   },
   {
     "id": 39,
@@ -1140,7 +1140,7 @@
       "Protein: 13 g",
       "Kolhydrater: 18 g"
     ],
-    "image": "assets/smoothies/påsk/PaskensCitronMarang.png"
+    "image": "assets/smoothies/pask/PaskensCitronMarang.png"
   },
   {
     "id": 40,
