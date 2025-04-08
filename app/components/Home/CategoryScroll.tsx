@@ -19,7 +19,9 @@ export function CategoryScroll({ category }: { category: string }) {
         const wrapper = scrollWrapperRef.current;
         if (!wrapper || isScrolling) return;
 
-        const scrollAmount = direction === "right" ? 600 : -600;
+        const isMobile = window.innerWidth <= 600;
+        const scrollDistance = isMobile ? 250 : 600;
+        const scrollAmount = direction === "right" ? scrollDistance : -scrollDistance;
         const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
 
         if ((direction === "right" && wrapper.scrollLeft >= maxScrollLeft) ||
