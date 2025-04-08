@@ -19,11 +19,6 @@ export function RandomSmoothie() {
                         <h2>Dagens Smoothie!</h2>
                         <h3>{smoothieOfTheDay.name}</h3>
                         <Label profiles={smoothieOfTheDay.profile} allergens={smoothieOfTheDay.allergens}/>
-                        <section className={styles.categoryNames}>
-                            <span className={styles.categoryName}>{smoothieOfTheDay.profile[0]}</span>
-                            <span className={styles.categoryName}>{smoothieOfTheDay.profile[1]}</span>
-                            <span className={styles.allergens}>L</span>
-                        </section>
                     </section>
                     <section className={styles.smoothieImage}>
                         <img src={smoothieOfTheDay.image} alt={smoothieOfTheDay.name} />
