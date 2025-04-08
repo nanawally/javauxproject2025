@@ -58,6 +58,7 @@
     font-weight: 900;
     font-size: 3vmin;
     text-align: center;
+    margin-bottom: 10px;
 
     white-space: normal; /* Allows text to wrap */
     word-wrap: break-word; /* Breaks long words if necessary */

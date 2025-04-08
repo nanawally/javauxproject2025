@@ -73,7 +73,7 @@
     font-size: 6vmin;
 
     padding-left: 10vw;
-    margin-bottom: 1vh;
+    margin-bottom: 12px;
 }
 
 /* Consistency Tip #1 */
@@ -85,7 +85,7 @@
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
 
-    padding: 3vh 0;
+    padding: 15px 0;
 
     background-color: #F1E8E1;
 }
@@ -96,6 +96,7 @@
     font-weight: 900;
     font-size: 4vmin;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .tipContainer {
@@ -222,6 +223,7 @@
     font-weight: 900;
     font-size: 4vmin;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .howToContainer {
