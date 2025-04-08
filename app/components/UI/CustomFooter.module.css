@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #F3CDFE;
+  background-color: #E60035;
   height: 4rem;
   margin: 0;
 }
@@ -10,18 +10,18 @@
 .centerFooter h2 {
   margin-top: 4px;
   text-align: center;
-  color: #E60035;
+  color: #F3CDFE;
   font-family: Inter;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .centerFooter h3 {
   text-align: center;
-  color: #E60035;
+  color: #F3CDFE;
   font-family: Inter;
   font-weight: 500;
-  font-size: 8px;
+  font-size: 10px;
 }
 
 .logo {
