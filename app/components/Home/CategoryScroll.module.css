@@ -14,13 +14,6 @@
     position: relative;
 }
 
-@media (max-width: 768px) {
-    .leftScrollButton,
-    .rightScrollButton {
-        display: none;
-    }
-}
-
 .leftScrollButton,
 .rightScrollButton {
     position: absolute;
