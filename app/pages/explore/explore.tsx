@@ -21,9 +21,11 @@ export function Explore() {
 
   return (
     <>
+    
       <main className={styles.exploreTheme}>
         <div className="contentWrapper">
-          <h1 className={styles.pageTitle}>Alla Recept</h1>
+          <div className="hero-image"></div>
+          <h1 className={styles.exploreTheme}>Alla Recept</h1>
           <ExploreFeed />
         </div>
         <CustomFooter />

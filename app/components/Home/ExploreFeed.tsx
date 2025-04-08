@@ -16,7 +16,7 @@ export function ExploreFeed() {
     return (
         <>
             <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
-            <div className={styles.list}>
+            <div className={styles.container}>
                 {filteredRecipes.length > 0 ? (
                     filteredRecipes.map(({ id, name, image }) => (
                         <div className={styles.recipeWrapper} key={id}>
