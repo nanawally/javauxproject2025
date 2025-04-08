@@ -5,10 +5,7 @@
     overflow-x: auto;
     white-space: nowrap;
     padding-left: 10vw;
-
     background-color: #F3CDFE;
-    scroll-snap-type: x mandatory;
-
 }
 
 .buttonOverlay {

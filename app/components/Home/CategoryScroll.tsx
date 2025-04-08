@@ -9,8 +9,6 @@ export function CategoryScroll({ category }: { category: string }) {
     const scrollWrapperRef = useRef<HTMLDivElement>(null);
     const [isScrolling, setIsScrolling] = useState(false);
 
-
-
     const handleRecipeClick = (id: number) => {
         setRecipeIndex(id);
     };
@@ -21,16 +19,17 @@ export function CategoryScroll({ category }: { category: string }) {
 
         const isMobile = window.innerWidth <= 600;
         const scrollDistance = isMobile ? 250 : 600;
-        const scrollAmount = direction === "right" ? scrollDistance : -scrollDistance;
         const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+        let scrollAmount = direction === "right" ? scrollDistance : -scrollDistance;
 
-        if ((direction === "right" && wrapper.scrollLeft >= maxScrollLeft) ||
-            (direction === "left" && wrapper.scrollLeft <= 0)) {
-            return;
+        if (direction === "right") {
+            const remaining = maxScrollLeft - wrapper.scrollLeft;
+            scrollAmount = Math.min(scrollDistance, remaining);
+        } else {
+            scrollAmount = -Math.min(scrollDistance, wrapper.scrollLeft);
         }
 
         setIsScrolling(true);
-
         wrapper.scrollBy({ left: scrollAmount, behavior: "smooth" })
 
         setTimeout(() => {

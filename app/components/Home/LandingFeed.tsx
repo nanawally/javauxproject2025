@@ -30,7 +30,7 @@ export function LandingFeed() {
                 <CategoryScroll category="Kalorisnåla" />
             </section>
             <section className={styles.consistencyTip}>
-                <h2>Hur får man till krämigheten?</h2>
+                <h2 className={styles.consistencyTitle}>Hur får man till krämigheten?</h2>
                 <div className={styles.tipContainer}>
                     <section>
                         <img src="assets/nut.jpg" alt="" />
@@ -68,7 +68,7 @@ export function LandingFeed() {
                 <CategoryScroll category="Somriga" />
             </section>
             <section className={styles.howToTip}>
-                <h2>Perfekt smoothie varje gång</h2>
+                <h2 className={styles.howToTitle}>Perfekt smoothie varje gång</h2>
                 <div className={styles.howToContainer}>
                     <section>
                         <h1>1</h1>
