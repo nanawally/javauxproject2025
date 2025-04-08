@@ -15,13 +15,13 @@
   }
 
   .favoriteButton > img {
-    height: 4rem;
-    width: 4rem;
+    height: 2rem;
+    width: 2rem;
   }
 
-  @media (min-width: 431px) {
+  @media (min-width: 600px) {
     .favoriteButton > img {
-        height: 6rem;
-        width: 6rem;
+        height: 4rem;
+        width: 4rem;
     }
   }

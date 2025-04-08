@@ -29,17 +29,12 @@
 }
 
 .tabsInstructions {
-  border: none;
-  border-radius: 10px;
-  padding: 10px 40px;
-  background-color: #f3cdfe;
-
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 2vmin;
-  color: black;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 2vmin;
 
   width: 100%;
+    
   max-width: 100%;
   /* Prevents stretching */
   text-align: center;
@@ -47,6 +42,7 @@
   white-space: normal;
   /* Ensures text wraps */
   word-wrap: break-word;
+
   overflow-wrap: break-word;
 
   max-height: 40vh;

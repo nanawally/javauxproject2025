@@ -1,17 +1,10 @@
-import { Link } from "react-router";
-import { useRecipeContext } from "../Recipes/RecipeContext";
 import { HeroImage } from "./HeroImage";
 import styles from "./LandingFeed.module.css";
 import { CategoryScroll } from "./CategoryScroll";
 import { RandomSmoothie } from "./RandomSmoothie";
+import { useRecipeContext } from "../Recipes/RecipeContext";
 
 export function LandingFeed() {
-    const { smoothieOfTheDay, setRecipeIndex } = useRecipeContext();
-
-    function handleRecipeClick(id: number) {
-        setRecipeIndex(id);
-    }
-
     return (
         <>
             <HeroImage />

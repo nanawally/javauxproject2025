@@ -1,4 +1,4 @@
-import { FavoriteButton } from "../Favorites/FavoriteButton";
+import { FavoriteButton } from "../../components/Favorites/FavoriteButton";
 import styles from "./CustomRecipe.module.css";
 import { Label } from "./Label";
 import { useRecipeContext } from "./RecipeContext";
