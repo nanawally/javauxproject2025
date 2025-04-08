@@ -15,15 +15,16 @@ export function ExploreFeed() {
 
     return (
         <>
-        <img className={styles.imagewrapper}src="assets/heroimage-alla.jpg" alt="" />
             <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
+            <img className={styles.imagewrapper} src="assets/heroimage-alla.jpg" alt="" />
             <div className={styles.container}>
                 {filteredRecipes.length > 0 ? (
-                    filteredRecipes.map(({ id, name, image }) => (
+                    filteredRecipes.map(({ id, name, image, description }) => (
                         <div className={styles.recipeWrapper} key={id}>
                             <Link to="../recipe" className={styles.recipeLink} onClick={() => handleRecipeClick(id)}>
                                 <img src={image} alt={name} />
                                 <h3>{name}</h3>
+                                <h4>{description}</h4>
                             </Link>
                             <FavoriteButton recipeId={id} />
                         </div>

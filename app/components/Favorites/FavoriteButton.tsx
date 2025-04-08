@@ -13,7 +13,7 @@ export function FavoriteButton({ recipeId }: FavoriteButtonProps) {
         <button
             className={`${styles.favoriteButton} ${isFav ? styles.favorited : ""}`}
             onClick={() => toggleFavorite(recipeId)}>
-            {isFav ? <img src="/assets/Favorite-filled.jpg" /> : <img src="/assets/Favorite-empty.jpg" />}
+            {isFav ? <img src="/assets/Favorite-filled.jpg" /> : <img src="/assets/Favorite-empty-b.jpg" />}
         </button>
     )
 }
