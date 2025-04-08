@@ -7,8 +7,8 @@ export interface Recipe {
   portionsize: number;
   description: string;
   difficulty: string;
+  instructions: string[];
   ingredients: string[];
-  instructions: string;
   nutrition: string[];
   image: string;
 }
