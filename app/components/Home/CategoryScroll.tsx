@@ -55,11 +55,11 @@ export function CategoryScroll({ category }: { category: string }) {
                 </div>
                 <button className={styles.leftScrollButton}
                     onClick={() => handleScroll("left")}
-                    disabled={isScrolling}> <img src="assets/arrow-left.svg" alt="" /> </button>
+                    disabled={isScrolling}> <img src="assets/arrow-left.jpg" alt="" /> </button>
 
                 <button className={styles.rightScrollButton}
                     onClick={() => handleScroll("right")}
-                    disabled={isScrolling}> <img src="assets/arrow-right.svg" alt="" /> </button>
+                    disabled={isScrolling}> <img src="assets/arrow-right.jpg" alt="" /> </button>
             </div>
         </>
     );
