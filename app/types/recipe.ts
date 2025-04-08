@@ -5,8 +5,10 @@ export interface Recipe {
   profile: string[];
   allergens: string[];
   portionsize: number;
-  ingredients: string[];
+  description: string;
+  difficulty: string;
   instructions: string[];
+  ingredients: string[];
   nutrition: string[];
   image: string;
 }
