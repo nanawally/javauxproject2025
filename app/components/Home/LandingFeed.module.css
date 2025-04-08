@@ -227,9 +227,6 @@
 }
 
 @media (max-width: 768px) {
-    .allergyText h2 {
-
-    }
     .allergyText h4 {
         font-size: 16px;
     }
