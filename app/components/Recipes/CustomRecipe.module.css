@@ -6,34 +6,14 @@
   align-items: center;
 }
 
-.recipeContainer {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-}
-
 .center {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
   justify-content: center;
   align-items: center;
-}
-
-.recipeImage {
-  display: grid;
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-}
-
-.recipeImgBg {
+  width: 100%;
   background-color: #F7F2E9;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  justify-content: center;
-  align-items: center;
 }
 
 .center h2 {
@@ -53,6 +33,31 @@
   font-size: 3vmin;
   text-align: left;
   margin: 5px 0px;
+}
+
+.textContainer {
+  width: 50%;
+}
+
+.recipeImage {
+  display: grid;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  background-color: #F7F2E9;
+}
+
+.recipeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.tabsContainer {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .tipsContainer {
@@ -78,6 +83,16 @@
   font-size: 3vmin;
   text-align: left;
   margin: 10px 0px;
+}
+
+.endCenter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #F7F2E9;
 }
 
 .symbol {
@@ -106,9 +121,21 @@
     margin-bottom: 1vh;
   }
 
+  .textContainer {
+    width: 100%;
+    background-color: white;
+  }
+
   .center h2 {
     text-align: left;
     font-size: 5vw;
+    margin-left: 5vw;
+  }
+
+  .center p {
+    text-align: left;
+    font-size: 3vw;
+    margin-left: 5vw;
   }
 
   .recipeImage {
@@ -123,12 +150,6 @@
 
 
 
-.tabsContainer {
-  display: inherit;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 
 
