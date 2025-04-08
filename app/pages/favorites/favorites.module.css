@@ -6,4 +6,6 @@
     margin: 0;
     min-height: calc(100vh - 4rem);
     width: 100%;
+
+    background-color: #F3CDFE;
   }
