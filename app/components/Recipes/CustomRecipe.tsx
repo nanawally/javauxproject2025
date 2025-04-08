@@ -45,11 +45,23 @@ export function CustomRecipe() {
             <div className={styles.center}>
               <h2>Allergier? Inga problem!</h2>
               <p>
-                <img src="/assets/avocado.jpg" alt="Laktossymbol" className={styles.symbol} />
+                <img
+                  src="/assets/avocado.jpg"
+                  alt="Laktossymbol"
+                  className={styles.symbol}
+                />
                 (Laktos)
-                <img src="/assets/avocado.jpg" alt="Glutensymbol" className={styles.symbol} />
+                <img
+                  src="/assets/avocado.jpg"
+                  alt="Glutensymbol"
+                  className={styles.symbol}
+                />
                 (Gluten)
-                <img src="/assets/avocado.jpg" alt="Nöttersymbol" className={styles.symbol} />
+                <img
+                  src="/assets/avocado.jpg"
+                  alt="Nöttersymbol"
+                  className={styles.symbol}
+                />
                 (Nötter)
               </p>
               <p>
@@ -57,7 +69,9 @@ export function CustomRecipe() {
                 ut allergenerna mot något likvärdigt som passar dig bättre!
               </p>
             </div>
-            <img src="/assets/avocado.jpg" alt="" className={styles.smiley} />
+            <div className={styles.smiley}>
+              <img src="/assets/avocado.jpg" alt="" />
+            </div>
           </section>
         </div>
       ) : (
