@@ -56,14 +56,6 @@ a>p {
     position: relative;
 }
 
-.recipeWrapper:nth-of-type(odd) {
-    background-color: #f3cdfe8d;
-}
-
-.recipeWrapper:nth-of-type(even) {
-    background-color: #fff;
-}
-
 .recipeLink {
     display: flex;
     align-items: center;

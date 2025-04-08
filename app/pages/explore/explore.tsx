@@ -24,14 +24,6 @@ export function Explore() {
       <main className={styles.exploreTheme}>
         <div className="contentWrapper">
           <h1 className={styles.pageTitle}>Alla Recept</h1>
-
-          <SearchBar
-            recipes={allRecipes}
-            onFilteredRecipesChange={setFilteredRecipes}
-          />
-
-          <SektionReceptkort receptData={filteredRecipes} />
-
           <ExploreFeed />
         </div>
         <CustomFooter />
@@ -39,3 +31,11 @@ export function Explore() {
     </>
   );
 }
+
+/*           <SearchBar
+            recipes={allRecipes}
+            onFilteredRecipesChange={setFilteredRecipes}
+          />
+
+          <SektionReceptkort receptData={filteredRecipes} />
+          */
