@@ -23,9 +23,7 @@ export function CustomRecipe() {
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
                 <p className={styles.description}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                {/* {selectedRecipe.description} */}
+                {selectedRecipe.description}
               </p>
                 <Label profiles={selectedRecipe.profile} allergens={selectedRecipe.allergens} />
               
