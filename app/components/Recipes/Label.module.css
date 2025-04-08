@@ -18,5 +18,13 @@
 }
 
 .allergenLabel {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.allergenLabel img {
+    width: 25px;
+    height: 25px;
 }

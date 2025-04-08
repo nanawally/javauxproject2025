@@ -1,6 +1,6 @@
-import styles from "./ProfileLabel.module.css"
+import styles from "./Label.module.css"
 
-interface ProfileLabelProps {
+interface LabelProps {
     profiles: string[];
     allergens: string[];
 }
@@ -16,7 +16,7 @@ const allergenImages: Record<string, string> = {
     gluten: "/assets/Gluten.jpg"
 };
 
-export function ProfileLabel({ profiles, allergens }: ProfileLabelProps) {
+export function Label({ profiles, allergens }: LabelProps) {
     return (
         <section className={styles.labelContainer}>
             {profiles.map((profile, index) => (
@@ -29,7 +29,7 @@ export function ProfileLabel({ profiles, allergens }: ProfileLabelProps) {
                 allergens.map((allergen, index) => {
                     const imgSrc = allergenImages[allergen];
                     return (
-                        <span key={`allergen-${index}`} className={styles.allergenIcon}>
+                        <span key={`allergen-${index}`} className={styles.allergenLabel}>
                             {imgSrc ? (
                                 <img src={imgSrc} alt={allergen} />
                             ) : (

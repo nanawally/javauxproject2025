@@ -4,7 +4,7 @@
   top: 4rem;
   flex-direction: column;
   margin: 0;
-  min-height: calc(100vh);
+  min-height: calc(100vh - 4rem);
   width: 100%;
 
   background-color: #F1E8E1;
