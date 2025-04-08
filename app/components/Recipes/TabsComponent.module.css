@@ -30,7 +30,7 @@
 
 .tabsInstructions {
   border: none;
-  border-radius: 25px;
+  border-radius: 10px;
   padding: 10px 40px;
   background-color: #f3cdfe;
 
@@ -62,13 +62,8 @@
   align-items: center;
   width: 100%;
   margin: 0;
+  padding: 0;
   list-style: none;
-  /*
-  padding: 20px;
-  background-color: #f3cdfe;
-  border-radius: 25px;
-  box-sizing: border-box;
-  */
 }
 
 .tabsList li {

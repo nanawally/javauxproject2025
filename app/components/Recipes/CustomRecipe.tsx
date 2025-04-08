@@ -55,13 +55,13 @@ export function CustomRecipe() {
                       alt="Laktossymbol"
                       className={styles.symbol}
                     />
-                    (Laktos)
+                    (Laktos)&nbsp;&nbsp;
                     <img
                       src="/assets/avocado.jpg"
                       alt="Glutensymbol"
                       className={styles.symbol}
                     />
-                    (Gluten)
+                    (Gluten)&nbsp;&nbsp;
                     <img
                       src="/assets/avocado.jpg"
                       alt="Nöttersymbol"
@@ -97,13 +97,13 @@ export function CustomRecipe() {
                   alt="Laktossymbol"
                   className={styles.symbol}
                 />
-                (Laktos)
+                (Laktos)&nbsp;&nbsp;
                 <img
                   src="/assets/avocado.jpg"
                   alt="Glutensymbol"
                   className={styles.symbol}
                 />
-                (Gluten)
+                (Gluten)&nbsp;&nbsp;
                 <img
                   src="/assets/avocado.jpg"
                   alt="Nöttersymbol"
