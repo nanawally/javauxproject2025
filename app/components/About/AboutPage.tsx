@@ -3,12 +3,6 @@ import styles from "./AboutPage.module.css";
 export function AboutPage() {
   return (
     <>
-      <div className={styles.imageOverlay}>
-        <picture className={styles.heroContainer}>
-          <source media="(max-width: 431px)" srcSet="/assets/background-mobile.png" />
-          <img src="/assets/background-desktop.png" alt="hero-banner" loading="lazy" className={styles.heroImage} />
-        </picture>
-      </div>
       <div className={styles.bigTextContainer}>
         <h1 className={styles.textContainers}>Hej smoothieälskare!</h1>
         <p className={styles.textContainers}>
