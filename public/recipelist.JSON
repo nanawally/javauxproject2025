@@ -200,8 +200,7 @@
       "Kalorier: 50 kcal",
       "Socker: 7 g",
       "Protein: 1 g",
-      "Kolhydrater: 9 g",
-     
+      "Kolhydrater: 9 g"
     ],
     "image": "/assets/smoothies/Low-Calorie/VattenmelonOchBasilika.png"
   },
@@ -540,7 +539,7 @@
     "id": 19,
     "category": "Proteinrika",
     "name": "Grönt äpple & Ärtor",
-    "profile": ["Syrlig",],
+    "profile": ["Syrlig"],
     "allergens": ["laktos"],
     "portionsize": 2,
     "description": "Hulkens självklara förstahandsval!",
@@ -713,7 +712,7 @@
     "id": 25,
     "category": "Mättande",
     "name": "Avocado & Chia",
-    "profile": ["Krämig",],
+    "profile": ["Krämig"],
     "allergens": ["nötter", "laktos"],
     "portionsize": 2,
     "description": "Bättre än guaccamole!",
@@ -931,7 +930,7 @@
       "Kalorier: 140 kcal",
       "Socker: 9 g",
       "Protein: 13 g",
-      "Kolhydrater: 16 g",
+      "Kolhydrater: 16 g"
     ],
     "image": "assets/smoothies/Mättande/ParonKardemumma.png"
   },
@@ -997,7 +996,7 @@
     "id": 35,
     "category": "Påskinspirerade",
     "name": "Äpple & Kvarg",
-    "profile": ["Syrlig",],
+    "profile": ["Syrlig"],
     "allergens": ["gluten", "laktos"],
     "portionsize": 2,
     "description": "Lika fräsch och uppfriskande som vårvindar och påskliljor!",
@@ -1139,7 +1138,7 @@
       "Kalorier: 160 kcal",
       "Socker: 10 g",
       "Protein: 13 g",
-      "Kolhydrater: 18 g",
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/påsk/PaskensCitronMarang.png"
   },
@@ -1164,13 +1163,13 @@
     ["Skala bananen och lägg den i mixern tillsammans med resten av ingredienserna.",
     "Mixa på hög hastighet tills konsistensen är slät och krämig.",
     "Lägg i isbitarna och mixa tills smoothien är kall och krämig.",
-    "Häll upp i ett glas och toppa eventuellt med extra kokos för mer crunch och smak!",
+    "Häll upp i ett glas och toppa eventuellt med extra kokos för mer crunch och smak!"
   ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 12 g",
       "Protein: 14 g",
-      "Kolhydrater: 18 g",
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/Dessert/Chokladboll.png"
   },
@@ -1223,7 +1222,7 @@
     ["Lägg all ingredienser i en mixer",
     "Mixa på hög hastighet tills konsistensen är slät.",
     "Häll upp i ett glas och toppa med krossat digestivekex för extra crunch!",
-    "Njut av den syrliga och fruktiga smaken av cheesecake!",],
+    "Njut av den syrliga och fruktiga smaken av cheesecake!"],
 
     "nutrition": [
       "Kalorier: 170 kcal",
