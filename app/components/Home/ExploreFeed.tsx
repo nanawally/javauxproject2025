@@ -15,6 +15,7 @@ export function ExploreFeed() {
 
     return (
         <>
+        <img className={styles.imagewrapper}src="assets/heroimage-alla.jpg" alt="" />
             <SearchBar recipes={recipes} onFilteredRecipesChange={setFilteredRecipes} />
             <div className={styles.container}>
                 {filteredRecipes.length > 0 ? (

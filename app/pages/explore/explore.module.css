@@ -7,8 +7,6 @@
   margin: 0;
   min-height: calc(100vh - 4rem);
   width: 100%;
-  background-image: url('/assets/Herolarge-b.jpg'); 
-  background-size: cover;
 }
 
 .hero-image {

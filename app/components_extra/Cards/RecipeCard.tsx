@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { Favorite } from "../Favorite";
 import "./style.css";
-import { useRecipeContext } from "../RecipeContext";
+import { useRecipeContext } from "../../components/Recipes/RecipeContext";
 
 type Props = {
     id: number;
