@@ -1,5 +1,6 @@
 import { FavoriteButton } from "../Favorites/FavoriteButton";
 import styles from "./CustomRecipe.module.css";
+import { Label } from "./Label";
 import { useRecipeContext } from "./RecipeContext";
 import { TabsComponent } from "./TabsComponent";
 
@@ -21,11 +22,13 @@ export function CustomRecipe() {
 
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
-              <p className={styles.description}>
+                <p className={styles.description}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 {/* {selectedRecipe.description} */}
               </p>
+                <Label profiles={selectedRecipe.profile} allergens={selectedRecipe.allergens} />
+              
             </div>
           </section>
           <section className={styles.recipeContainer}>

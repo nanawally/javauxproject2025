@@ -41,7 +41,7 @@
 }
 
 .smoothieImage img {
-    width: 100%;
+    width: 75%;
     max-width: 500px;
     height: auto;
     object-fit: contain;
@@ -49,18 +49,31 @@
     transform: translateX(-10%);
 }
 
- @media (min-width: 1500px) {
+
+
+@media (min-width: 1500px) {
     .smoothieImage img {
         transform: translateX(-33%);
     }
- }
+}
 
- @media (max-width: 1300px) {
+@media (max-width: 1499px) {
     .smoothieImage img {
-        transform: translateX(-33%);
+        transform: translateX(-20%);
     }
- }
+}
 
+@media (max-width: 431px) {
+    .smoothieImage img {
+        transform: translateX(-10%);
+    }
+}
+
+@media (max-width: 768px) {
+    .smoothieImage img {
+        width: 100%;
+    }
+}
 
 .categoryNames {
     display: flex;
@@ -89,5 +102,5 @@
     margin-right: 0.5rem;
     text-align: center;
     font-style: italic;
-    
+
 }

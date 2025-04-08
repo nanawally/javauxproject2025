@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { useRecipeContext } from "../Recipes/RecipeContext";
 import styles from "./FavoritedContent.module.css"
 import { FavoriteButton } from "./FavoriteButton";
+import { HeroImage } from "./FavoriteHeroImage";
 
 export function FavoritedContent() {
     const { recipes, favorites, setRecipeIndex } = useRecipeContext();
@@ -14,6 +15,7 @@ export function FavoritedContent() {
 
     return (
         <>
+        <HeroImage />
             <section className={styles.pageTitle}>
                 <h1>Dina favoriter</h1>
             </section>
