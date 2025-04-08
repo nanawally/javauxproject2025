@@ -7,32 +7,33 @@ export function CategoryScroll({ category }: { category: string }) {
     const { recipes, setRecipeIndex } = useRecipeContext();
     const categoryRecipes = recipes.filter((recipe) => recipe.category === category);
     const scrollWrapperRef = useRef<HTMLDivElement>(null);
+    const [isScrolling, setIsScrolling] = useState(false);
+
 
 
     const handleRecipeClick = (id: number) => {
         setRecipeIndex(id);
     };
 
-    function handleScrollRight() {
+    function handleScroll(direction: "left" | "right") {
         const wrapper = scrollWrapperRef.current;
-        if (wrapper) {
-            const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+        if (!wrapper || isScrolling) return;
 
-            if (wrapper.scrollLeft < maxScrollLeft) {
-                wrapper.scrollBy({ left: 600, behavior: "smooth" });
-            }
+        const scrollAmount = direction === "right" ? 600 : -600;
+        const maxScrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+
+        if ((direction === "right" && wrapper.scrollLeft >= maxScrollLeft) ||
+            (direction === "left" && wrapper.scrollLeft <= 0)) {
+            return;
         }
 
-    }
+        setIsScrolling(true);
 
-    function handleScrollLeft() {
-        const wrapper = scrollWrapperRef.current;
-        if (wrapper) {
-            if (wrapper.scrollLeft > 0) {
-                wrapper.scrollBy({ left: -600, behavior: "smooth" });
-            }
-        }
+        wrapper.scrollBy({ left: scrollAmount, behavior: "smooth" })
 
+        setTimeout(() => {
+            setIsScrolling(false);
+        }, 600)
     }
 
     return (
@@ -53,10 +54,12 @@ export function CategoryScroll({ category }: { category: string }) {
                     ))}
                 </div>
                 <button className={styles.leftScrollButton}
-                    onClick={handleScrollLeft}> <img src="assets/arrow-left.svg" alt="" /> </button>
+                    onClick={() => handleScroll("left")}
+                    disabled={isScrolling}> <img src="assets/arrow-left.svg" alt="" /> </button>
 
                 <button className={styles.rightScrollButton}
-                    onClick={handleScrollRight}> <img src="assets/arrow-right.svg" alt="" /> </button>
+                    onClick={() => handleScroll("right")}
+                    disabled={isScrolling}> <img src="assets/arrow-right.svg" alt="" /> </button>
             </div>
         </>
     );
