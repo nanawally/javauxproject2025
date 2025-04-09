@@ -95,23 +95,21 @@
 
 .tipsContainerDesktop {
   background-color: #f7f2e9;
-
   border: none;
   border-radius: 15px;
-  margin-left: 20px;
   padding: 20px;
   font-family: Inter;
   font-weight: 400;
   font-size: 2vmin;
   color: black;
-  width: 70%;
+  width: 100%;
   max-width: 100%;
   text-align: center;
   white-space: normal;
-  word-wrap: break-word;
   overflow-wrap: break-word;
   max-height: 40vh;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .tipsContainerDesktop h2 {
@@ -218,18 +216,22 @@
 
   .recipeAspects > ul:nth-child(1) {
     flex: 1 1 calc(30% - 10px);
+    margin-left: 2em;
   }
 
   .recipeAspects > ul:nth-child(2) {
     flex: 1 1 calc(60% - 10px);
+    margin-right: 2em;
   }
 
   .recipeAspects > ul:nth-child(3) {
     flex: 1 1 calc(30% - 10px);
+    margin-left: 2em;
   }
 
   .recipeAspects > div:nth-child(4) {
     flex: 1 1 calc(60% - 10px);
+    margin-right: 2em;
   }
 
   .recipeList {
@@ -237,7 +239,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     list-style: none;
     box-sizing: border-box;
   }
@@ -248,13 +250,13 @@
     font-family: Inter;
     font-weight: 700;
     font-size: 3vmin;
-    text-align: center;
+    text-align: start;
     margin: 10px 0px;
   }
 
   .recipeList li {
     display: flex;
-    width: 70%;
+    width: 90%;
     background-color: #f3cdfe;
     border-radius: 7px;
     box-sizing: border-box;
@@ -271,6 +273,7 @@
     color: black;
   }
 
+  /*
   .recipeInstructions {
     border: none;
     border-radius: 15px;
@@ -290,6 +293,7 @@
     max-height: 40vh;
     overflow-y: auto;
   }
+  */
 }
 
 @media (max-width: 1024px) {

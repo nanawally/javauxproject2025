@@ -61,19 +61,19 @@ export function CustomRecipe() {
                       alt="Laktossymbol"
                       className={styles.symbol}
                     />
-                    (Laktos)&nbsp;&nbsp;
+                    &nbsp;(Laktos)&nbsp;&nbsp;
                     <img
                       src="/assets/Gluten.jpg"
                       alt="Glutensymbol"
                       className={styles.symbol}
                     />
-                    (Gluten)&nbsp;&nbsp;
+                    &nbsp;(Gluten)&nbsp;&nbsp;
                     <img
                       src="/assets/Nut-allergy.jpg"
                       alt="Nöttersymbol"
                       className={styles.symbol}
                     />
-                    (Nötter)
+                    &nbsp;(Nötter)
                   </p>
                   <div className={styles.endCenter2}>
                     <p>
