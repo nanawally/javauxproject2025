@@ -1,6 +1,7 @@
 import styles from "./DifficultyIcon.module.css"
 
 
+
 interface DifficultyIconProps {
     difficulty: string;
 }
@@ -11,7 +12,7 @@ export function DifficultyIcon({ difficulty }: DifficultyIconProps) {
     const iconSrc = {
         enkel: "assets/Enkel.jpg",
         medel: "assets/Medel.jpg",
-        svår: "assets/Svår."
+        svår: "assets/Svår.jpg"
     }[normalized as "enkel" | "medel" | "svår"];
 
     return (
