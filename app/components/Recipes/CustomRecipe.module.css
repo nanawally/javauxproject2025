@@ -94,6 +94,18 @@
 }
 
 .tipsContainerDesktop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.tipsContainerDesktopInner {
   background-color: #f7f2e9;
   border: none;
   border-radius: 15px;
@@ -102,7 +114,7 @@
   font-weight: 400;
   font-size: 2vmin;
   color: black;
-  width: 100%;
+  width: 90%;
   max-width: 100%;
   text-align: center;
   white-space: normal;
@@ -212,6 +224,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
   }
 
   .recipeAspects > ul:nth-child(1) {
@@ -239,6 +252,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     width: 90%;
     list-style: none;
     box-sizing: border-box;

@@ -53,39 +53,41 @@ export function CustomRecipe() {
                 ))}
               </ul>
               <div className={styles.tipsContainerDesktop}>
-                <div className={styles.endCenter}>
-                  <h2>Allergier? Inga problem!</h2>
-                  <p>
-                    <img
-                      src="/assets/Laktos.jpg"
-                      alt="Laktossymbol"
-                      className={styles.symbol}
-                    />
-                    &nbsp;(Laktos)&nbsp;&nbsp;
-                    <img
-                      src="/assets/Gluten.jpg"
-                      alt="Glutensymbol"
-                      className={styles.symbol}
-                    />
-                    &nbsp;(Gluten)&nbsp;&nbsp;
-                    <img
-                      src="/assets/Nut-allergy.jpg"
-                      alt="Nöttersymbol"
-                      className={styles.symbol}
-                    />
-                    &nbsp;(Nötter)
-                  </p>
-                  <div className={styles.endCenter2}>
+                <div className={styles.tipsContainerDesktopInner}>
+                  <div className={styles.endCenter}>
+                    <h2>Allergier? Inga problem!</h2>
                     <p>
-                      TIPS: Du kan enkelt göra våra smoothies allergivänliga.
-                      Byt bara ut allergenerna mot något likvärdigt som passar
-                      dig bättre!
+                      <img
+                        src="/assets/Laktos.jpg"
+                        alt="Laktossymbol"
+                        className={styles.symbol}
+                      />
+                      &nbsp;(Laktos)&nbsp;&nbsp;
+                      <img
+                        src="/assets/Gluten.jpg"
+                        alt="Glutensymbol"
+                        className={styles.symbol}
+                      />
+                      &nbsp;(Gluten)&nbsp;&nbsp;
+                      <img
+                        src="/assets/Nut-allergy.jpg"
+                        alt="Nöttersymbol"
+                        className={styles.symbol}
+                      />
+                      &nbsp;(Nötter)
                     </p>
-                    <img
-                      src="/assets/smiley-wink-röd.jpg"
-                      alt="Röd smiley"
-                      className={styles.smiley}
-                    />
+                    <div className={styles.endCenter2}>
+                      <p>
+                        TIPS: Du kan enkelt göra våra smoothies allergivänliga.
+                        Byt bara ut allergenerna mot något likvärdigt som passar
+                        dig bättre!
+                      </p>
+                      <img
+                        src="/assets/smiley-wink-röd.jpg"
+                        alt="Röd smiley"
+                        className={styles.smiley}
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
