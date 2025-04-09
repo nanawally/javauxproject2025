@@ -45,9 +45,8 @@
   background-color: #f3cdfe;
   border-radius: 10px;
   box-sizing: border-box;
-
-  height: 3vh;
-  padding: 5px 10px;
+  height: auto;
+  padding: 10px 20px;
   margin-bottom: 8px;
   align-items: center;
   padding-left: 2vw;
@@ -70,6 +69,6 @@
 
   .tabsList li {
     font-size: 3vmin;
-    height: 40px;
+    height: auto;
   }
 }
