@@ -6,6 +6,13 @@
   align-items: center;
 }
 
+.center > button > img {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 1.2rem;
+  margin-right: 1.2rem;
+}
+
 .center {
   display: flex;
   flex-direction: row;
@@ -100,10 +107,10 @@
   align-items: center;
   width: 90%;
   /*margin-top: 10px;*/
-  margin-top: calc(3vmin + 10px);
+  margin-top: calc(3vmin + 15px);
   padding: 0;
   box-sizing: border-box;
-  margin-bottom: 8px;
+  margin-bottom: 2.5em;
 }
 
 .tipsContainerDesktopInner {
@@ -132,7 +139,8 @@
   font-weight: 900;
   font-size: 3vmin;
   text-align: left;
-  margin: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .tipsContainerDesktop p {
@@ -180,7 +188,7 @@
   height: 15vmin;
   width: auto;
   margin-bottom: 5vmin;
-  margin-left: 2vmin;
+  margin-left: 4vmin;
   margin-right: 5vmin;
   transform: rotate(10deg);
 }
