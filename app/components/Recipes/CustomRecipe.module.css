@@ -99,7 +99,8 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  margin: 0;
+  /*margin-top: 10px;*/
+  margin-top: calc(3vmin + 10px);
   padding: 0;
   box-sizing: border-box;
   margin-bottom: 8px;
@@ -109,17 +110,17 @@
   background-color: #f7f2e9;
   border: none;
   border-radius: 15px;
-  padding: 20px;
+  padding: 10px;
   font-family: Inter;
   font-weight: 400;
   font-size: 2vmin;
   color: black;
   width: 90%;
   max-width: 100%;
+  max-height: 40vh;
   text-align: center;
   white-space: normal;
   overflow-wrap: break-word;
-  max-height: 40vh;
   overflow-y: auto;
   box-sizing: border-box;
 }
@@ -141,7 +142,6 @@
   font-weight: 600;
   font-size: 3vmin;
   text-align: left;
-  margin: 10px 0px;
 }
 
 .endCenter {
@@ -212,7 +212,7 @@
 
   .recipeImage {
     display: flex;
-    width: 50%;
+    width: 70%;
     height: auto;
     padding: 5vmin 10vmin;
   }
@@ -223,8 +223,8 @@
     gap: 10px;
     width: 100%;
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+    align-items: start;
+    margin-top: 1.5em;
   }
 
   .recipeAspects > ul:nth-child(1) {
@@ -275,9 +275,8 @@
     background-color: #f3cdfe;
     border-radius: 7px;
     box-sizing: border-box;
-
-    height: 3vh;
-    padding: 25px 20px;
+    height: auto;
+    padding: 10px 20px;
     margin-bottom: 8px;
     align-items: center;
     padding-left: 2vw;
