@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import styles from "./CustomHeader.module.css"
 import { HamburgerMenu } from "../Navigation/HamburgerMenu";
 import { useEffect, useState } from "react";
@@ -6,6 +6,8 @@ import { useIsDesktop } from "~/hooks/useIsDesktop";
 
 export function CustomHeader() {
     const isDesktop = useIsDesktop();
+    const location = useLocation();
+    const isFavoritePage = location.pathname.includes("favorites");
 
     return (
         <header className={styles.centerHeader}>
@@ -23,7 +25,7 @@ export function CustomHeader() {
                             <img src="/assets/Search.jpg" alt="sök" />
                         </Link>
                         <Link to="favorites" className={styles.icon}>
-                            <img src="/assets/Favorite-empty-b.jpg" alt="Dina favoriter" className={styles.favoritesLink} />
+                            <img src={isFavoritePage ? "/assets/Favorite-filled.jpg" : "/assets/Favorite-empty-b.jpg"} alt="Dina favoriter" className={styles.favoritesLink} />
                         </Link>
                     </div>
                 </>
