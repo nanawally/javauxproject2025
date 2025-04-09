@@ -8,6 +8,7 @@ interface RecipeContextProps {
     favorites: number[];
     toggleFavorite: (id: number) => void;
     smoothieOfTheDay: Recipe | null;
+    clearFavorites: () => void;
 }
 
 const RecipeContext = createContext<RecipeContextProps | undefined>(undefined);
@@ -77,8 +78,13 @@ export const RecipeProvider: React.FC<{ children: ReactNode }> = ({ children }) 
         );
     };
 
+    // Clear favorites
+    const clearFavorites = () => {
+        setFavorites([]);
+    };
+
     return (
-        <RecipeContext.Provider value={{ recipeIndex, setRecipeIndex, recipes, favorites, toggleFavorite, smoothieOfTheDay }}>
+        <RecipeContext.Provider value={{ recipeIndex, setRecipeIndex, recipes, favorites, toggleFavorite, smoothieOfTheDay, clearFavorites }}>
             {children}
         </RecipeContext.Provider>
     );

@@ -1,0 +1,32 @@
+.leftScrollButton,
+.rightScrollButton {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3.5%;
+    background-color: transparent;
+    border: none;
+    height: 90%;
+    width: 50px;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.leftScrollButton {
+    left: 0;
+    padding-left: 10px;
+    justify-content: start;
+}
+
+.rightScrollButton {
+    right: 0;
+    padding-right: 10px;
+    justify-content: end;
+}
+
+.leftScrollButton img,
+.rightScrollButton img {
+    height: 50px;
+    width: 50px;
+}

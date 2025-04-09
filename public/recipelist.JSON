@@ -3,8 +3,12 @@
     "id": 0,
     "category": "Kalorisnåla",
     "name": "Äpple & Spenat",
-    "profile": ["Syrlig"],
-    "allergens": [""],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "Syrlig och härligt svalkande, en rikig citruskick!",
     "difficulty": "Medel",
@@ -18,7 +22,7 @@
     ],
     "instructions": [
       "Kärna ur och hacka äpplet.",
-      "Lägg i alla ingredienser i en mixer och kör tills smoothien är slät.", 
+      "Lägg i alla ingredienser i en mixer och kör tills smoothien är slät.",
       "Häll upp i glas och njut av en frisk och syrlig smoothie!"
     ],
     "nutrition": [
@@ -33,8 +37,12 @@
     "id": 1,
     "category": "Kalorisnåla",
     "name": "Blåbär & Hallon",
-    "profile": ["Söt"],
-    "allergens": [""],
+    "profile": [
+      "Söt"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "En bärig sötmainjektion, perfekt till söndagsbrunchen!",
     "difficulty": "Enkel",
@@ -45,12 +53,11 @@
       "1 tsk chiafrön"
     ],
     "instructions": [
-      "Lägg chiafröna i 1 dl vatten och låt de svälla där i cirka 10 minuter.", 
+      "Lägg chiafröna i 1 dl vatten och låt de svälla där i cirka 10 minuter.",
       "Mixa bären med 1 dl vatten.",
-      "Häll upp i ett glas och addera chiafrö-mixen.", 
+      "Häll upp i ett glas och addera chiafrö-mixen.",
       "Njut av en härligt bärig och mättande smoothie!"
-     ],
-   
+    ],
     "nutrition": [
       "Kalorier: 75 kcal",
       "Socker: 9 g",
@@ -63,8 +70,12 @@
     "id": 2,
     "category": "Kalorisnåla",
     "name": "Mango & Citron",
-    "profile": ["Syrlig"],
-    "allergens": [""],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "En uppfriskande vitaminkick, en perfekt start på dagen!",
     "difficulty": "Medel",
@@ -76,11 +87,10 @@
       "5 isbitar"
     ],
     "instructions": [
-    "Skala och dela apelsinen.",
-     "Lägg alla ingredienser i mixern och kör tills slätt.",
-     "Servera och njut av en fräsch citrusboost!"
+      "Skala och dela apelsinen.",
+      "Lägg alla ingredienser i mixern och kör tills slätt.",
+      "Servera och njut av en fräsch citrusboost!"
     ],
-       
     "nutrition": [
       "Kalorier: 80 kcal",
       "Socker: 14 g",
@@ -93,8 +103,12 @@
     "id": 3,
     "category": "Kalorisnåla",
     "name": "Hallon & Mynta",
-    "profile": ["Syrlig"],
-    "allergens": [""],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "En svalkande hallondröm, fylld med syrlig friskhet!",
     "difficulty": "Medel",
@@ -105,10 +119,11 @@
       "Saften från 1/2 lime",
       "5 isbitar"
     ],
-    "instructions" : ["Lägg myntabladen och limesaften i mixern och låt dra i 2 minuter. ", 
-    "Tillsätt de frysta hallonen, vatten och isbitar.", 
-    "Pulsmixa i tiosekundersintervaller.", 
-    "Häll upp och njut av en svalkande hallonboost!"
+    "instructions": [
+      "Lägg myntabladen och limesaften i mixern och låt dra i 2 minuter. ",
+      "Tillsätt de frysta hallonen, vatten och isbitar.",
+      "Pulsmixa i tiosekundersintervaller.",
+      "Häll upp och njut av en svalkande hallonboost!"
     ],
     "nutrition": [
       "Kalorier: 50 kcal",
@@ -122,8 +137,13 @@
     "id": 4,
     "category": "Kalorisnåla",
     "name": "Jordgubb & Basilika",
-    "profile": ["Söt", "Örtig"],
-    "allergens": [""],
+    "profile": [
+      "Söt",
+      "Örtig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "Sommar i varje klunk!",
     "difficulty": "Medel",
@@ -134,11 +154,12 @@
       "1/2 tsk honung (valfritt)",
       "5 isbitar"
     ],
-    "instructions" : ["Låt jordgubbarna tina i 5 minuter.",  
-    "Riv basilikabladen. ",
-    "Mixa alla ingredienser på medelhög hastighet i 30 sekunder.", 
-    "Skrapa ner kanterna och mixa i ytterligare 10 sekunder.",
-    "Häll upp och njut av sommarkänsla året om!"
+    "instructions": [
+      "Låt jordgubbarna tina i 5 minuter.",
+      "Riv basilikabladen. ",
+      "Mixa alla ingredienser på medelhög hastighet i 30 sekunder.",
+      "Skrapa ner kanterna och mixa i ytterligare 10 sekunder.",
+      "Häll upp och njut av sommarkänsla året om!"
     ],
     "nutrition": [
       "Kalorier: 55 kcal",
@@ -152,8 +173,12 @@
     "id": 5,
     "category": "Kalorisnåla",
     "name": "Rödbeta och Morot",
-    "profile": ["Jordig"],
-    "allergens": [""],
+    "profile": [
+      "Jordig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "En färgstark och svalkande energikick!",
     "difficulty": "Svår",
@@ -164,11 +189,12 @@
       "2 dl vatten",
       "5 isbitar"
     ],
-    "instructions" : ["Skala och riv moroten och rödbetan.",  
-    "Skär äpplet i mindre bitar och ta bort kärnhuset. ",
-    "Fyll mixern med vatten och låt ingredienserna dra i 5 minuter.", 
-    "Mixa långsamt i 30 sekunder, öka till hög hastighet och mixa i 20 sekunder till.",
-    "Häll upp och njut!"
+    "instructions": [
+      "Skala och riv moroten och rödbetan.",
+      "Skär äpplet i mindre bitar och ta bort kärnhuset. ",
+      "Fyll mixern med vatten och låt ingredienserna dra i 5 minuter.",
+      "Mixa långsamt i 30 sekunder, öka till hög hastighet och mixa i 20 sekunder till.",
+      "Häll upp och njut!"
     ],
     "nutrition": [
       "Kalorier: 70 kcal",
@@ -182,8 +208,12 @@
     "id": 6,
     "category": "Kalorisnåla",
     "name": "Vattenmelon & Basilika",
-    "profile": ["Söt"],
-    "allergens": [""],
+    "profile": [
+      "Söt"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "Perfekt för soliga dagar på playan!",
     "difficulty": "Enkel",
@@ -193,8 +223,9 @@
       "4-5 basilikablad",
       "5 isbitar"
     ],
-    "instructions" : ["Lägg alla ingredienser i mixern och mixa till smoothien är slät.",  
-    "Häll upp och njut! "
+    "instructions": [
+      "Lägg alla ingredienser i mixern och mixa till smoothien är slät.",
+      "Häll upp och njut! "
     ],
     "nutrition": [
       "Kalorier: 50 kcal",
@@ -208,8 +239,12 @@
     "id": 7,
     "category": "Kalorisnåla",
     "name": "Kiwi & Selleri",
-    "profile": ["Syrlig"],
-    "allergens": [""],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "En grön vitaminboost, perfekt som detox!",
     "difficulty": "Medel",
@@ -220,11 +255,11 @@
       "Saften från 1/2 citron",
       "5 isbitar"
     ],
-    "instructions" : ["Skär kiwin och sellerin i bitar.",  
-    "Mixa allt tills smoothien är slät.",
-    "Häll upp och njut av en vitaminboost!"
+    "instructions": [
+      "Skär kiwin och sellerin i bitar.",
+      "Mixa allt tills smoothien är slät.",
+      "Häll upp och njut av en vitaminboost!"
     ],
-
     "nutrition": [
       "Kalorier: 65 kcal",
       "Socker: 7 g",
@@ -237,8 +272,12 @@
     "id": 8,
     "category": "Krämiga",
     "name": "Mango & Gurka",
-    "profile": ["Mild"],
-    "allergens": ["Laktos"],
+    "profile": [
+      "Mild"
+    ],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "En uppfriskande paus i vardagspusslandet!",
     "difficulty": "Medel",
@@ -248,14 +287,15 @@
       "1 dl grekisk yoghurt",
       "5 myntablad"
     ],
-    "instructions": ["Skiva gurkan tunt och lägg i mixern tillsammans med mangobitarna.", 
-    "Mortla myntabladen innan du lägger dem i mixern.", 
-    "Ha i yoghurten och mixa allt på hög hastighet i 45 sekunder tills smoothien är helt slät.", 
-    "Häll upp i ett glas med isbitar och njut av en svalkande grön smoothie!"], 
-
+    "instructions": [
+      "Skiva gurkan tunt och lägg i mixern tillsammans med mangobitarna.",
+      "Mortla myntabladen innan du lägger dem i mixern.",
+      "Ha i yoghurten och mixa allt på hög hastighet i 45 sekunder tills smoothien är helt slät.",
+      "Häll upp i ett glas med isbitar och njut av en svalkande grön smoothie!"
+    ],
     "nutrition": [
-       "Kalorier: 65 kcal",
-       "Socker: 9 g",
+      "Kalorier: 65 kcal",
+      "Socker: 9 g",
       "Protein: 1,2 g",
       "Kolhydrater: 12 g"
     ],
@@ -265,8 +305,13 @@
     "id": 9,
     "category": "Krämiga",
     "name": "Kokos & Mango ",
-    "profile": ["Söt", "Exotisk"],
-    "allergens": [""],
+    "profile": [
+      "Söt",
+      "Exotisk"
+    ],
+    "allergens": [
+      ""
+    ],
     "portionsize": 2,
     "description": "Som en tropisk solnedgång!",
     "difficulty": "Enkel",
@@ -276,10 +321,11 @@
       "2 dl kokosyoghurt",
       "1 tsk kokosflingor"
     ],
-    "instructions": ["Låt de frysta frukterna tina i några minuter.", 
-    "MIxa ingredienserna på hög hastighet i 45 sekunder.", 
-    "Häll upp i ett kylt glas och toppa med kokosflingor."], 
-
+    "instructions": [
+      "Låt de frysta frukterna tina i några minuter.",
+      "MIxa ingredienserna på hög hastighet i 45 sekunder.",
+      "Häll upp i ett kylt glas och toppa med kokosflingor."
+    ],
     "nutrition": [
       "Kalorier: 95 kcal",
       "Socker: 11 g",
@@ -292,8 +338,13 @@
     "id": 10,
     "category": "Krämiga",
     "name": "Vanilj & Banan",
-    "profile": ["Söt", "Mild"],
-    "allergens": ["Laktos"],
+    "profile": [
+      "Söt",
+      "Mild"
+    ],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "En len och krämig vaniljdröm!",
     "difficulty": "Enkel",
@@ -302,11 +353,12 @@
       "2 dl vaniljyoghurt",
       "1 tsk vaniljpulver"
     ],
-    "instructions": ["Skiva bananen och lägg i frysen i 15 minuter", 
-    "Häll ner alla ingredienser i mixern och mixa i 1 minut på medelhög hastighet.",
-    "Skrapa ner eventuella bitar från kanterna och mixa i ytterligare 15 sekunder.", 
-    "Häll upp och njut av en len vaniljdröm"], 
-    
+    "instructions": [
+      "Skiva bananen och lägg i frysen i 15 minuter",
+      "Häll ner alla ingredienser i mixern och mixa i 1 minut på medelhög hastighet.",
+      "Skrapa ner eventuella bitar från kanterna och mixa i ytterligare 15 sekunder.",
+      "Häll upp och njut av en len vaniljdröm"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 10 g",
@@ -319,8 +371,13 @@
     "id": 11,
     "category": "Krämiga",
     "name": "Jordgubb & Vanilj",
-    "profile": ["Söt", "Bärig"],
-    "allergens": ["Laktos"],
+    "profile": [
+      "Söt",
+      "Bärig"
+    ],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "Som en krämig sommardessert!",
     "difficulty": "Medel",
@@ -329,9 +386,11 @@
       "1 dl vaniljkvarg",
       "1 dl turkisk yoghurt"
     ],
-    "instructions": ["Mixa yoghurt och kvarg med 1 dl jordgubbar i cirka 20 sekunder.", 
-    "Ha i 1 dl jordgubbar till och mixa igen.",
-    "Servera i högt glas och njut!"], 
+    "instructions": [
+      "Mixa yoghurt och kvarg med 1 dl jordgubbar i cirka 20 sekunder.",
+      "Ha i 1 dl jordgubbar till och mixa igen.",
+      "Servera i högt glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 8 g",
@@ -344,8 +403,13 @@
     "id": 12,
     "category": "Krämiga",
     "name": "Kokos & Vit choklad",
-    "profile": ["Exotisk", "Krämig"],
-    "allergens": ["Laktos"],
+    "profile": [
+      "Exotisk",
+      "Krämig"
+    ],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "En lyxig och chokladrik oas!",
     "difficulty": "Enkel",
@@ -356,9 +420,9 @@
       "2 msk riven kokos"
     ],
     "instructions": [
-    "Lägg alla ingredienser i mixern och mixa tills smoothien är fluffig.", 
-    "Häll upp och njut."],
-
+      "Lägg alla ingredienser i mixern och mixa tills smoothien är fluffig.",
+      "Häll upp och njut."
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 7 g",
@@ -371,8 +435,14 @@
     "id": 13,
     "category": "Krämiga",
     "name": "Blåbär & Honung",
-    "profile": ["Söt", "Mild"],
-    "allergens": ["Laktos", "nötter"],
+    "profile": [
+      "Söt",
+      "Mild"
+    ],
+    "allergens": [
+      "Laktos",
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Mors lilla Olle möter Nalle Puh i en sagolik symbios!",
     "difficulty": "Enkel",
@@ -382,28 +452,34 @@
       "2 dl osötad mandelmjölk",
       "1 tsk honung"
     ],
-    "instructions": ["Lägg de frysta blåbären, yoghurt och mandelmjölk i mixern.", 
-    "Tillsätt honung.",
-    "Mixa på hög hastighet tills smoothien är slät och krämig.",
-    "Smaka av och justera sötman om så önskas.",
-    "Häll upp i glas och servera direkt!"], 
+    "instructions": [
+      "Lägg de frysta blåbären, yoghurt och mandelmjölk i mixern.",
+      "Tillsätt honung.",
+      "Mixa på hög hastighet tills smoothien är slät och krämig.",
+      "Smaka av och justera sötman om så önskas.",
+      "Häll upp i glas och servera direkt!"
+    ],
     "nutrition": [
-     "Kalorier: 170 kcal",
-     "Socker: 12 g",
+      "Kalorier: 170 kcal",
+      "Socker: 12 g",
       "Protein: 15 g",
       "Kolhydrater: 20 g"
     ],
-    
     "image": "/assets/smoothies/Milky/BlabarOchHonung.png"
   },
   {
     "id": 14,
     "category": "Krämiga",
     "name": "Persika & Vanilj",
-    "profile": ["Söt", "Krämig"],
+    "profile": [
+      "Söt",
+      "Krämig"
+    ],
     "description": "En oemotståndlig smak av lyx!",
     "difficulty": "Medel",
-    "allergens": ["Laktos"],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "ingredients": [
       "1 dl frysta persikobitar",
@@ -412,18 +488,19 @@
       "1 tsk honung",
       "5 isbitar"
     ],
-    "instructions": ["Lägg de frysta persikobitarna , vaniljyoghurt och mandelmjölk i mixern.", 
-    "Tillsätt honung.",
-    "Mixa på hög hastighet tills smoothien blir slät och krämig.",
-    "Lägg i isbitar och mixa igen tills smoothien är kall och fluffig.",
-    "Smaka av och justera sötman om så önskas.",
-    "Häll upp i glas och servera direkt!"],
-   
+    "instructions": [
+      "Lägg de frysta persikobitarna , vaniljyoghurt och mandelmjölk i mixern.",
+      "Tillsätt honung.",
+      "Mixa på hög hastighet tills smoothien blir slät och krämig.",
+      "Lägg i isbitar och mixa igen tills smoothien är kall och fluffig.",
+      "Smaka av och justera sötman om så önskas.",
+      "Häll upp i glas och servera direkt!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 15 g",
       "Protein: 14 g",
-      "Kolhydrater: 22 g" 
+      "Kolhydrater: 22 g"
     ],
     "image": "/assets/smoothies/Milky/PeachOchVanilj.png"
   },
@@ -431,8 +508,13 @@
     "id": 15,
     "category": "Krämiga",
     "name": "Mango & Ingefära",
-    "profile": ["Exotisk", "Kryddig"],
-    "allergens": ["Laktos"],
+    "profile": [
+      "Exotisk",
+      "Kryddig"
+    ],
+    "allergens": [
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "En exotisk hälsoboost!",
     "difficulty": "Medel",
@@ -442,15 +524,17 @@
       "2 dl osötad kokosmjölk",
       "1/2 tsk riven ingefära"
     ],
-    "instructions": ["Lägg mango, yoghurt och kokosmjölk i mixern.", 
-    "Tillsätt riven ingefära",
-    "Mixa på hög hastighet tills smoothien blir slät och krämig.",
-    "Häll upp i glas och servera direkt!"],
+    "instructions": [
+      "Lägg mango, yoghurt och kokosmjölk i mixern.",
+      "Tillsätt riven ingefära",
+      "Mixa på hög hastighet tills smoothien blir slät och krämig.",
+      "Häll upp i glas och servera direkt!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 13 g",
       "Protein: 14 g",
-      "Kolhydrater: 19 g" 
+      "Kolhydrater: 19 g"
     ],
     "image": "/assets/smoothies/Milky/MangoOchIngefara.png"
   },
@@ -458,8 +542,14 @@
     "id": 16,
     "category": "Proteinrika",
     "name": "Blåbär & Chiafrön",
-    "profile": ["Söt", "Mild"],
-    "allergens": ["Nötter", "Laktos"],
+    "profile": [
+      "Söt",
+      "Mild"
+    ],
+    "allergens": [
+      "Nötter",
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "Blåbärsyoghurt i smoothieformat!",
     "difficulty": "Enkel",
@@ -470,14 +560,16 @@
       "1 tsk chiafrön",
       "5 isbitar"
     ],
-    "instructions": ["Lägg i blåbären med kvarg, mandelmjölk och chiafrön i mixern och låt dra i 5 minuter. ", 
-    "Tillsätt sedan is och mixa på hög hastighet i 30 sekunder tills smoothien är slät.",
-    "Häll upp i glas och servera direkt!"],
+    "instructions": [
+      "Lägg i blåbären med kvarg, mandelmjölk och chiafrön i mixern och låt dra i 5 minuter. ",
+      "Tillsätt sedan is och mixa på hög hastighet i 30 sekunder tills smoothien är slät.",
+      "Häll upp i glas och servera direkt!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 8 g",
       "Protein: 1,2 g",
-      "Kolhydrater: 14 g"   
+      "Kolhydrater: 14 g"
     ],
     "image": "assets/smoothies/proteinrika/Blabarsboost.png"
   },
@@ -485,8 +577,14 @@
     "id": 17,
     "category": "Proteinrika",
     "name": "Choklad & Banan",
-    "profile": ["Söt", "Chokladig"],
-    "allergens": ["Nötter", "Laktos"],
+    "profile": [
+      "Söt",
+      "Chokladig"
+    ],
+    "allergens": [
+      "Nötter",
+      "Laktos"
+    ],
     "portionsize": 2,
     "description": "Som en proteinladdad bananchokladmilkshake!",
     "difficulty": "Enkel",
@@ -497,10 +595,12 @@
       "2 dl osötad mandelmjölk",
       "5 isbitar"
     ],
-    "instructions": ["Skala bananen och lägg den i mixren tillsammans med kvarg, kakao och mandelmjölk. ", 
-    "Lägg i isbitarna.",
-    "Mixa på hög hastighet tills salla ingredienser är blandade och smoothien är krämig.",
-    "Häll upp i glas och njut!"],
+    "instructions": [
+      "Skala bananen och lägg den i mixren tillsammans med kvarg, kakao och mandelmjölk. ",
+      "Lägg i isbitarna.",
+      "Mixa på hög hastighet tills salla ingredienser är blandade och smoothien är krämig.",
+      "Häll upp i glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 10 g",
@@ -513,8 +613,13 @@
     "id": 18,
     "category": "Proteinrika",
     "name": "Vanilj & Mandel",
-    "profile": ["Krämig", "Mild"],
-    "allergens": ["nötter"],
+    "profile": [
+      "Krämig",
+      "Mild"
+    ],
+    "allergens": [
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Som len vaniljkräm topppad med nötkräm!",
     "difficulty": "Enkel",
@@ -524,14 +629,16 @@
       "1 tsk mandelsmör",
       "1/2 tsk vaniljpulver"
     ],
-    "instructions": ["Häll kvarg, mjölk, mandelsmör och vaniljsocker i mixern. ", 
-    "Mixa på hög hastighet tills alla ingredienser har blandats ordentligt smoothien är slät.",
-    "Häll upp i glas och njut!"],
+    "instructions": [
+      "Häll kvarg, mjölk, mandelsmör och vaniljsocker i mixern. ",
+      "Mixa på hög hastighet tills alla ingredienser har blandats ordentligt smoothien är slät.",
+      "Häll upp i glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 4 g",
       "Protein: 15 g",
-      "Kolhydrater: 8 g" 
+      "Kolhydrater: 8 g"
     ],
     "image": "assets/smoothies/proteinrika/VaniljMandel.png"
   },
@@ -539,8 +646,12 @@
     "id": 19,
     "category": "Proteinrika",
     "name": "Grönt äpple & Ärtor",
-    "profile": ["Syrlig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Hulkens självklara förstahandsval!",
     "difficulty": "Medel",
@@ -551,12 +662,13 @@
       "1 dl vatten",
       "Saften från 1/2 citron"
     ],
-    "instructions":  ["Lägg ärtorna och det skurna äpplet i mixern. ", 
-    "Tillsätt kvarg, vatten och citron.",
-    "Mixa på hög hastighet tills smoothien är jämn och krämig",
-    "Om smoothien är för tjock, tillsätt lite vatten för att justera konsistensen.",
-    "Häll upp och njut!"
-    ], 
+    "instructions": [
+      "Lägg ärtorna och det skurna äpplet i mixern. ",
+      "Tillsätt kvarg, vatten och citron.",
+      "Mixa på hög hastighet tills smoothien är jämn och krämig",
+      "Om smoothien är för tjock, tillsätt lite vatten för att justera konsistensen.",
+      "Häll upp och njut!"
+    ],
     "nutrition": [
       "Kalorier: 130 kcal",
       "Socker: 9 g",
@@ -569,8 +681,13 @@
     "id": 20,
     "category": "Proteinrika",
     "name": "Jordnöt & Banan",
-    "profile": ["Söt", "Nötig"],
-    "allergens": ["nötter"],
+    "profile": [
+      "Söt",
+      "Nötig"
+    ],
+    "allergens": [
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Som en krämig och proteinrik jordgubbsbananmilkshake!",
     "difficulty": "Enkel",
@@ -581,11 +698,12 @@
       "2 dl osötad mandelmjölk",
       "5 isbitar"
     ],
-    "instructions": ["Skala bananen och lägg den i mixern tillsammans med jordnötssmöret, kvarg och mandelmjölk. ", 
-    "Lägg i isbitarna.",
-    "Mixa på hög hastighet tills smoothien är helt slät.",
-    "Häll upp i ett glas och njut av en proteinrik smoothie!"
-    ], 
+    "instructions": [
+      "Skala bananen och lägg den i mixern tillsammans med jordnötssmöret, kvarg och mandelmjölk. ",
+      "Lägg i isbitarna.",
+      "Mixa på hög hastighet tills smoothien är helt slät.",
+      "Häll upp i ett glas och njut av en proteinrik smoothie!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 12 g",
@@ -598,8 +716,13 @@
     "id": 21,
     "category": "Proteinrika",
     "name": "Mango & Kokos",
-    "profile": ["Söt", "Exotisk"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Exotisk"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en solig dag på stranden!",
     "difficulty": "Enkel",
@@ -609,11 +732,12 @@
       "2 dl osötad kokosmjölk",
       "1 tsk riven kokos"
     ],
-    "instructions": ["Lägg de frysta mangobitarna, kvarg och kokosmjölk i mixern.", 
-    "Mixa tills smoothien är slät och krämig.",
-    "Tillsätt riven kokos och mixa kort",
-    "Häll upp i ett glas och njut av en exotisk smakupplevelse!"
-    ], 
+    "instructions": [
+      "Lägg de frysta mangobitarna, kvarg och kokosmjölk i mixern.",
+      "Mixa tills smoothien är slät och krämig.",
+      "Tillsätt riven kokos och mixa kort",
+      "Häll upp i ett glas och njut av en exotisk smakupplevelse!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 10 g",
@@ -626,8 +750,13 @@
     "id": 22,
     "category": "Proteinrika",
     "name": "Hallon & Chia",
-    "profile": ["Söt", "Syrlig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Syrlig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som svalkande hallonsorbet!",
     "difficulty": "Medel",
@@ -638,17 +767,18 @@
       "2 dl osötad havremjölk",
       "5 isbitar"
     ],
-    "instructions": ["Blanda chiafrön och kvarg i ett glas med en sked. Låt stå i 5-10 minuter.", 
-    "Ha i hallonen, mjölken och isbitarna i mixern.",
-    "Mixa på hög hastighet tills smoothien är len och jämn.",
-    "Häll över hallonmixen på chiapuddingen.",
-    "Njut av ett proteinrikt chiamellanmål!"
-    ], 
+    "instructions": [
+      "Blanda chiafrön och kvarg i ett glas med en sked. Låt stå i 5-10 minuter.",
+      "Ha i hallonen, mjölken och isbitarna i mixern.",
+      "Mixa på hög hastighet tills smoothien är len och jämn.",
+      "Häll över hallonmixen på chiapuddingen.",
+      "Njut av ett proteinrikt chiamellanmål!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 8 g",
       "Protein: 14 g",
-      "Kolhydrater: 18 g" 
+      "Kolhydrater: 18 g"
     ],
     "image": "assets/smoothies/proteinrika/HallonOchChia.png"
   },
@@ -656,8 +786,15 @@
     "id": 23,
     "category": "Mättande",
     "name": "Havre & Blåbär",
-    "profile": ["Mild", "Krämig"],
-    "allergens": ["gluten", "nötter", "laktos"],
+    "profile": [
+      "Mild",
+      "Krämig"
+    ],
+    "allergens": [
+      "gluten",
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som blåbärsgröt i dryckesform!",
     "difficulty": "Enkel",
@@ -668,10 +805,11 @@
       "1/2 banan",
       "2 dl osötad mandelmjölk"
     ],
-    "instructions": ["Ha i blåbär, havregryn, banan, kvarg och mandelmjölk i mixern.", 
-    "Mixa på hög hastighet tills smoothien är slät.",
-    "Häll upp i ett glas och njut av en fruktig och mättande blåbärsboost!"
-    ], 
+    "instructions": [
+      "Ha i blåbär, havregryn, banan, kvarg och mandelmjölk i mixern.",
+      "Mixa på hög hastighet tills smoothien är slät.",
+      "Häll upp i ett glas och njut av en fruktig och mättande blåbärsboost!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 10 g",
@@ -684,8 +822,14 @@
     "id": 24,
     "category": "Mättande",
     "name": "Choklad & Jordnöt",
-    "profile": ["Nötig", "Chokladig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Nötig",
+      "Chokladig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Nutella släng dig i väggen!",
     "difficulty": "Enkel",
@@ -696,10 +840,11 @@
       "1 tsk kakao",
       "2 dl osötad havremjölk"
     ],
-    "instructions": ["Lägg banan, jordnötssmör, kvarg, kakao och mjölk i mixern.", 
-    "Mixa på hög hastighet tills smoothien är jämn och len.",
-    "Häll upp i ett glas och njut av en chokladug proteinboost!"
-    ], 
+    "instructions": [
+      "Lägg banan, jordnötssmör, kvarg, kakao och mjölk i mixern.",
+      "Mixa på hög hastighet tills smoothien är jämn och len.",
+      "Häll upp i ett glas och njut av en chokladug proteinboost!"
+    ],
     "nutrition": [
       "Kalorier: 190 kcal",
       "Socker: 11 g",
@@ -712,8 +857,13 @@
     "id": 25,
     "category": "Mättande",
     "name": "Avocado & Chia",
-    "profile": ["Krämig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Krämig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Bättre än guaccamole!",
     "difficulty": "Medel",
@@ -724,10 +874,11 @@
       "2 dl osötad mandelmjölk",
       "1 tsk chiafrön"
     ],
-    "instructions": ["Lägg avocado, kvarg, limejuice, mandelmjölk och chiafrön i mixern.", 
-    "Mixa på hög hastighet tills smoothien är len.",
-    "Häll upp i ett glas och njut av en grön och mättande smoothie!"
-    ], 
+    "instructions": [
+      "Lägg avocado, kvarg, limejuice, mandelmjölk och chiafrön i mixern.",
+      "Mixa på hög hastighet tills smoothien är len.",
+      "Häll upp i ett glas och njut av en grön och mättande smoothie!"
+    ],
     "nutrition": [
       "Kalorier: 190 kcal",
       "Socker: 5 g",
@@ -740,8 +891,14 @@
     "id": 26,
     "category": "Mättande",
     "name": "Mango & Havre",
-    "profile": ["Söt", "Fruktig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Söt",
+      "Fruktig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en tropisk fruktdrink en kravlös sommardag!",
     "difficulty": "Enkel",
@@ -751,10 +908,11 @@
       "2 msk havregryn",
       "2 dl osötad kokosmjölk"
     ],
-    "instructions":
-    ["Lägg alla ingredienser i mixern.", 
-    "Mixa tills konsistensen är len.", 
-    "Häll upp i ett glas och njut av en tropisk och mättande smoothie!"],
+    "instructions": [
+      "Lägg alla ingredienser i mixern.",
+      "Mixa tills konsistensen är len.",
+      "Häll upp i ett glas och njut av en tropisk och mättande smoothie!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 10 g",
@@ -767,11 +925,17 @@
     "id": 27,
     "category": "Mättande",
     "name": "Kanel & Äpple",
-    "profile": ["Kryddig", "Söt"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Kryddig",
+      "Söt"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en äppelpaj i flytande form!",
-    "difficulty" : "Medel",
+    "difficulty": "Medel",
     "ingredients": [
       "1/2 äpple",
       "1 dl naturell kvarg",
@@ -779,12 +943,12 @@
       "1/2 tsk kanel",
       "2 dl osötad havremjölk"
     ],
-    "instructions":
-     ["Skär äpplet i mindre bitar och ta bort kärnhuset. ",
-    "Lägg äppelbitarna och resten av ingredienserna i mixern.", 
-    "Mixa på hög hastighet tills smoothien är helt slät.",
-    "Häll upp i glas och njut en mättande delikatess!"],
-
+    "instructions": [
+      "Skär äpplet i mindre bitar och ta bort kärnhuset. ",
+      "Lägg äppelbitarna och resten av ingredienserna i mixern.",
+      "Mixa på hög hastighet tills smoothien är helt slät.",
+      "Häll upp i glas och njut en mättande delikatess!"
+    ],
     "nutrition": [
       "Kalorier: 170 kcal",
       "Socker: 9 g",
@@ -797,8 +961,14 @@
     "id": 28,
     "category": "Mättande",
     "name": "Jordgubb & Chia",
-    "profile": ["Söt", "Syrlig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Söt",
+      "Syrlig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Protein- och näringsrik jordgubbsensation!",
     "difficulty": "Enkel",
@@ -809,10 +979,11 @@
       "2 dl osötad mandelmjölk",
       "5 isbitar"
     ],
-    "instructions":    
-    ["Lägg jordgubbar, kvarg, chiafrön och mandelmjölk i mixern. ",
-    "Tillsätt isbitarna och mixa tills smoothien är jämn och slät.", 
-    "Häll upp i ett glas och njut av en proteinrik och mättande jordgubbssmoothie!"],
+    "instructions": [
+      "Lägg jordgubbar, kvarg, chiafrön och mandelmjölk i mixern. ",
+      "Tillsätt isbitarna och mixa tills smoothien är jämn och slät.",
+      "Häll upp i ett glas och njut av en proteinrik och mättande jordgubbssmoothie!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 9 g",
@@ -825,8 +996,14 @@
     "id": 29,
     "category": "Mättande",
     "name": "Mandel & Dadlar",
-    "profile": ["Söt", "Nötig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Söt",
+      "Nötig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Krämig sötnöt!",
     "difficulty": "Enkel",
@@ -836,11 +1013,11 @@
       "1 tsk mandelsmör",
       "2 dl osötad mandelmjölk"
     ],
-    "instructions":  
-    ["Lägg alla ingredienser i mixern. ",
-    "Mixa tills smoothien är jämn och slät.", 
-    "Häll upp i ett glas och njut av en nötig och söt smoothie!"],
-    
+    "instructions": [
+      "Lägg alla ingredienser i mixern. ",
+      "Mixa tills smoothien är jämn och slät.",
+      "Häll upp i ett glas och njut av en nötig och söt smoothie!"
+    ],
     "nutrition": [
       "Kalorier: 190 kcal",
       "Socker: 12 g",
@@ -853,8 +1030,14 @@
     "id": 30,
     "category": "Mättande",
     "name": "Kaffe och Kakao",
-    "profile": ["Krämig", "Fyllig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Krämig",
+      "Fyllig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Vakna till liv och bli mätt på samma gång!",
     "difficulty": "Enkel",
@@ -864,10 +1047,11 @@
       "2 dl osötad havremjölk",
       "1 tsk kakao"
     ],
-    "instructions": 
-    ["Lägg alla ingredienser i mixern. ",
-    "Mixa tills dess att konsistensen är fluffig och fyllig.", 
-    "Häll upp i ett glas och njut av en mättande koffeinkick!"],
+    "instructions": [
+      "Lägg alla ingredienser i mixern. ",
+      "Mixa tills dess att konsistensen är fluffig och fyllig.",
+      "Häll upp i ett glas och njut av en mättande koffeinkick!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 5 g",
@@ -880,8 +1064,13 @@
     "id": 31,
     "category": "Mättande",
     "name": "Passion & Mango",
-    "profile": ["Fruktig", "Exotisk"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Fruktig",
+      "Exotisk"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Låt tropikerna komma hem till dig!",
     "difficulty": "Medel",
@@ -892,11 +1081,12 @@
       "2 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions":
-    ["Gröp ur passionsfrukten och lägg den i mixern tillsammans med mangon, kvargen och kokosmjölken. ",
-    "Mixa tills smoothien är jämn och slät.", 
-    "Tillsätt isbitar och mixa igen för en kylande effekt.",
-    "Häll upp i ett glas och njut av tropiska smaker!"],
+    "instructions": [
+      "Gröp ur passionsfrukten och lägg den i mixern tillsammans med mangon, kvargen och kokosmjölken. ",
+      "Mixa tills smoothien är jämn och slät.",
+      "Tillsätt isbitar och mixa igen för en kylande effekt.",
+      "Häll upp i ett glas och njut av tropiska smaker!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 10 g",
@@ -909,8 +1099,13 @@
     "id": 32,
     "category": "Mättande",
     "name": "Päron & Kardemumma",
-    "profile": ["Mild", "Kryddig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Mild",
+      "Kryddig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "En mättande kryddsensation!",
     "difficulty": "Medel",
@@ -921,11 +1116,12 @@
       "1/2 tsk kardemumma",
       "5 isbitar"
     ],
-    "instructions": 
-     ["Skär päronet i bitar och lägg det i mixern.",
-    "Tillsätt resten av ingredienserna.", 
-    "Mixa på hög hastighet tills smoothien är jämn och krämig.",
-    "Häll upp i ett glas och njut!"],
+    "instructions": [
+      "Skär päronet i bitar och lägg det i mixern.",
+      "Tillsätt resten av ingredienserna.",
+      "Mixa på hög hastighet tills smoothien är jämn och krämig.",
+      "Häll upp i ett glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 9 g",
@@ -938,8 +1134,13 @@
     "id": 33,
     "category": "Påskinspirerade",
     "name": "Morot & Ingefära",
-    "profile": ["Kryddig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Kryddig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en värmande immunförsvarsfiltt!",
     "difficulty": "Enkel",
@@ -951,9 +1152,10 @@
       "2 dl osötad havremjölk",
       "5 isbitar"
     ],
-    "instructions":  
-    ["Mixa alla ingredienser tills smoothien är slät.",
-    "Häll upp i ett glas och njut av en kryddig påskboost!"],
+    "instructions": [
+      "Mixa alla ingredienser tills smoothien är slät.",
+      "Häll upp i ett glas och njut av en kryddig påskboost!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 10 g",
@@ -966,10 +1168,16 @@
     "id": 34,
     "category": "Påskinspirerade",
     "name": "Jordgubb & Mango",
-    "profile": ["Söt", "Exotisk"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Söt",
+      "Exotisk"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "Tropikerna möter Påskharen i en färgglad blandning!",
+    "description": "Tropikerna möter Påskharen i en färgglad blandning!",
     "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta jordgubbar",
@@ -978,12 +1186,13 @@
       "2 dl osötad mandelmjölk",
       "1 tsk honung"
     ],
-    "instructions":      
-    ["Ta fram jordgubbarna och mangon och låt dem tina en i cirka 10 minuter.",
-    "Lägg all ingredienser i en mixer", 
-    "Mixa på hög hastighet tills smoothien är jämn och krämig.",
-    "Smaka av och justera sötman vid behov.",
-    "Häll upp i ett glas och njut av en tropisk och solig påskboost!"],
+    "instructions": [
+      "Ta fram jordgubbarna och mangon och låt dem tina en i cirka 10 minuter.",
+      "Lägg all ingredienser i en mixer",
+      "Mixa på hög hastighet tills smoothien är jämn och krämig.",
+      "Smaka av och justera sötman vid behov.",
+      "Häll upp i ett glas och njut av en tropisk och solig påskboost!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 12 g",
@@ -996,11 +1205,16 @@
     "id": 35,
     "category": "Påskinspirerade",
     "name": "Äpple & Kvarg",
-    "profile": ["Syrlig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Lika fräsch och uppfriskande som vårvindar och påskliljor!",
-    "difficulty" : "Medel",
+    "difficulty": "Medel",
     "ingredients": [
       "1/2 grönt äpple",
       "1 dl spenat",
@@ -1008,16 +1222,17 @@
       "1 dl osötad havremjölk",
       "Saften från 1/2 citron"
     ],
-    "instructions": 
-    ["Skölj och tärna äpplet. Skala det även och du vill ha en slätare smoothie.",
-    "Lägg all ingredienser i en mixer", 
-    "Mixa på hög hastighet tills smoothien är helt slät och grön.",
-    "Häll upp i ett glas och njut av en påskig grön smoothie!"],
+    "instructions": [
+      "Skölj och tärna äpplet. Skala det även och du vill ha en slätare smoothie.",
+      "Lägg all ingredienser i en mixer",
+      "Mixa på hög hastighet tills smoothien är helt slät och grön.",
+      "Häll upp i ett glas och njut av en påskig grön smoothie!"
+    ],
     "nutrition": [
-        "Kalorier: 140 kcal",
-        "Socker: 10 g",
-        "Protein: 12 g",
-        "Kolhydrater: 16 g"
+      "Kalorier: 140 kcal",
+      "Socker: 10 g",
+      "Protein: 12 g",
+      "Kolhydrater: 16 g"
     ],
     "image": "assets/smoothies/pask/PaskensGronska.png"
   },
@@ -1025,8 +1240,14 @@
     "id": 36,
     "category": "Påskinspirerade",
     "name": "Äpple & Kanel",
-    "profile": ["Kryddig", "Söt"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Kryddig",
+      "Söt"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Känn hur smaken av nybakad äppelpaj sprids i gommen!",
     "difficulty": "Medel",
@@ -1037,12 +1258,13 @@
       "2 dl osötad havremjölk",
       "5 isbitar"
     ],
-    "instructions": 
-     ["Skölj och tärna äpplet. Skala det även och du vill ha en slätare smoothie.",
-    "Lägg all ingredienser utom isbitarna i en mixer.", 
-    "Mixa på hög hastighet tills smoothien är helt slät och krämig.",
-    "Tillsätt isbitarna för att kyla ner smoothien.",
-    "Häll upp i ett glas och njut av en härlig smak av äppelpaj!"],
+    "instructions": [
+      "Skölj och tärna äpplet. Skala det även och du vill ha en slätare smoothie.",
+      "Lägg all ingredienser utom isbitarna i en mixer.",
+      "Mixa på hög hastighet tills smoothien är helt slät och krämig.",
+      "Tillsätt isbitarna för att kyla ner smoothien.",
+      "Häll upp i ett glas och njut av en härlig smak av äppelpaj!"
+    ],
     "nutrition": [
       "Kalorier: 145 kcal",
       "Socker: 10 g",
@@ -1055,10 +1277,15 @@
     "id": 37,
     "category": "Påskinspirerade",
     "name": "Citron & Chia",
-    "profile": ["Syrlig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Syrlig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "En välbehövlig näringsboost lagom till långfredagen!",
+    "description": "En välbehövlig näringsboost lagom till långfredagen!",
     "difficulty": "Enkel",
     "ingredients": [
       "Saften från 1/2 citron",
@@ -1067,13 +1294,13 @@
       "2 dl osötad mandelmjölk",
       "5 isbitar"
     ],
-    "instructions":  
-    ["Pressa saften från citronen.",
-    "Lägg citronjuice, chiafrön, kvarg och mandelmjölk i ett glas och låt chiafröna svälla en stund.", 
-    "Mixa på hög hastighet tills smoothien är helt slät och krämig.",
-    "Tillsätt isbitarna och mixa i ytterligare 10 sekunder.",
-    "Häll upp i ett glas och njut av en uppfriskande citrunboost!"],
-    
+    "instructions": [
+      "Pressa saften från citronen.",
+      "Lägg citronjuice, chiafrön, kvarg och mandelmjölk i ett glas och låt chiafröna svälla en stund.",
+      "Mixa på hög hastighet tills smoothien är helt slät och krämig.",
+      "Tillsätt isbitarna och mixa i ytterligare 10 sekunder.",
+      "Häll upp i ett glas och njut av en uppfriskande citrunboost!"
+    ],
     "nutrition": [
       "Kalorier: 130 kcal",
       "Socker: 8 g",
@@ -1086,8 +1313,14 @@
     "id": 38,
     "category": "Påskinspirerade",
     "name": "Morot & ananas",
-    "profile": ["Kryddig", "Söt" ],
-    "allergens": ["laktos", "nötter"],
+    "profile": [
+      "Kryddig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Som en morotskaka i flytande form!",
     "difficulty": "Medel",
@@ -1099,10 +1332,11 @@
       "1/2 tsk kanel",
       "1/2 tsk ingefära"
     ],
-    "instructions": 
-    ["Riv moroten och mixa tillsammans med ananasen i några sekunder.",
-    "Tillsätt resten av ingredienserna och mixa tills smoothien är slät.",
-    "Häll upp i ett glas och njut av en uppfriskande kryddsensation!"],
+    "instructions": [
+      "Riv moroten och mixa tillsammans med ananasen i några sekunder.",
+      "Tillsätt resten av ingredienserna och mixa tills smoothien är slät.",
+      "Häll upp i ett glas och njut av en uppfriskande kryddsensation!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 12 g",
@@ -1115,8 +1349,13 @@
     "id": 39,
     "category": "Påskinspirerade",
     "name": "Citron & Vanilj",
-    "profile": ["Syrlig", "Söt"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Syrlig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Det söta och syrliga samspelar som Yin och Yang!",
     "difficulty": "Medel",
@@ -1129,11 +1368,12 @@
       "5 isbitar",
       "1 tsk honung"
     ],
-    "instructions":  
-    ["Pressa saften från citronen och häll i mixern tillsammans med hallonen och vaniljkvargen.",
-    "Tillsätt mandelmjölk, vaniljextrakt och honung.",
-    "Lägg i isbitarna och mixa tills smoothien är kall och krämig.",
-    "Häll upp i glas och toppa gärna med små bitar av maräng eller citronzest för en extra påskig touch!"],
+    "instructions": [
+      "Pressa saften från citronen och häll i mixern tillsammans med hallonen och vaniljkvargen.",
+      "Tillsätt mandelmjölk, vaniljextrakt och honung.",
+      "Lägg i isbitarna och mixa tills smoothien är kall och krämig.",
+      "Häll upp i glas och toppa gärna med små bitar av maräng eller citronzest för en extra påskig touch!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 10 g",
@@ -1146,8 +1386,14 @@
     "id": 40,
     "category": "Dessertinspirerade",
     "name": "Banan & Kakao",
-    "profile": ["Chokladig", "Nötig"],
-    "allergens": ["nötter", "laktos"],
+    "profile": [
+      "Chokladig",
+      "Nötig"
+    ],
+    "allergens": [
+      "nötter",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "En delikatess är ingen petitess!",
     "difficulty": "Enkel",
@@ -1159,12 +1405,12 @@
       "2 dl osötad havremjölk",
       "1 tsk riven kokos"
     ],
-    "instructions": 
-    ["Skala bananen och lägg den i mixern tillsammans med resten av ingredienserna.",
-    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
-    "Lägg i isbitarna och mixa tills smoothien är kall och krämig.",
-    "Häll upp i ett glas och toppa eventuellt med extra kokos för mer crunch och smak!"
-  ],
+    "instructions": [
+      "Skala bananen och lägg den i mixern tillsammans med resten av ingredienserna.",
+      "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+      "Lägg i isbitarna och mixa tills smoothien är kall och krämig.",
+      "Häll upp i ett glas och toppa eventuellt med extra kokos för mer crunch och smak!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 12 g",
@@ -1177,8 +1423,14 @@
     "id": 41,
     "category": "Dessertinspirerade",
     "name": "Banan & Honung",
-    "profile": ["Chokladig", "Krämig"],
-    "allergens": ["laktos", "nötter"],
+    "profile": [
+      "Chokladig",
+      "Krämig"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Kladdkaka i dryckesform!",
     "difficulty": "Medel",
@@ -1190,10 +1442,11 @@
       "2 dl osötad mandelmjölk",
       "1/2 tsk vaniljpulver"
     ],
-    "instructions":    
-    ["Skala bananen och lägg den i mixern tillsammans med resten av ingredienserna.",
-    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
-    "Häll upp i glas och njut av en chokladig och krämig upplevelse!"],
+    "instructions": [
+      "Skala bananen och lägg den i mixern tillsammans med resten av ingredienserna.",
+      "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+      "Häll upp i glas och njut av en chokladig och krämig upplevelse!"
+    ],
     "nutrition": [
       "Kalorier: 190 kcal",
       "Socker: 13 g",
@@ -1206,8 +1459,14 @@
     "id": 42,
     "category": "Dessertinspirerade",
     "name": "Blåbär & Vanilj",
-    "profile": ["Söt", "Syrlig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Söt",
+      "Syrlig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Allt i ett-smoothie som passar de flesta!",
     "difficulty": "Enkel",
@@ -1218,12 +1477,12 @@
       "1 tsk honung",
       "1/2 digestivekex"
     ],
-    "instructions":   
-    ["Lägg all ingredienser i en mixer",
-    "Mixa på hög hastighet tills konsistensen är slät.",
-    "Häll upp i ett glas och toppa med krossat digestivekex för extra crunch!",
-    "Njut av den syrliga och fruktiga smaken av cheesecake!"],
-
+    "instructions": [
+      "Lägg all ingredienser i en mixer",
+      "Mixa på hög hastighet tills konsistensen är slät.",
+      "Häll upp i ett glas och toppa med krossat digestivekex för extra crunch!",
+      "Njut av den syrliga och fruktiga smaken av cheesecake!"
+    ],
     "nutrition": [
       "Kalorier: 170 kcal",
       "Socker: 12 g",
@@ -1236,8 +1495,14 @@
     "id": 43,
     "category": "Dessertinspirerade",
     "name": "Banan & Vanilj",
-    "profile": ["Söt", "Krämig"],
-    "allergens": ["gluten", "laktos"],
+    "profile": [
+      "Söt",
+      "Krämig"
+    ],
+    "allergens": [
+      "gluten",
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Smälter i munnen som din favoritkaramell!",
     "difficulty": "Medel",
@@ -1248,11 +1513,12 @@
       "2 dl osötad havremjölk",
       "1/2 tsk vaniljpulver"
     ],
-    "instructions":  
-    ["Skala bananen och lägg sedan alla ingredienser i en mixer",
-    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
-    "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
-    "Häll upp i glas och njut av den karamelliga smaken!"],
+    "instructions": [
+      "Skala bananen och lägg sedan alla ingredienser i en mixer",
+      "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+      "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
+      "Häll upp i glas och njut av den karamelliga smaken!"
+    ],
     "nutrition": [
       "Kalorier: 180 kcal",
       "Socker: 14 g",
@@ -1265,8 +1531,14 @@
     "id": 44,
     "category": "Dessertinspirerade",
     "name": "Choklad & Apelsin",
-    "profile": ["Chokladig", "Söt"],
-    "allergens": ["laktos", "nötter"],
+    "profile": [
+      "Chokladig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Apelsinkrokantälskare se hit!",
     "difficulty": "Enkel",
@@ -1277,11 +1549,12 @@
       "Rivet skal från 1/2 apelsin",
       "5 isbitar"
     ],
-    "instructions":   
-    ["Lägg alla ingredienser i mixern.",
-    "Mixa på hög hastighet tills konsistensen är slät och krämig.",
-    "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
-    "Häll upp i glas och njut av den karamelliga smaken!"],
+    "instructions": [
+      "Lägg alla ingredienser i mixern.",
+      "Mixa på hög hastighet tills konsistensen är slät och krämig.",
+      "Smaka av och tillsätt mer dadelsirap om du vill ha en sötare smak.",
+      "Häll upp i glas och njut av den karamelliga smaken!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 9 g",
@@ -1293,10 +1566,18 @@
   {
     "id": 45,
     "category": "Dessertinspirerade",
-    "name": "Kanelbulle",
-    "profile": ["Kanel", "Söt"],
-    "allergens": ["laktos", "nötter"],
+    "name": "Havre & Kanel",
+    "profile": [
+      "Kanel",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
+    "description": "Ljuvligt kryddig med en hint av nygräddad vetedeg och kanel!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 dl havregryn",
       "1 dl vaniljyoghurt",
@@ -1304,7 +1585,12 @@
       "1 tesked kanel",
       "1 tesked honung"
     ],
-    "instructions": "Lägg havregryn, yoghurt, mandelmjölk och kanel i mixern. Tillsätt honung för en sötare smak. Mixa på hög hastighet tills smoothien är slät och krämig. Smaka av och justera sötman om så önskas. Häll upp i glas och servera.",
+    "instructions": [
+      "Lägg havregryn, yoghurt, mandelmjölk och kanel i mixern",
+      "Tillsätt honung för en sötare smak.",
+      "Mixa på hög hastighet tills smoothien är slät och krämig.",
+      "Smaka av och justera sötman om så önskas. Häll upp i glas och servera."
+    ],
     "nutrition": [
       "protein: 12 g",
       "kolhydrater: 28 g",
@@ -1316,10 +1602,19 @@
   {
     "id": 46,
     "category": "Dessertinspirerade",
-    "name": "Hallonpannacotta",
-    "profile": ["Krämig", "Fruktig", "Vanilj"],
-    "allergens": ["laktos", "nötter"],
+    "name": "Hallon & Vanilj",
+    "profile": [
+      "Krämig",
+      "Fruktig",
+      "Vanilj"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
+    "description": "Fluffigt krämig med en fin balans mellan sötma och syrliga bär!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 dl frysta hallon",
       "1 dl naturell yoghurt",
@@ -1328,7 +1623,13 @@
       "1/2 tesked vaniljextrakt",
       "1 tesked honung eller agavesirap"
     ],
-    "instructions": "Lägg de frysta hallonen, naturell yoghurt och vaniljkvarg i mixern. Tillsätt mandelmjölk och vaniljextrakt för den krämiga, vaniljiga smaken. Mixa på hög hastighet tills smoothien blir slät och krämig. Smaka av och justera sötman med honung eller agavesirap om du vill ha en sötare smak. Häll upp i glas och servera direkt för en fräsch och krämig upplevelse.",
+    "instructions": [
+      "Lägg de frysta hallonen, naturell yoghurt och vaniljkvarg i mixern.",
+      "Tillsätt mandelmjölk och vaniljextrakt för den krämiga, vaniljiga smaken.",
+      "Mixa på hög hastighet tills smoothien blir slät och krämig.",
+      "Smaka av och justera sötman med honung eller agavesirap om du vill ha en sötare smak.",
+      "Häll upp i glas och servera direkt för en fräsch och krämig upplevelse."
+    ],
     "nutrition": [
       "protein: 12 g",
       "kolhydrater: 18 g",
@@ -1340,10 +1641,18 @@
   {
     "id": 47,
     "category": "Somriga",
-    "name": "Fläderdröm",
-    "profile": ["Söt", "Blommig"],
-    "allergens": ["laktos", "gluten"],
+    "name": "Jordgubb & Fläder",
+    "profile": [
+      "Söt",
+      "Blommig"
+    ],
+    "allergens": [
+      "laktos",
+      "gluten"
+    ],
     "portionsize": 2,
+    "description": "Flädersaft möter jordgubbsglass i ett fnittrig sommardans!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta jordgubbar",
       "1 dl vaniljkvarg",
@@ -1351,7 +1660,11 @@
       "1 tesked koncentrerad flädersaft",
       "5 isbitar"
     ],
-    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är slät och fluffig. Häll upp och njut av en smak av svensk midsommar!",
+    "instructions": [
+      "Lägg alla ingredienser i mixern",
+      "Mixa tills smoothien är slät och fluffig",
+      "Häll upp och njut av en smak av svensk midsommar!"
+    ],
     "nutrition": [
       "protein: 12 g",
       "kolhydrater: 13 g",
@@ -1364,9 +1677,17 @@
     "id": 48,
     "category": "Somriga",
     "name": "Rabarber & Vanilj",
-    "profile": ["Frisk", "Syrlig"],
-    "allergens": ["laktos", "gluten"],
+    "profile": [
+      "Frisk",
+      "Syrlig"
+    ],
+    "allergens": [
+      "laktos",
+      "gluten"
+    ],
     "portionsize": 2,
+    "description": "Rabarberkräm i smoothieformat!",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl kokt rabarber (svalnad)",
       "1 dl vaniljkvarg",
@@ -1374,7 +1695,12 @@
       "1 tesked honung",
       "5 isbitar"
     ],
-    "instructions": "Lägg alla ingredienser i mixern och mixa tills smoothien är helt slät. Häll upp och njut!",
+    "instructions": [
+      "Skär upp rabarbern och koka i lite vatten i ca 5 minuter. Låt svalna",
+      "Lägg alla ingredienser i mixern",
+      "Mixa tills smoothien är jämn och slät.",
+      "Häll upp i ett glas och njut!"
+    ],
     "nutrition": [
       "protein: 12 g",
       "kolhydrater: 13 g",
@@ -1387,11 +1713,16 @@
     "id": 49,
     "category": "Somriga",
     "name": "Hjortron & Grädde",
-    "profile": ["Krämig"],
-    "allergens": ["laktos", "nötter"],
+    "profile": [
+      "Krämig"
+    ],
+    "allergens": [
+      "laktos",
+      "nötter"
+    ],
     "portionsize": 2,
     "description": "Som gräddglass med hjortronsmak!",
-    "difficulty":"Enkel",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta hjortron",
       "1 dl naturell kvarg",
@@ -1399,9 +1730,10 @@
       "1 tsk honung",
       "5 isbitar"
     ],
-    "instructions": ["Lägg alla ingredienser i mixern och mixa tills smoothien är jämn och len.",
-    "Häll upp och njut!"
-  ],
+    "instructions": [
+      "Lägg alla ingredienser i mixern och mixa tills smoothien är jämn och len.",
+      "Häll upp och njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 9 g",
@@ -1414,8 +1746,13 @@
     "id": 50,
     "category": "Somriga",
     "name": "Rabarber & Jordgubb",
-    "profile": ["Söt", "Syrlig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Syrlig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en fruktig sommardrink på midsommarafton!",
     "difficulty": "Enkel",
@@ -1425,12 +1762,13 @@
       "1 dl vaniljkvarg",
       "2 dl osötad mandelmjölk"
     ],
-    "instructions": ["Skär upp rabarbern och koka i lite vatten i ca 5 minuter. Låt svalna.",
-    "Lägg de frysta jordgubbarna och kvargen i mixern och mixa lätt i 10 sekunder.",
-    "Tillsätt mandelmjölken och rabarbern.",
-    "Mixa på hög hastighet i 30-40 sekunder tills smoothien blir krämig.",
-    "Häll upp i glas och njut!"
-  ],
+    "instructions": [
+      "Skär upp rabarbern och koka i lite vatten i ca 5 minuter. Låt svalna.",
+      "Lägg de frysta jordgubbarna och kvargen i mixern och mixa lätt i 10 sekunder.",
+      "Tillsätt mandelmjölken och rabarbern.",
+      "Mixa på hög hastighet i 30-40 sekunder tills smoothien blir krämig.",
+      "Häll upp i glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 10 g",
@@ -1443,8 +1781,13 @@
     "id": 51,
     "category": "Somriga",
     "name": "Melon & Mynta",
-    "profile": ["Söt", "Exotisk"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Exotisk"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Paraplydrinkaktig smoothie som passar bäst under parasolet!",
     "difficulty": "Medel",
@@ -1455,11 +1798,12 @@
       "några färska myntablad",
       "5 isbitar"
     ],
-    "instructions": ["Skär melonen i små bitar och lägg i mixern.",
-    "Tillsätt kvarg, kokosmjölk och några myntablad.",
-    "Mixa på hög hastighet i 30 sekunder tills smoothien är slät och krämig.",
-    "Häll upp och servera i glas, njut!"
-  ],
+    "instructions": [
+      "Skär melonen i små bitar och lägg i mixern.",
+      "Tillsätt kvarg, kokosmjölk och några myntablad.",
+      "Mixa på hög hastighet i 30 sekunder tills smoothien är slät och krämig.",
+      "Häll upp och servera i glas, njut!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 10 g",
@@ -1472,11 +1816,16 @@
     "id": 52,
     "category": "Somriga",
     "name": "Passionsfrukt & Ananas",
-    "profile": ["Exotisk", "Syrlig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Exotisk",
+      "Syrlig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "En riktig törstsläckare när svetten rinner!",
-    "difficulty":"Medel",
+    "description": "En riktig törstsläckare när svetten rinner!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 passionsfrukt",
       "1 dl frysta ananasbitar",
@@ -1484,11 +1833,12 @@
       "2 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": ["Dela passionsfrukten och skrapa ut fruktköttet. Lägg det i mixern.",
-    "Tillsätt ananasbitarna, vaniljkvargen och mandelmjölken.",
-    "Mixa på hög hastighet tills smoothien är jämn och krämig.",
-    "Servera omedelbart i glas och njut av en tropisk upplevelse!"
-  ],
+    "instructions": [
+      "Dela passionsfrukten och skrapa ut fruktköttet. Lägg det i mixern.",
+      "Tillsätt ananasbitarna, vaniljkvargen och mandelmjölken.",
+      "Mixa på hög hastighet tills smoothien är jämn och krämig.",
+      "Servera omedelbart i glas och njut av en tropisk upplevelse!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 13 g",
@@ -1501,10 +1851,15 @@
     "id": 53,
     "category": "Tropiska",
     "name": "Mango & Ananas",
-    "profile": ["Söt", "Fruktig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Fruktig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description":"Slut ögonen och dra dit palmerna bor!",
+    "description": "Slut ögonen och dra dit palmerna bor!",
     "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta mangobitar",
@@ -1514,11 +1869,12 @@
       "1 tsk honung",
       "5 isbitar"
     ],
-    "instructions": ["Börja med att lägga mangon och ananasen i mixern. Tillsätt yoghurten och kokosmjölken.",
-    "Häll i honungen.",
-    "Lägg i isbitar och kör mixern tills allt blandats ordentligt och smoothien är slät.",
-    "Servera omedelbart i glas och njut av en tropisk upplevelse!"
-  ],
+    "instructions": [
+      "Börja med att lägga mangon och ananasen i mixern. Tillsätt yoghurten och kokosmjölken.",
+      "Häll i honungen.",
+      "Lägg i isbitar och kör mixern tills allt blandats ordentligt och smoothien är slät.",
+      "Servera omedelbart i glas och njut av en tropisk upplevelse!"
+    ],
     "nutrition": [
       "Kalorier: 170 kcal",
       "Socker: 18 g",
@@ -1531,11 +1887,16 @@
     "id": 54,
     "category": "Tropiska",
     "name": "Passionsfrukt & Banan",
-    "profile": ["Syrlig", "Söt"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Syrlig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en tropisk bris vid solnedgången!",
-    "difficulty":"Enkel",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 passionsfrukt",
       "1 banan",
@@ -1543,11 +1904,12 @@
       "1 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": ["Skär passionsfrukten och skopa ut fruktköttet. Lägg det i mixern tillsammans med bananen.",
-    "Häll i kvarg och mandelmjölk. Mixa på hög hastighet tills du får en jämn och krämig konsistens.",
-    "Tillsätt isbitar och mixa i 10 sekunder.",
-    "Häll upp i glas och njut av den tropiska smaken!"
-  ],
+    "instructions": [
+      "Skär passionsfrukten och skopa ut fruktköttet. Lägg det i mixern tillsammans med bananen.",
+      "Häll i kvarg och mandelmjölk. Mixa på hög hastighet tills du får en jämn och krämig konsistens.",
+      "Tillsätt isbitar och mixa i 10 sekunder.",
+      "Häll upp i glas och njut av den tropiska smaken!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 12 g",
@@ -1560,10 +1922,15 @@
     "id": 55,
     "category": "Tropiska",
     "name": "Papaya Coconut",
-    "profile": ["Syrlig", "Krämig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Syrlig",
+      "Krämig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "Som en solig paus under vajande palmer!",
+    "description": "Som en solig paus under vajande palmer!",
     "difficulty": "Enkel",
     "ingredients": [
       "1 dl papaya",
@@ -1572,11 +1939,12 @@
       "2 dl osötad kokosmjölk",
       "5 isbitar"
     ],
-    "instructions": ["Skär papayan i bitar och lägg i mixern. Pressa i saften från en halv lime och tllsätt kvargen och kokosmjölken.",
-    "Mixa på hög hastighet tills smoothien får en slät och krämig konsistens.",
-    "Lägg i isbitarna och mixa igen för att få smoothien kall.",
-    "Häll upp i glas och njut!"
-  ],
+    "instructions": [
+      "Skär papayan i bitar och lägg i mixern. Pressa i saften från en halv lime och tllsätt kvargen och kokosmjölken.",
+      "Mixa på hög hastighet tills smoothien får en slät och krämig konsistens.",
+      "Lägg i isbitarna och mixa igen för att få smoothien kall.",
+      "Häll upp i glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 10 g",
@@ -1589,8 +1957,14 @@
     "id": 56,
     "category": "Tropiska",
     "name": "Mango & Kokos",
-    "profile": ["Söt", "Exotisk", "Krämig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Exotisk",
+      "Krämig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en drickbar Bounty med mangoinslag!",
     "difficulty": "Enkel",
@@ -1600,11 +1974,12 @@
       "1 dl naturell kvarg",
       "1 tsk riven kokos"
     ],
-    "instructions": ["Lägg mangon, kokosmjölken och kvargen i mixern och mixa på hög hastighet.",
-    "Tillsätt den rivna kokosen.",
-    "Lägg i isbitarna och mixa tills smoothien är fluffig.",
-    "Häll upp i glas och njut!"
-  ],
+    "instructions": [
+      "Lägg mangon, kokosmjölken och kvargen i mixern och mixa på hög hastighet.",
+      "Tillsätt den rivna kokosen.",
+      "Lägg i isbitarna och mixa tills smoothien är fluffig.",
+      "Häll upp i glas och njut!"
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 14 g",
@@ -1617,8 +1992,12 @@
     "id": 57,
     "category": "Tropiska",
     "name": "Mango & Spenat",
-    "profile": ["Söt"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som tagen ur en hälsokostreklam!",
     "difficulty": "Medel",
@@ -1630,11 +2009,12 @@
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": ["Börja med att lägga mango, gurka och spenat i mixern.",
-    "Tillsätt kokosvatten och kvarg.",
-    "Lägg i isbitar och kör mixern tills allt är slätt och väl blandat.",
-    "Servera direkt!"
-  ],
+    "instructions": [
+      "Börja med att lägga mango, gurka och spenat i mixern.",
+      "Tillsätt kokosvatten och kvarg.",
+      "Lägg i isbitar och kör mixern tills allt är slätt och väl blandat.",
+      "Servera direkt!"
+    ],
     "nutrition": [
       "Kalorier: 140 kcal",
       "Socker: 12 g",
@@ -1647,11 +2027,16 @@
     "id": 58,
     "category": "Tropiska",
     "name": "Mango & Kiwi",
-    "profile": ["Söt", "Fruktig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Fruktig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Förbered dig på sötchock!",
-    "difficulty":"Enkel",
+    "difficulty": "Enkel",
     "ingredients": [
       "1 dl frysta mangobitar",
       "1 kiwi",
@@ -1659,11 +2044,12 @@
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": ["Skala och skär kiwin i bitar. Lägg kiwin och mangon i mixern tillsammans md kokosmjölken.",
-    "Tillsätt kvargen.",
-    "Lägg i isbitarna och kör mixern tills allt är slätt och väl blandat.",
-    "Häll upp och njut!"
-  ],
+    "instructions": [
+      "Skala och skär kiwin i bitar. Lägg kiwin och mangon i mixern tillsammans md kokosmjölken.",
+      "Tillsätt kvargen.",
+      "Lägg i isbitarna och kör mixern tills allt är slätt och väl blandat.",
+      "Häll upp och njut!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 16 g",
@@ -1676,11 +2062,16 @@
     "id": 59,
     "category": "Tropiska",
     "name": "Pina Colada",
-    "profile": ["Krämig", "Söt"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Krämig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "Ett säkert kort i smoothiedjungeln!",
-    "difficulty" : "Medel",
+    "description": "Ett säkert kort i smoothiedjungeln!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 dl ananasbitar",
       "1 dl ananasjuice",
@@ -1688,11 +2079,12 @@
       "1 dl naturell kvarg",
       "1 tsk honung"
     ],
-    "instructions": ["Lägg ananasbitarna i mixern och tillsätt kokosmjölk, ananasjuice och kvarg.",
-    "Tillsätt honung.",
-    "Lägg i isbitar och mixa tills smoothien blir kall och slät.",
-    "Häll upp och njut!"
-  ],
+    "instructions": [
+      "Lägg ananasbitarna i mixern och tillsätt kokosmjölk, ananasjuice och kvarg.",
+      "Tillsätt honung.",
+      "Lägg i isbitar och mixa tills smoothien blir kall och slät.",
+      "Häll upp och njut!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 14 g",
@@ -1705,11 +2097,16 @@
     "id": 60,
     "category": "Tropiska",
     "name": "Kokosnöt & Passionsfrukt",
-    "profile": ["Krämig", "Exotisk"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Krämig",
+      "Exotisk"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "Bli passionerat förälskad i denna ovanliga smakkombination!",
-    "difficulty" : "Medel",
+    "description": "Bli passionerat förälskad i denna ovanliga smakkombination!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 passionfrukt",
       "1 dl kokosmjölk",
@@ -1717,11 +2114,12 @@
       "1/2 dl riven kokos",
       "5 isbitar"
     ],
-    "instructions": ["Skopa ur fruktköttet från passionsfrukten och lägg det i mixern.",
-    "Tillsätt kokosmjölk och kvarg.",
-    "Lägg i riven kokos och isbitar.",
-    "Mixa på hög hastighet tills allt blandats ordentligt och servera direkt."
-  ],
+    "instructions": [
+      "Skopa ur fruktköttet från passionsfrukten och lägg det i mixern.",
+      "Tillsätt kokosmjölk och kvarg.",
+      "Lägg i riven kokos och isbitar.",
+      "Mixa på hög hastighet tills allt blandats ordentligt och servera direkt."
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 15 g",
@@ -1734,11 +2132,17 @@
     "id": 61,
     "category": "Tropiska",
     "name": "Drakfrukt & Mango",
-    "profile": ["Söt", "Exotisk", "Fruktig"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Söt",
+      "Exotisk",
+      "Fruktig"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
-    "description" : "Drakar lyfter i motvind, men med denna får du medvind!",
-    "difficulty" : "Medel",
+    "description": "Drakar lyfter i motvind, men med denna får du medvind!",
+    "difficulty": "Medel",
     "ingredients": [
       "1 dl drakfrukt (färdigtärnad fryst eller färsk)",
       "1 dl mangobitar",
@@ -1746,11 +2150,12 @@
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": ["Skär drakfrukten i bitar om du använder färsk, eller häll i den färdigtärnade frysta  varianten i mixern.",
-    "Lägg i mangon tillsammans med kokosmjölken.",
-    "Tillsätt kvargen och isbitarna.",
-    "Mixa på hög hastighet tills allt är ordentligt blandat och servera direkt."
-  ],
+    "instructions": [
+      "Skär drakfrukten i bitar om du använder färsk, eller häll i den färdigtärnade frysta  varianten i mixern.",
+      "Lägg i mangon tillsammans med kokosmjölken.",
+      "Tillsätt kvargen och isbitarna.",
+      "Mixa på hög hastighet tills allt är ordentligt blandat och servera direkt."
+    ],
     "nutrition": [
       "Kalorier: 150 kcal",
       "Socker: 16 g",
@@ -1763,8 +2168,13 @@
     "id": 62,
     "category": "Tropiska",
     "name": "Papaya & Banan",
-    "profile": ["Krämig", "Söt"],
-    "allergens": ["laktos"],
+    "profile": [
+      "Krämig",
+      "Söt"
+    ],
+    "allergens": [
+      "laktos"
+    ],
     "portionsize": 2,
     "description": "Som en solmogen fruktbuffé vid havet!",
     "difficulty": "Enkel",
@@ -1775,16 +2185,17 @@
       "1 dl naturell kvarg",
       "5 isbitar"
     ],
-    "instructions": ["Skala bananen och lägg den i mixern tillsammans med papayabitarna.",
-    "Häll i kokosmjölk och kvarg för att skapa en krämig och len konsistens.",
-    "Lägg i isbitarna och mixa tills smoothien är slät och kall.",
-    "Servera direkt och njut!"  
-  ],
+    "instructions": [
+      "Skala bananen och lägg den i mixern tillsammans med papayabitarna.",
+      "Häll i kokosmjölk och kvarg för att skapa en krämig och len konsistens.",
+      "Lägg i isbitarna och mixa tills smoothien är slät och kall.",
+      "Servera direkt och njut!"
+    ],
     "nutrition": [
       "Kalorier: 160 kcal",
       "Socker: 18 g",
       "Protein: 13 g",
-      "Kolhydrater: 23 g"   
+      "Kolhydrater: 23 g"
     ],
     "image": "assets/smoothies/Tropiska/PapayaBanan.png"
   }

@@ -7,6 +7,7 @@
    /* column-gap, row-gap */
    background-color: #F3CDFE;
    padding: 1rem 2rem;
+   margin-bottom: 2rem;
  }
 @media (max-width: 1000px) {
   .container {
@@ -32,6 +33,7 @@
    flex-direction: column;
    align-items: center;
    position: relative;
+   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
  }
 
  @media (max-width: 600px) {
@@ -110,9 +112,72 @@
    }
  }
 
+ .searchOverlay {
+  position: relative;
+  grid-column: 1/var(--grid-column-end);
+ }
+
+ .searchContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 66%;
+ }
+
+ @media (max-width: 600px) {
+  .searchContainer {
+    width: 75%;
+  }
+ }
+
+ @media (max-width: 431px) {
+  .searchContainer {
+    width: 80%;
+  }
+ }
+
+ .searchContainer img {
+  width: 25%;
+  height: auto;
+  object-fit: cover;
+ }
+
+ @media (max-width: 768px) {
+  .searchContainer img {
+    width: 40%;
+  }
+ }
+
  .imagewrapper {
    width: 100%;
    height: auto;
    object-fit: cover;
    grid-column: 1/var(--grid-column-end);
+ }
+
+ .categoryButtons {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+ }
+
+ @media (max-width: 600px) {
+  .categoryButtons {
+    width: 80%;
+  }
+ }
+
+ @media (max-width: 431px) {
+  .categoryButtons {
+    width: 90%;
+  }
  }

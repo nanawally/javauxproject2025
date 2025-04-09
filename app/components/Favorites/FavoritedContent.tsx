@@ -5,9 +5,10 @@ import { FavoriteButton } from "./FavoriteButton";
 import { HeroImage } from "./FavoriteHeroImage";
 
 export function FavoritedContent() {
-    const { recipes, favorites, setRecipeIndex } = useRecipeContext();
+    const { recipes, favorites, setRecipeIndex, clearFavorites } = useRecipeContext();
 
     const favoritedRecipes = recipes.filter((recipe) => favorites.includes(recipe.id));
+    const hasFavorites = favorites.length > 0;
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
@@ -15,9 +16,13 @@ export function FavoritedContent() {
 
     return (
         <>
-        <HeroImage />
+            <HeroImage />
             <section className={styles.pageTitle}>
                 <h1>Dina favoriter</h1>
+                <span className={styles.spacer}></span>
+                {hasFavorites && (
+                    <h3 onClick={clearFavorites}>Rensa alla</h3>
+                )}
             </section>
             {favoritedRecipes.length === 0 ? (
                 <div className={styles.empty}>
@@ -34,7 +39,7 @@ export function FavoritedContent() {
                                 <img src={recipe.image} alt={recipe.name} />
                                 <h3>{recipe.name}</h3>
                             </Link>
-                            <FavoriteButton recipeId={recipe.id}/>
+                            <FavoriteButton recipeId={recipe.id} />
                         </div>
                     ))}
                 </div>
