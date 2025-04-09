@@ -6,6 +6,13 @@
   align-items: center;
 }
 
+.center > button > img {
+  height: 3rem;
+  width: 3rem;
+  margin-top: 1.2rem;
+  margin-right: 1.2rem;
+}
+
 .center {
   display: flex;
   flex-direction: row;
@@ -21,7 +28,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 900;
-  font-size: 3vmin;
+  font-size: 5vmin;
   text-align: left;
 }
 
@@ -40,6 +47,11 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .recipeImage {
@@ -73,7 +85,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 900;
-  font-size: 3vmin;
+  font-size: 5vmin;
   text-align: left;
   margin: 10px 0px;
 }
@@ -83,30 +95,41 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 600;
-  font-size: 3vmin;
+  font-size: 4vmin;
   text-align: left;
   margin: 10px 0px;
 }
 
 .tipsContainerDesktop {
-  background-color: #f7f2e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  /*margin-top: 10px;*/
+  margin-top: calc(3vmin + 15px);
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: 2.5em;
+}
 
+.tipsContainerDesktopInner {
+  background-color: #f7f2e9;
   border: none;
   border-radius: 15px;
-  margin-left: 20px;
-  padding: 20px;
+  padding: 10px;
   font-family: Inter;
   font-weight: 400;
   font-size: 2vmin;
   color: black;
-  width: 70%;
+  width: 90%;
   max-width: 100%;
+  max-height: 40vh;
   text-align: center;
   white-space: normal;
-  word-wrap: break-word;
   overflow-wrap: break-word;
-  max-height: 40vh;
   overflow-y: auto;
+  box-sizing: border-box;
 }
 
 .tipsContainerDesktop h2 {
@@ -116,7 +139,8 @@
   font-weight: 900;
   font-size: 3vmin;
   text-align: left;
-  margin: 10px 0px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .tipsContainerDesktop p {
@@ -126,7 +150,6 @@
   font-weight: 600;
   font-size: 3vmin;
   text-align: left;
-  margin: 10px 0px;
 }
 
 .endCenter {
@@ -165,8 +188,9 @@
   height: 15vmin;
   width: auto;
   margin-bottom: 5vmin;
-  margin-left: 2vmin;
-  margin-right: 2vmin;
+  margin-left: 4vmin;
+  margin-right: 5vmin;
+  transform: rotate(10deg);
 }
 
 @media (min-width: 1024px) {
@@ -178,13 +202,57 @@
     display: none;
   }
 
+  .textContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .imgContainer {
+    display: flex;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    background-color: #f7f2e9;
+    justify-content: end;
+  }
+
+  .recipeImage {
+    display: flex;
+    width: 70%;
+    height: auto;
+    padding: 5vmin 10vmin;
+  }
+
   .recipeAspects {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    grid-template-columns: 1fr 2fr;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    margin-top: 1.5em;
+  }
+
+  .recipeAspects > ul:nth-child(1) {
+    flex: 1 1 calc(30% - 10px);
+    margin-left: 2em;
+  }
+
+  .recipeAspects > ul:nth-child(2) {
+    flex: 1 1 calc(60% - 10px);
+    margin-right: 2em;
+  }
+
+  .recipeAspects > ul:nth-child(3) {
+    flex: 1 1 calc(30% - 10px);
+    margin-left: 2em;
+  }
+
+  .recipeAspects > div:nth-child(4) {
+    flex: 1 1 calc(60% - 10px);
+    margin-right: 2em;
   }
 
   .recipeList {
@@ -192,9 +260,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
+    width: 90%;
     list-style: none;
+    box-sizing: border-box;
   }
 
   .recipeList h2 {
@@ -203,19 +273,18 @@
     font-family: Inter;
     font-weight: 700;
     font-size: 3vmin;
-    text-align: center;
+    text-align: start;
     margin: 10px 0px;
   }
 
   .recipeList li {
     display: flex;
-    width: 70%;
+    width: 90%;
     background-color: #f3cdfe;
     border-radius: 7px;
     box-sizing: border-box;
-
-    height: 3vh;
-    padding: 25px 20px;
+    height: auto;
+    padding: 10px 20px;
     margin-bottom: 8px;
     align-items: center;
     padding-left: 2vw;
@@ -226,11 +295,12 @@
     color: black;
   }
 
+  /*
   .recipeInstructions {
     border: none;
     border-radius: 15px;
     background-color: #f3cdfe;
-    padding: 20px;
+    padding: 50px 20px;
     margin: 20px;
     font-family: Inter;
     font-weight: 400;
@@ -245,6 +315,7 @@
     max-height: 40vh;
     overflow-y: auto;
   }
+  */
 }
 
 @media (max-width: 1024px) {
@@ -269,6 +340,10 @@
     margin-bottom: 1vh;
   }
 
+  .labelContainer {
+    margin: 0px 0px 4vmin 5vmin;
+  }
+
   .textContainer {
     width: 100%;
     background-color: white;
@@ -277,6 +352,7 @@
   .center h2 {
     text-align: left;
     font-size: 5vw;
+    margin-top: 3vmin;
     margin-left: 5vw;
   }
 

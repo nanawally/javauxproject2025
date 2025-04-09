@@ -14,23 +14,41 @@ export const TabsComponent = () => {
 
   const selectedRecipe = recipes.length > 0 ? recipes[recipeIndex] : null;
 
-    const tabs: TabProps[] = [
-        {
-            id: "ingredients", label: "Ingredienser", content: <ul className={styles.tabsList}>{selectedRecipe?.ingredients.map((ingredient, index) => (
-                <li key={index}>{ingredient}</li>
-            ))} </ul>
-        },
-        {
-            id: "instructions", label: "Gör så här", content: <ul className={styles.tabsList}>{selectedRecipe?.instructions.map((instructions, index) => (
-                <li key={index}>{instructions}</li>
-            ))}</ul>
-        },
-        {
-            id: "nutrition", label: "Näringsvärde", content: <ul className={styles.tabsList}>{selectedRecipe?.nutrition.map((nutrition, index) => (
-                <li key={index}>{nutrition}</li>
-            ))}</ul>
-        }
-    ];
+  const tabs: TabProps[] = [
+    {
+      id: "ingredients",
+      label: "Ingredienser",
+      content: (
+        <ul className={styles.tabsList}>
+          {selectedRecipe?.ingredients.map((ingredient, index) => (
+            <li key={index}>{ingredient}</li>
+          ))}{" "}
+        </ul>
+      ),
+    },
+    {
+      id: "instructions",
+      label: "Gör så här",
+      content: (
+        <ul className={styles.tabsList}>
+          {selectedRecipe?.instructions.map((instructions, index) => (
+            <li key={index}>{instructions}</li>
+          ))}
+        </ul>
+      ),
+    },
+    {
+      id: "nutrition",
+      label: "Näringsvärde",
+      content: (
+        <ul className={styles.tabsList}>
+          {selectedRecipe?.nutrition.map((nutrition, index) => (
+            <li key={index}>{nutrition}</li>
+          ))}
+        </ul>
+      ),
+    },
+  ];
 
   return (
     <>

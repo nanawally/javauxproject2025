@@ -1,23 +1,23 @@
 .favoriteButton {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    transition: all 0.3s ease;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+}
 
-  .favoriteButton.favorited {
-    color: red;
-    font-weight: bold;
-  }
+.favoriteButton.favorited {
+  color: red;
+  font-weight: bold;
+}
 
-  .favoriteButton > img {
-    height: 2rem;
-    width: 2rem;
-  }
+.favoriteButton > img {
+  height: 2rem;
+  width: 2rem;
+}
 
   @media (min-width: 600px) {
     .favoriteButton > img {
