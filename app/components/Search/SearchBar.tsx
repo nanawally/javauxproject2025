@@ -30,7 +30,7 @@ export function SearchBar({ recipes, onFilteredRecipesChange }: SearchBarProps) 
                 <input
                     type="text"
                     onChange={handleInputChange}
-                    placeholder="Sök efter ingredienser . . ."
+                    placeholder="Sök på ingredienser"
                     name="search"
                     autoComplete="off" />
             </section>
