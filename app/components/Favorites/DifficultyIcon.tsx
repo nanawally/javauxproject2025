@@ -11,12 +11,18 @@ export function DifficultyIcon({ difficulty }: DifficultyIconProps) {
     const iconSrc = {
         enkel: "assets/Enkel.jpg",
         medel: "assets/Medel.jpg",
-        svår: "assets/Svår.jpg"
+        svår: "assets/Svår."
     }[normalized as "enkel" | "medel" | "svår"];
 
     return (
         <div className={styles.difficultyIcon}>
-            {iconSrc && <img src={`/assets/${difficulty}.jpg`} alt={`Svårighetsgrad: ${difficulty}`} />}
+            {difficulty && (
+                <img
+                    src={`/assets/${difficulty}.jpg`}
+                    alt={`Svårighetsgrad: ${difficulty}`}
+                />
+            )}
         </div>
     );
+    
 }
