@@ -17,6 +17,16 @@
     font-size: 16px;
 }
 
+@media (max-width: 768px) {
+    .profileLabel {
+        font-size: 12px;
+    }
+
+    .labelContainer {
+        margin-top: 0.5rem;
+    }
+}
+
 .allergenLabel {
     display: flex;
     justify-content: center;

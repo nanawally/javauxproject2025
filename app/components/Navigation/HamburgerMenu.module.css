@@ -12,9 +12,17 @@
     align-items: center;
   }
 
+  @media (max-width: 431px) {
+    .menuButton {
+      margin-left: 0.5rem;
+    }
+  }
+
   .menuButton img {
-    width: 40px;
-    height: 40px;
+    width: 90px;
+    height: 33px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
   }
   
   .menuList {

@@ -35,9 +35,14 @@ export function CustomHeader() {
                     <Link to="../" className={styles.icon}>
                         <img src="/assets/logo.jpg" alt="Logo" className={styles.logo} />
                     </Link>
-                    <Link to="favorites" className={styles.icon}>
-                        <img src="/assets/Favorite-empty-b.jpg" alt="Dina favoriter" className={styles.favoritesLink} />
-                    </Link>
+                    <div className={styles.iconContainer}>
+                        <Link to="explore" className={styles.icon}>
+                            <img src="/assets/Search.jpg" alt="sök" />
+                        </Link>
+                        <Link to="favorites" className={styles.icon}>
+                            <img src={isFavoritePage ? "/assets/Favorite-filled.jpg" : "/assets/Favorite-empty-b.jpg"} alt="Dina favoriter" className={styles.favoritesLink} />
+                        </Link>
+                    </div>
                 </>
             )}
         </header>

@@ -6,14 +6,14 @@ interface LabelProps {
 }
 
 const allergenImages: Record<string, string> = {
-    Laktos: "/assets/Laktos.jpg",
-    laktos: "/assets/Laktos.jpg",
+    Laktos: "/assets/Laktos-b.jpg",
+    laktos: "/assets/Laktos-b.jpg",
 
-    Nötter: "/assets/Nut-allergy.jpg",
-    nötter: "/assets/Nut-allergy.jpg",
+    Nötter: "/assets/Nut-allergy-b.jpg",
+    nötter: "/assets/Nut-allergy-b.jpg",
 
-    Gluten: "/assets/Gluten.jpg",
-    gluten: "/assets/Gluten.jpg"
+    Gluten: "/assets/Gluten-b.jpg",
+    gluten: "/assets/Gluten-b.jpg"
 };
 
 export function Label({ profiles, allergens }: LabelProps) {

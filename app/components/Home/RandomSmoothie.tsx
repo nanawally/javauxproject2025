@@ -18,6 +18,7 @@ export function RandomSmoothie() {
                     <section className={styles.smoothieText}>
                         <h2>Dagens Smoothie!</h2>
                         <h3>{smoothieOfTheDay.name}</h3>
+                        <h4>{smoothieOfTheDay.description}</h4>
                         <Label profiles={smoothieOfTheDay.profile} allergens={smoothieOfTheDay.allergens}/>
                     </section>
                     <section className={styles.smoothieImage}>

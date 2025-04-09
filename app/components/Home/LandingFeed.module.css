@@ -1,3 +1,15 @@
+.buttonOverlay {
+    position: relative;
+    max-width: 100vw; /* Prevent overflow */
+    overflow-x: hidden; /* Optional safety */
+}
+
+@media (min-width: 1050px) {
+    .buttonDisplay button {
+        display: none;
+    }
+}
+
 /* Short Description */
 .shortDescription {
     display: flex;
@@ -51,6 +63,7 @@
 /* Smoothie of the day */
 .smoothieOfTheDay {
     display: flex;
+    justify-content: center;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
     background-color: #F1E8E1;
@@ -82,21 +95,13 @@
 /* Consistency Tip #1 */
 .consistencyTip {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
-
-    padding: 15px 0;
-
     background-color: #F1E8E1;
-}
-
-@media (max-width: 768px) {
-    .consistencyTip {
-        padding: 0;
-    }
 }
 
 .consistencyTitle {
@@ -105,29 +110,25 @@
     font-weight: 900;
     font-size: 4vmin;
     text-align: center;
-    padding: 15px 0;
+    padding-bottom: 15px;
+    padding-top: 25px;
 }
 
 .tipContainer {
-    display: inherit;
+    display: flex;
     position: relative;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 25px;
+    gap: 15px;
 }
 
-@media (max-width: 1200px) {
-    .tipContainer {
-        width: 90%;
-    }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .tipContainer {
         justify-content: start;
         overflow-x: auto;
         white-space: nowrap;
-        padding-bottom: 10px;
         width: 100%;
     }
 }
@@ -136,10 +137,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 25%;
 }
+
+@media (max-width: 1050px) {
+    .tipContainer section {
+        flex: 0 0 25%;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .tipContainer section {
-        flex: 0 0 43%;
+        flex: 0 0 40%;
         display: flex;
         align-items: center;
         margin-left: 20px;
@@ -159,7 +171,7 @@
     height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .tipContainer section img {
         width: 60px;
         height: auto;
@@ -176,7 +188,7 @@
     width: 66%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .tipContainer section h4 {
         margin-left: 10px;
         font-size: 14px;
@@ -195,7 +207,7 @@
     align-items: center;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
-    padding: 2vh 0;
+    padding: 4vh 0;
 
     background-color: #F1E8E1;
 
@@ -222,23 +234,48 @@
 
 .allergyText h4 {
     font-family: Inter;
-    font-weight: 900;
-    font-size: 2vmin;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 @media (max-width: 768px) {
-    .allergyText h4 {
-        font-size: 16px;
-    }
-}
-
-@media (max-width: 431px) {
     .allergyText h4 {
         font-size: 12px;
     }
 }
 
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+}
 
+.logoContainer h4 {
+    font-weight: 750;
+}
+
+@media (max-width: 768px) {
+    .logoContainer h4 {
+        font-size: 12px;
+    }
+}
+
+.allergyLogo {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width: 768px) {
+    .allergyLogo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logoContainer {
+        gap: 4px;
+    }
+}
 
 .allergyImage {
     display: flex;
@@ -247,7 +284,7 @@
     box-sizing: border-box;
 }
 
-.allergyTip img {
+.allergyImage img {
     transform: rotate(10deg);
     max-width: 100%;
     height: auto;
@@ -255,7 +292,7 @@
 }
 
 @media (max-width: 768px) {
-    .allergyTip img {
+    .allergyImage img {
         width: 50%;
     }
 }
@@ -263,20 +300,15 @@
 /* How to Tip #3 */
 .howToTip {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
     margin-bottom: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 25px;
     background-color: #F1E8E1;
-}
-
-@media (max-width: 768px) {
-    .howToTip {
-        padding: 0;
-    }   
 }
 
 .howToTitle {
@@ -285,7 +317,7 @@
     font-weight: 900;
     font-size: 4vmin;
     text-align: center;
-    padding: 2vh 0;
+    padding-bottom: 15px;
 }
 
 .howToContainer {
@@ -294,6 +326,7 @@
     align-items: center;
     width: 90%;
     gap: 10px;
+    padding-bottom: 25px;
 }
 
 @media (max-width: 768px) {
@@ -301,7 +334,6 @@
         justify-content: start;
         overflow-x: auto;
         white-space: nowrap;
-        padding-bottom: 10px;
         width: 100%;
     }
 }
@@ -317,7 +349,7 @@
 @media (max-width: 768px) {
     .howToContainer section {
         flex: 0 0 60%;
-    }   
+    }
 }
 
 @media (max-width: 431px) {
@@ -338,14 +370,19 @@
 @media (max-width: 768px) {
     .howToContainer section h1 {
         font-size: 60px;
-    }   
+    }
+}
+
+.tipTitle {
+    font-size: 16px;
+    font-weight: 900;
 }
 
 .howToContainer section h4 {
     color: #E60035;
     font-family: Inter;
-    font-weight: 900;
-    font-size: 2vmin;
+    font-weight: 700;
+    font-size: 12px;
     padding-top: 10px;
     margin-left: 10px;
     width: 80%;
@@ -358,5 +395,5 @@
         padding: 0;
         margin: 0;
         font-size: 14px;
-    }   
+    }
 }
