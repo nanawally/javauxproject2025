@@ -21,7 +21,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 900;
-  font-size: 3vmin;
+  font-size: 5vmin;
   text-align: left;
 }
 
@@ -40,6 +40,11 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .recipeImage {
@@ -73,7 +78,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 900;
-  font-size: 3vmin;
+  font-size: 5vmin;
   text-align: left;
   margin: 10px 0px;
 }
@@ -83,7 +88,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 600;
-  font-size: 3vmin;
+  font-size: 4vmin;
   text-align: left;
   margin: 10px 0px;
 }
@@ -166,7 +171,8 @@
   width: auto;
   margin-bottom: 5vmin;
   margin-left: 2vmin;
-  margin-right: 2vmin;
+  margin-right: 5vmin;
+  transform: rotate(10deg);
 }
 
 @media (min-width: 1024px) {
@@ -178,13 +184,52 @@
     display: none;
   }
 
+  .textContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .imgContainer {
+    display: flex;
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    background-color: #f7f2e9;
+    justify-content: end;
+  }
+
+  .recipeImage {
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 5vmin 10vmin;
+  }
+
   .recipeAspects {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px;
-    grid-template-columns: 1fr 2fr;
     width: 100%;
     justify-content: center;
     align-items: center;
+  }
+
+  .recipeAspects > ul:nth-child(1) {
+    flex: 1 1 calc(30% - 10px);
+  }
+
+  .recipeAspects > ul:nth-child(2) {
+    flex: 1 1 calc(60% - 10px);
+  }
+
+  .recipeAspects > ul:nth-child(3) {
+    flex: 1 1 calc(30% - 10px);
+  }
+
+  .recipeAspects > div:nth-child(4) {
+    flex: 1 1 calc(60% - 10px);
   }
 
   .recipeList {
@@ -193,8 +238,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 20px;
     list-style: none;
+    box-sizing: border-box;
   }
 
   .recipeList h2 {
@@ -230,7 +275,7 @@
     border: none;
     border-radius: 15px;
     background-color: #f3cdfe;
-    padding: 20px;
+    padding: 50px 20px;
     margin: 20px;
     font-family: Inter;
     font-weight: 400;
@@ -269,6 +314,10 @@
     margin-bottom: 1vh;
   }
 
+  .labelContainer {
+    margin: 0px 0px 4vmin 5vmin;
+  }
+
   .textContainer {
     width: 100%;
     background-color: white;
@@ -277,6 +326,7 @@
   .center h2 {
     text-align: left;
     font-size: 5vw;
+    margin-top: 3vmin;
     margin-left: 5vw;
   }
 

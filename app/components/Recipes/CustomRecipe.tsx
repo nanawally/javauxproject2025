@@ -13,20 +13,23 @@ export function CustomRecipe() {
       {selectedRecipe ? (
         <div className={styles.pageWrapper}>
           <section className={styles.center}>
-            <img
-              className={styles.recipeImage}
-              src={selectedRecipe.image}
-              alt="Smoothie image"
-            />
+            <div className={styles.imgContainer}>
+              <img
+                className={styles.recipeImage}
+                src={selectedRecipe.image}
+                alt="Smoothie image"
+              />
+            </div>
             <FavoriteButton recipeId={selectedRecipe.id} />
-
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
-                <p className={styles.description}>
-                {selectedRecipe.description}
-              </p>
-                <Label profiles={selectedRecipe.profile} allergens={selectedRecipe.allergens} />
-              
+              <p className={styles.description}>{selectedRecipe.description}</p>
+              <div className={styles.labelContainer}>
+                <Label
+                  profiles={selectedRecipe.profile}
+                  allergens={selectedRecipe.allergens}
+                />
+              </div>
             </div>
           </section>
           <section className={styles.recipeContainer}>
@@ -37,10 +40,12 @@ export function CustomRecipe() {
                   <li key={index}>{ingredient}</li>
                 ))}
               </ul>
-              <div className={styles.recipeInstructions}>
+              <ul className={styles.recipeList}>
                 <h2>Gör så här</h2>
-                {selectedRecipe?.instructions}
-              </div>
+                {selectedRecipe?.instructions.map((instructions, index) => (
+                  <li key={index}>{instructions}</li>
+                ))}
+              </ul>
               <ul className={styles.recipeList}>
                 <h2>Näringsvärde</h2>
                 {selectedRecipe?.nutrition.map((nutrition, index) => (
@@ -52,19 +57,19 @@ export function CustomRecipe() {
                   <h2>Allergier? Inga problem!</h2>
                   <p>
                     <img
-                      src="/assets/avocado.jpg"
+                      src="/assets/Laktos.jpg"
                       alt="Laktossymbol"
                       className={styles.symbol}
                     />
                     (Laktos)&nbsp;&nbsp;
                     <img
-                      src="/assets/avocado.jpg"
+                      src="/assets/Gluten.jpg"
                       alt="Glutensymbol"
                       className={styles.symbol}
                     />
                     (Gluten)&nbsp;&nbsp;
                     <img
-                      src="/assets/avocado.jpg"
+                      src="/assets/Nut-allergy.jpg"
                       alt="Nöttersymbol"
                       className={styles.symbol}
                     />
@@ -77,8 +82,8 @@ export function CustomRecipe() {
                       dig bättre!
                     </p>
                     <img
-                      src="/assets/avocado.jpg"
-                      alt=""
+                      src="/assets/smiley-wink-röd.jpg"
+                      alt="Röd smiley"
                       className={styles.smiley}
                     />
                   </div>
@@ -94,19 +99,19 @@ export function CustomRecipe() {
               <h2>Allergier? Inga problem!</h2>
               <p>
                 <img
-                  src="/assets/avocado.jpg"
+                  src="/assets/Laktos.jpg"
                   alt="Laktossymbol"
                   className={styles.symbol}
                 />
                 (Laktos)&nbsp;&nbsp;
                 <img
-                  src="/assets/avocado.jpg"
+                  src="/assets/Gluten.jpg"
                   alt="Glutensymbol"
                   className={styles.symbol}
                 />
                 (Gluten)&nbsp;&nbsp;
                 <img
-                  src="/assets/avocado.jpg"
+                  src="/assets/Nut-allergy.jpg"
                   alt="Nöttersymbol"
                   className={styles.symbol}
                 />
@@ -119,8 +124,8 @@ export function CustomRecipe() {
                   bättre!
                 </p>
                 <img
-                  src="/assets/avocado.jpg"
-                  alt=""
+                  src="/assets/smiley-wink-röd.jpg"
+                  alt="Röd smiley"
                   className={styles.smiley}
                 />
               </div>
