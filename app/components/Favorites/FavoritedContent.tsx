@@ -13,27 +13,29 @@ export function FavoritedContent() {
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
-    
+
     }
 
-    
+
 
     return (
         <>
             <HeroImage />
-            <section className={styles.pageTitle}>
-                <h1>Dina favoriter</h1>
-                <span className={styles.spacer}></span>
-                {hasFavorites && (
-                    <h3 onClick={clearFavorites}>Rensa alla</h3>
-                )}
-            </section>
+
             {favoritedRecipes.length === 0 ? (
                 <div className={styles.empty}>
-                    <p>Du har inga sparade recept.</p>
+                    <h2>Du har inga sparade recept.</h2>
+                    <h4>Inget sparat än? Dags att börja samla! Klicka på hjärtat nästa gång en smoothie ser extra god ut så hittar du den här när det är dags att mixa.</h4>
                 </div>
             ) : (
                 <div className={styles.list}>
+                    <section className={styles.pageTitle}>
+                        <h1>Dina favoriter</h1>
+                        <span className={styles.spacer}></span>
+                        {hasFavorites && (
+                            <h3 onClick={clearFavorites}>Rensa alla</h3>
+                        )}
+                    </section>
                     {favoritedRecipes.map((recipe) => (
                         <div className={styles.recipeWrapper} key={recipe.id}>
                             <Link to="../recipe"
@@ -44,9 +46,8 @@ export function FavoritedContent() {
                                 <h3>{recipe.name}</h3>
                                 <h4>{recipe.description}</h4>
                             </Link>
-                            <FavoriteButton recipeId={recipe.id}/>
-                            <DifficultyIcon difficulty={recipe.difficulty}/>
-
+                            <FavoriteButton recipeId={recipe.id} />
+                            <DifficultyIcon difficulty={recipe.difficulty} />
                         </div>
                     ))}
                 </div>

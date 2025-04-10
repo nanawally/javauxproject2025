@@ -9,6 +9,7 @@
    padding: 1rem 2rem;
    margin-bottom: 2rem;
  }
+
 @media (max-width: 1000px) {
   .container {
     grid-template-columns: repeat(3, 1fr);
@@ -22,7 +23,27 @@
    }
  }
 
- 
+ .emptyContainer {
+  display: flex;
+  grid-column: 2/ calc(var(--grid-column-end) - 1);
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 200px;
+  font-family: Inter;
+  color: #e60035;
+ }
+
+ .emptyContainer h2 {
+  font-weight: 900;
+  font-size: 22px;
+  margin-bottom: 5px;
+ }
+
+ .emptyContainer h4 {
+  font-weight: 650;
+  font-size: 16px;
+ }
 
  /* === RECEPTKORT === */
  .recipeWrapper {

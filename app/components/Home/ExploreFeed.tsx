@@ -49,24 +49,27 @@ export function ExploreFeed() {
                 <img className={styles.imagewrapper} src="assets/heroimage-alla.jpg" alt="" />
             </div>
 
-            <div className={styles.container}>
-                {filteredRecipes.length > 0 ? (
-                    filteredRecipes.map(({ id, name, image, description, difficulty }) => (
+            {filteredRecipes.length > 0 ? (
+                <div className={styles.container}>
+                    {filteredRecipes.map(({ id, name, image, description, difficulty }) => (
                         <div className={styles.recipeWrapper} key={id}>
                             <Link to="../recipe" className={styles.recipeLink} onClick={() => handleRecipeClick(id)}>
                                 <img src={image} alt={name} />
                                 <h3>{name}</h3>
                                 <h4>{description}</h4>
-                                
                             </Link>
                             <FavoriteButton recipeId={id} />
-                            <DifficultyIcon difficulty={difficulty}/>
+                            <DifficultyIcon difficulty={difficulty} />
                         </div>
-                    ))
-                ) : (
-                    <p>Ingen match</p> // If no results match the search term
-                )}
-            </div>
+                    ))}
+                </div>
+            ) : (
+                // Empty container is rendered outside of the main .container
+                <div className={styles.emptyContainer}>
+                    <h2>Oops, inga smoothies i sikte</h2>
+                    <h4>Prova att söka efter en annan ingrediens eller bläddra bland recepten – din nästa favorit är kanske bara en mix bort!</h4>
+                </div>
+            )}
         </>
-    );
-}
+    )
+};
