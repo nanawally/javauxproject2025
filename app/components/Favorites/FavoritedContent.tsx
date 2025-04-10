@@ -3,6 +3,7 @@ import { useRecipeContext } from "../Recipes/RecipeContext";
 import styles from "./FavoritedContent.module.css"
 import { FavoriteButton } from "./FavoriteButton";
 import { HeroImage } from "./FavoriteHeroImage";
+import { DifficultyIcon } from "./DifficultyIcon";
 
 export function FavoritedContent() {
     const { recipes, favorites, setRecipeIndex, clearFavorites } = useRecipeContext();
@@ -12,7 +13,10 @@ export function FavoritedContent() {
 
     function handleRecipeClick(id: number) {
         setRecipeIndex(id);
+    
     }
+
+    
 
     return (
         <>
@@ -39,7 +43,9 @@ export function FavoritedContent() {
                                 <img src={recipe.image} alt={recipe.name} />
                                 <h3>{recipe.name}</h3>
                             </Link>
-                            <FavoriteButton recipeId={recipe.id} />
+                            <FavoriteButton recipeId={recipe.id}/>
+                            <DifficultyIcon difficulty={recipe.difficulty}/>
+
                         </div>
                     ))}
                 </div>

@@ -1,4 +1,5 @@
 import { FavoriteButton } from "../../components/Favorites/FavoriteButton";
+import { DifficultyIcon } from "../Favorites/DifficultyIcon";
 import styles from "./CustomRecipe.module.css";
 import { Label } from "./Label";
 import { useRecipeContext } from "./RecipeContext";
@@ -21,6 +22,7 @@ export function CustomRecipe() {
               />
             </div>
             <FavoriteButton recipeId={selectedRecipe.id} />
+            <DifficultyIcon difficulty={selectedRecipe.difficulty} />
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
               <p className={styles.description}>{selectedRecipe.description}</p>
