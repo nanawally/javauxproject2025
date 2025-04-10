@@ -24,7 +24,7 @@ export function CustomRecipe() {
             </div>
             <FavoriteButton recipeId={selectedRecipe.id} />
             <Link to="/explore" className={styles.backButton}>
-              <img src="assets/back-button.jpg" alt="" />
+              <img src="assets/back-button-b.jpg" alt="" />
             </Link>
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>

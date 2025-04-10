@@ -16,15 +16,12 @@ export function FavoritedContent() {
 
     }
 
-
-
     return (
         <>
             <HeroImage />
-
             {favoritedRecipes.length === 0 ? (
                 <div className={styles.empty}>
-                    <h2>Du har inga sparade recept.</h2>
+                    <h2>Dina favoriter väntar här</h2>
                     <h4>Inget sparat än? Dags att börja samla! Klicka på hjärtat nästa gång en smoothie ser extra god ut så hittar du den här när det är dags att mixa.</h4>
                 </div>
             ) : (

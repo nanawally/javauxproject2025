@@ -110,7 +110,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 900;
-  font-size: 5vmin;
+  font-size: 22px;
   text-align: left;
   margin: 10px 0px;
 }
@@ -120,7 +120,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 600;
-  font-size: 4vmin;
+  font-size: 16px;
   text-align: left;
   margin: 10px 0px;
 }
@@ -173,7 +173,7 @@
   color: #e60035;
   font-family: Inter;
   font-weight: 600;
-  font-size: 3vmin;
+  font-size: 2.5vmin;
   text-align: left;
 }
 
@@ -193,14 +193,10 @@
   position: relative;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 90%;
   background-color: #f7f2e9;
 }
 
-.endCenter2 p {
-  align-items: left;
-  margin-left: 4vmin;
-}
 
 .symbol {
   height: 3vmin;
@@ -212,7 +208,8 @@
   justify-content: end;
   height: 15vmin;
   width: auto;
-  margin-bottom: 5vmin;
+  margin-top: 2vmin;
+  margin-bottom: 3vmin;
   margin-left: 4vmin;
   margin-right: 5vmin;
   transform: rotate(10deg);
