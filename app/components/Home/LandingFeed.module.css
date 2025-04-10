@@ -315,7 +315,7 @@
     align-items: center;
     grid-column-start: 1;
     grid-column-end: var(--grid-column-end);
-    margin-bottom: 2vh;
+    margin-bottom: 4.5vh;
     padding-top: 25px;
     background-color: #F1E8E1;
 }
