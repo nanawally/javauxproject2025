@@ -28,7 +28,7 @@ export function FavoritedContent() {
                     <h4>Inget sparat än? Dags att börja samla! Klicka på hjärtat nästa gång en smoothie ser extra god ut så hittar du den här när det är dags att mixa.</h4>
                 </div>
             ) : (
-                <div className={styles.list}>
+                <>
                     <section className={styles.pageTitle}>
                         <h1>Dina favoriter</h1>
                         <span className={styles.spacer}></span>
@@ -36,21 +36,24 @@ export function FavoritedContent() {
                             <h3 onClick={clearFavorites}>Rensa alla</h3>
                         )}
                     </section>
-                    {favoritedRecipes.map((recipe) => (
-                        <div className={styles.recipeWrapper} key={recipe.id}>
-                            <Link to="../recipe"
-                                className={styles.recipeLink}
-                                onClick={() => handleRecipeClick(recipe.id)}
-                            >
-                                <img src={recipe.image} alt={recipe.name} />
-                                <h3>{recipe.name}</h3>
-                                <h4>{recipe.description}</h4>
-                            </Link>
-                            <FavoriteButton recipeId={recipe.id} />
-                            <DifficultyIcon difficulty={recipe.difficulty} />
-                        </div>
-                    ))}
-                </div>
+                    <div className={styles.list}>
+                        {favoritedRecipes.map((recipe) => (
+                            <div className={styles.recipeWrapper} key={recipe.id}>
+                                <Link to="../recipe"
+                                    className={styles.recipeLink}
+                                    onClick={() => handleRecipeClick(recipe.id)}
+                                >
+                                    <img src={recipe.image} alt={recipe.name} />
+                                    <h3>{recipe.name}</h3>
+                                    <h4>{recipe.description}</h4>
+                                </Link>
+                                <FavoriteButton recipeId={recipe.id} />
+                                <DifficultyIcon difficulty={recipe.difficulty} />
+                            </div>
+                        ))}
+                    </div>
+                </>
+
             )}
         </>
     )
