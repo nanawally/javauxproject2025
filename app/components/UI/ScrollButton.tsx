@@ -7,6 +7,8 @@ interface ScrollButtonProps {
     scrollDistanceMobile?: number;
 }
 
+
+
 export function ScrollButton({ scrollRef, scrollDistanceDesktop = 600, scrollDistanceMobile = 250 }: ScrollButtonProps) {
     const [isScrolling, setIsScrolling] = useState(false);
 
@@ -32,7 +34,16 @@ export function ScrollButton({ scrollRef, scrollDistanceDesktop = 600, scrollDis
         setTimeout(() => {
             setIsScrolling(false);
         }, 600)
+
+        console.log({
+            clientWidth: wrapper.clientWidth,
+            scrollWidth: wrapper.scrollWidth,
+            scrollLeft: wrapper.scrollLeft,
+            maxScrollLeft
+          });
     }
+
+    
 
     return (
         <>

@@ -28,23 +28,25 @@ export function LandingFeed() {
             </section>
             <section className={styles.consistencyTip}>
                 <h2 className={styles.consistencyTitle}>Hur får man till krämigheten?</h2>
-                <div className={styles.tipContainer} ref={consistencyWrapperRef}>
-                    <section>
-                        <img src="assets/nut.jpg" alt="" />
-                        <h4>Ger en fylligare konsistens och extra smak.</h4>
-                    </section>
-                    <section>
-                        <img src="assets/banana.jpg" alt="" />
-                        <h4>Klassiker som gör smoothien både söt och krämig.</h4>
-                    </section>
-                    <section>
-                        <img src="assets/avocado.jpg" alt="" />
-                        <h4>Superkrämig konsistens utan att påverka smaken mycket.</h4>
-                    </section>
-                    <section>
-                        <img src="assets/coconut.jpg" alt="" />
-                        <h4>Ger en rik och fyllig textur.</h4>
-                    </section>
+                <div className={styles.tipOuterWrapper} ref={consistencyWrapperRef}>
+                    <div className={styles.tipContainer} >
+                        <section>
+                            <img src="assets/nut.jpg" alt="" />
+                            <h4>Ger en fylligare konsistens och extra smak.</h4>
+                        </section>
+                        <section>
+                            <img src="assets/banana.jpg" alt="" />
+                            <h4>Klassiker som gör smoothien både söt och krämig.</h4>
+                        </section>
+                        <section>
+                            <img src="assets/avocado.jpg" alt="" />
+                            <h4>Superkrämig konsistens utan att påverka smaken mycket.</h4>
+                        </section>
+                        <section>
+                            <img src="assets/coconut.jpg" alt="" />
+                            <h4>Ger en rik och fyllig textur.</h4>
+                        </section>
+                    </div>
                 </div>
                 <div className={styles.buttonDisplay}>
                     <ScrollButton scrollRef={consistencyWrapperRef} />
@@ -78,23 +80,25 @@ export function LandingFeed() {
             </section>
             <section className={styles.howToTip}>
                 <h2 className={styles.howToTitle}>Perfekt smoothie varje gång</h2>
-                <div className={styles.howToContainer} ref={howToWrapperRef}>
-                    <section>
-                        <h1>1</h1>
-                        <h4> <span className={styles.tipTitle}>Vätska först</span>  <br /> Hjälper knivarna att snurra fritt och drar ner ingredienserna i mixern</h4>
-                    </section>
-                    <section>
-                        <h1>2</h1>
-                        <h4> <span className={styles.tipTitle}>Mjuka ingredienser</span> <br /> Mixas enkelt och skapar en slät bas</h4>
-                    </section>
-                    <section>
-                        <h1>3</h1>
-                        <h4> <span className={styles.tipTitle}>Frysta frukter och is</span> <br /> Mixern kan fastna om de läggs för tidigt</h4>
-                    </section>
-                    <section>
-                        <h1>4</h1>
-                        <h4> <span className={styles.tipTitle}>Torrvaror och frön</span> <br /> Undviker att de fastnar på kanterna</h4>
-                    </section>
+                <div className={styles.tipOuterWrapper} ref={howToWrapperRef}>
+                    <div className={styles.howToContainer}>
+                        <section>
+                            <h1>1</h1>
+                            <h4> <span className={styles.tipTitle}>Vätska först</span>  <br /> Hjälper knivarna att snurra fritt och drar ner ingredienserna i mixern</h4>
+                        </section>
+                        <section>
+                            <h1>2</h1>
+                            <h4> <span className={styles.tipTitle}>Mjuka ingredienser</span> <br /> Mixas enkelt och skapar en slät bas</h4>
+                        </section>
+                        <section>
+                            <h1>3</h1>
+                            <h4> <span className={styles.tipTitle}>Frysta frukter och is</span> <br /> Mixern kan fastna om de läggs för tidigt</h4>
+                        </section>
+                        <section>
+                            <h1>4</h1>
+                            <h4> <span className={styles.tipTitle}>Torrvaror och frön</span> <br /> Undviker att de fastnar på kanterna</h4>
+                        </section>
+                    </div>
                 </div>
                 <div className={styles.buttonDisplay}>
                     <ScrollButton scrollRef={howToWrapperRef} />

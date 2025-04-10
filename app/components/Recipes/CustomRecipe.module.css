@@ -247,7 +247,6 @@
     display: flex;
     width: 70%;
     height: auto;
-    padding: 5vmin 10vmin;
   }
 
   .recipeAspects {
@@ -354,9 +353,7 @@
 }
 
 @media (max-width: 1200px) {
-  .recipeContainer {
-    width: 70%;
-  }
+
 }
 
 @media (max-width: 768px) {
@@ -366,7 +363,7 @@
   }
 
   .labelContainer {
-    margin: 0px 0px 4vmin 5vmin;
+    margin: 0px 0px 1vmin 5vmin;
   }
 
   .textContainer {

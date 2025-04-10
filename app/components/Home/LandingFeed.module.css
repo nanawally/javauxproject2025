@@ -114,6 +114,13 @@
     padding-top: 25px;
 }
 
+.tipOuterWrapper {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: 100%;
+}
+
 .tipContainer {
     display: flex;
     position: relative;
@@ -126,10 +133,12 @@
 
 @media (max-width: 1050px) {
     .tipContainer {
+        width: max-content;
+        padding-left: 10vw;
+    }
+
+    .tipOuterWrapper {
         justify-content: start;
-        overflow-x: auto;
-        white-space: nowrap;
-        width: 100%;
     }
 }
 
@@ -322,19 +331,23 @@
 
 .howToContainer {
     display: inherit;
-    justify-content: center;
+    justify-self: center;
     align-items: center;
     width: 90%;
     gap: 10px;
     padding-bottom: 25px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .howToContainer {
-        justify-content: start;
-        overflow-x: auto;
-        white-space: nowrap;
-        width: 100%;
+        width: max-content;
+        padding-left: 10vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .howToContainer {   
+        width: max-content;
     }
 }
 
@@ -346,9 +359,9 @@
     width: 25%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
     .howToContainer section {
-        flex: 0 0 60%;
+        flex: 0 0 50%;
     }
 }
 
@@ -373,16 +386,28 @@
     }
 }
 
+@media (max-width: 431px) {
+    .howToContainer section h1 {
+        font-size: 40px;
+    }
+}
+
 .tipTitle {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .tipTitle {
+        font-size: 16px;
+    }
 }
 
 .howToContainer section h4 {
     color: #E60035;
     font-family: Inter;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 16px;
     padding-top: 10px;
     margin-left: 10px;
     width: 80%;
@@ -394,6 +419,6 @@
         word-wrap: break-word;
         padding: 0;
         margin: 0;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
