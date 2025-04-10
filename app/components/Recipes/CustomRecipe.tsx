@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { FavoriteButton } from "../../components/Favorites/FavoriteButton";
 import { DifficultyIcon } from "../Favorites/DifficultyIcon";
 import styles from "./CustomRecipe.module.css";
@@ -22,7 +23,9 @@ export function CustomRecipe() {
               />
             </div>
             <FavoriteButton recipeId={selectedRecipe.id} />
-            <DifficultyIcon difficulty={selectedRecipe.difficulty} />
+            <Link to="/explore" className={styles.backButton}>
+              <img src="assets/back-button.jpg" alt="" />
+            </Link>
             <div className={styles.textContainer}>
               <h2 className={styles.title}>{selectedRecipe.name}</h2>
               <p className={styles.description}>{selectedRecipe.description}</p>
@@ -31,6 +34,9 @@ export function CustomRecipe() {
                   profiles={selectedRecipe.profile}
                   allergens={selectedRecipe.allergens}
                 />
+              </div>
+              <div className={styles.difficultyContainer}>
+                <DifficultyIcon difficulty={selectedRecipe.difficulty} />
               </div>
             </div>
           </section>
@@ -60,19 +66,19 @@ export function CustomRecipe() {
                     <h2>Allergier? Inga problem!</h2>
                     <p>
                       <img
-                        src="/assets/Laktos.jpg"
+                        src="/assets/Laktos-b.jpg"
                         alt="Laktossymbol"
                         className={styles.symbol}
                       />
                       &nbsp;(Laktos)&nbsp;&nbsp;
                       <img
-                        src="/assets/Gluten.jpg"
+                        src="/assets/Gluten-b.jpg"
                         alt="Glutensymbol"
                         className={styles.symbol}
                       />
                       &nbsp;(Gluten)&nbsp;&nbsp;
                       <img
-                        src="/assets/Nut-allergy.jpg"
+                        src="/assets/Nut-allergy-b.jpg"
                         alt="Nöttersymbol"
                         className={styles.symbol}
                       />
@@ -103,19 +109,19 @@ export function CustomRecipe() {
               <h2>Allergier? Inga problem!</h2>
               <p>
                 <img
-                  src="/assets/Laktos.jpg"
+                  src="/assets/Laktos-b.jpg"
                   alt="Laktossymbol"
                   className={styles.symbol}
                 />
                 (Laktos)&nbsp;&nbsp;
                 <img
-                  src="/assets/Gluten.jpg"
+                  src="/assets/Gluten-b.jpg"
                   alt="Glutensymbol"
                   className={styles.symbol}
                 />
                 (Gluten)&nbsp;&nbsp;
                 <img
-                  src="/assets/Nut-allergy.jpg"
+                  src="/assets/Nut-allergy-b.jpg"
                   alt="Nöttersymbol"
                   className={styles.symbol}
                 />

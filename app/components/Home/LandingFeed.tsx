@@ -6,7 +6,8 @@ import { useRef } from "react";
 import { ScrollButton } from "../UI/ScrollButton";
 
 export function LandingFeed() {
-    const scrollWrapperRef = useRef<HTMLDivElement>(null);
+    const consistencyWrapperRef = useRef<HTMLDivElement>(null);
+    const howToWrapperRef = useRef<HTMLDivElement>(null);
 
     return (
         <>
@@ -25,11 +26,9 @@ export function LandingFeed() {
             <section className={styles.categoryScroll}>
                 <CategoryScroll category="Kalorisnåla" />
             </section>
-
             <section className={styles.consistencyTip}>
-
                 <h2 className={styles.consistencyTitle}>Hur får man till krämigheten?</h2>
-                <div className={styles.tipContainer} ref={scrollWrapperRef}>
+                <div className={styles.tipContainer} ref={consistencyWrapperRef}>
                     <section>
                         <img src="assets/nut.jpg" alt="" />
                         <h4>Ger en fylligare konsistens och extra smak.</h4>
@@ -48,7 +47,7 @@ export function LandingFeed() {
                     </section>
                 </div>
                 <div className={styles.buttonDisplay}>
-                    <ScrollButton scrollRef={scrollWrapperRef} />
+                    <ScrollButton scrollRef={consistencyWrapperRef} />
                 </div>
             </section>
             <section className={styles.categoryScroll}>
@@ -79,7 +78,7 @@ export function LandingFeed() {
             </section>
             <section className={styles.howToTip}>
                 <h2 className={styles.howToTitle}>Perfekt smoothie varje gång</h2>
-                <div className={styles.howToContainer} ref={scrollWrapperRef}>
+                <div className={styles.howToContainer} ref={howToWrapperRef}>
                     <section>
                         <h1>1</h1>
                         <h4> <span className={styles.tipTitle}>Vätska först</span>  <br /> Hjälper knivarna att snurra fritt och drar ner ingredienserna i mixern</h4>
@@ -98,7 +97,7 @@ export function LandingFeed() {
                     </section>
                 </div>
                 <div className={styles.buttonDisplay}>
-                    <ScrollButton scrollRef={scrollWrapperRef} />
+                    <ScrollButton scrollRef={howToWrapperRef} />
                 </div>
             </section>
         </>

@@ -3,11 +3,11 @@ import styles from "./DifficultyIcon.module.css"
 
 
 interface DifficultyIconProps {
-    difficulty: string;
+    difficulty?: string;
 }
 
 export function DifficultyIcon({ difficulty }: DifficultyIconProps) {
-    const normalized = difficulty.toLowerCase();
+    const normalized = difficulty?.toLowerCase();
 
     const iconSrc = {
         enkel: "assets/Enkel.jpg",

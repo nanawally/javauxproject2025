@@ -17,8 +17,8 @@ export function CustomHeader() {
                         <Link to="../" className={styles.link}>
                             <img src="/assets/logo.jpg" alt="Logo" className={styles.logo} />
                         </Link>
-                        <Link to="about" className={styles.link}> Om oss </Link>
                         <Link to="explore" className={styles.link}> Alla recept </Link>
+                        <Link to="about" className={styles.link}> Om oss </Link>
                     </div>
                     <div className={styles.iconContainer}>
                         <Link to="explore" className={styles.icon}>

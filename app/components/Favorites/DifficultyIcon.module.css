@@ -2,17 +2,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    padding: 2rem;
 }
 
 .difficultyIcon img {
+    margin-left: 10px;
     height: 2rem;
-    width: 2rem;
+    width: auto;
 }
 
 @media (min-width: 600px) {
     .difficultyIcon img {
-        height: 4rem;
-        width: 4rem;
+        height: 3rem;
+        width: auto;
     }
 }

@@ -49,6 +49,31 @@
   align-items: start;
 }
 
+.difficultyContainer div{
+  position: relative;
+}
+
+.difficultyContainer div img{
+  height: 3rem;
+}
+
+.backButton {
+  position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.backButton img {
+  width: 3rem;
+  height: 3rem;
+  margin: 1.2rem 0 0 1.2rem !important;
+}
+
 .imgContainer {
   display: flex;
   justify-content: center;
@@ -347,6 +372,10 @@
   .textContainer {
     width: 100%;
     background-color: white;
+  }
+
+  .difficultyContainer {
+    margin-left: 5vw;
   }
 
   .center h2 {

@@ -42,6 +42,7 @@ export function FavoritedContent() {
                             >
                                 <img src={recipe.image} alt={recipe.name} />
                                 <h3>{recipe.name}</h3>
+                                <h4>{recipe.description}</h4>
                             </Link>
                             <FavoriteButton recipeId={recipe.id}/>
                             <DifficultyIcon difficulty={recipe.difficulty}/>
