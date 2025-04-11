@@ -4,6 +4,7 @@ import { CategoryScroll } from "./CategoryScroll";
 import { RandomSmoothie } from "./RandomSmoothie";
 import { useRef } from "react";
 import { ScrollButton } from "../UI/ScrollButton";
+import { Link } from "react-router";
 
 export function LandingFeed() {
     const consistencyWrapperRef = useRef<HTMLDivElement>(null);
@@ -103,6 +104,11 @@ export function LandingFeed() {
                 <div className={styles.buttonDisplay}>
                     <ScrollButton scrollRef={howToWrapperRef} />
                 </div>
+            </section>
+            <section className={styles.exploreButton}>
+                <Link to="explore" className={styles.exploreLink}>
+                <h2>Vill du se fler recept? Klicka här för att utforska alla våra recept</h2>
+                </Link>
             </section>
         </>
     );
