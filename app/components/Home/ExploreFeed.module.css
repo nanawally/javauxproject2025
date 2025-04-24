@@ -116,3 +116,22 @@
    object-fit: cover;
    grid-column: 1/var(--grid-column-end);
  }
+
+ .noMatchText {
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Ändra till önskat typsnitt */
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  color: #e80b0b; /* valfri färg */
+  grid-column: 1 / var(--grid-column-end);
+}
+
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'Inter', sans-serif; /* eller valfritt typsnitt */
+}

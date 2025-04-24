@@ -30,6 +30,7 @@ export function ExploreFeed() {
                             </Link>
                             <FavoriteButton recipeId={id} />
                             
+                            
                            
                             
 
@@ -39,7 +40,10 @@ export function ExploreFeed() {
                         </div>
                     ))
                 ) : (
-                    <p>Ingen match</p> // If no results match the search term
+                    <section className={styles.pageTitle}>
+                <h1>Oops, inga smoothies i sikte, </h1>
+                <p>Prova att söka efter en annan ingrediens eller bläddra bland recepten - din nästa favorit är kanske bara en mix bort!</p>
+            </section> // If no results match the search term
                 )}
             </div>
         </>
